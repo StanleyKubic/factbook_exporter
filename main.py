@@ -11,6 +11,7 @@ from typing import List
 
 import click
 from config_loader import get_all_countries, get_all_regions
+from validator import validate_country_codes, get_country_name
 from fetcher import DataFetcher
 from parser import DataParser
 from exporter import ExcelExporter
@@ -72,8 +73,34 @@ def main(countries, output, interactive, verbose):
     # Parse comma-separated codes
     country_list = [code.strip().lower() for code in countries.split(',')]
     
+    # Validate country codes
+    click.echo(f'Validating {len(country_list)} country codes...')
+    
+    valid_codes, invalid_codes = validate_country_codes(country_list)
+    
+    # Report invalid codes
+    if invalid_codes:
+        click.echo(f'❌ Invalid country codes: {", ".join(invalid_codes)}', err=True)
+        click.echo(f'💡 Tip: Country codes must exist in config/countries.yaml', err=True)
+        click.echo(f'💡 Run with --help or check the config file for valid codes', err=True)
+        
+        # Exit if no valid codes
+        if not valid_codes:
+            return
+    
+    # Report valid codes
+    click.echo(f'✓ Valid codes: {len(valid_codes)} countries')
+    
     if verbose:
-        click.echo(f'Processing {len(country_list)} countries: {", ".join(country_list)}')
+        for code in valid_codes:
+            name = get_country_name(code)
+            click.echo(f'  - {code}: {name}')
+    
+    if verbose:
+        click.echo(f'Processing {len(valid_codes)} countries: {", ".join(valid_codes)}')
+    
+    # Update country_list to use only valid codes
+    country_list = valid_codes
     
     # Initialize components
     fetcher = DataFetcher()
