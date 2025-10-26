@@ -52,17 +52,6 @@ GEC_TO_NAME = {
     "rs": "Russia"
 }
 
-# Section definitions: JSON path to column name mapping
-SECTION_DEFINITIONS = {
-    "Introduction.Background": "Background",
-    "Geography.Location": "Location",
-    "Geography.Area": "Total Area",
-    "Geography.Population": "Population",
-    "People and Society.Population": "Population Count",
-    "Economy.Real GDP (purchasing power parity)": "GDP PPP",
-    "Economy.Real GDP growth rate": "GDP Growth"
-}
-
 # URL configuration
 BASE_URL = "https://github.com/factbook/factbook.json/raw/master"
 URL_TEMPLATE = f"{BASE_URL}/{{region}}/{{code}}.json"

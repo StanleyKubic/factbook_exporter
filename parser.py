@@ -7,7 +7,7 @@ Handles extraction of specific fields from nested JSON structure.
 import logging
 from typing import Any, Dict, Optional
 
-from config import SECTION_DEFINITIONS, GEC_TO_NAME
+from config_loader import get_all_field_mappings, get_country_name
 from cleaner import clean_value
 
 # Configure logging
@@ -19,7 +19,7 @@ class DataParser:
     
     def __init__(self):
         """Initialize data parser."""
-        self.section_definitions = SECTION_DEFINITIONS
+        self.section_definitions = get_all_field_mappings()
     
     def get_nested_value(self, data: Dict, path: str) -> Optional[Any]:
         """
@@ -98,7 +98,10 @@ class DataParser:
         Returns:
             Dictionary with extracted field values
         """
-        country_name = GEC_TO_NAME.get(gec_code, gec_code.upper())
+        country_name = get_country_name(gec_code)
+        if not country_name:
+            country_name = gec_code.upper()
+        
         logger.info(f"Parsing data for {country_name} ({gec_code})")
         
         # Initialize result with basic country info
@@ -141,7 +144,9 @@ class DataParser:
                 except Exception as e:
                     logger.error(f"Error parsing data for {gec_code}: {str(e)}")
                     # Add empty record with just basic info
-                    country_name = GEC_TO_NAME.get(gec_code, gec_code.upper())
+                    country_name = get_country_name(gec_code)
+                    if not country_name:
+                        country_name = gec_code.upper()
                     results[gec_code] = {
                         'Country Code': gec_code.upper(),
                         'Country Name': country_name

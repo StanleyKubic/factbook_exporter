@@ -21,18 +21,22 @@ class ConfigLoader:
     
     def __init__(self, config_dir: str = "config"):
         """
-        Initialize the configuration loader.
+        Initialize configuration loader.
         
         Args:
             config_dir: Directory containing configuration files
         """
         self.config_dir = Path(config_dir)
         self._countries_data: Optional[Dict] = None
+        self._fields_data: Optional[Dict] = None
         self._gec_to_name: Dict[str, str] = {}
         self._gec_to_region: Dict[str, str] = {}
+        self._json_path_to_display: Dict[str, str] = {}
+        self._json_path_to_category: Dict[str, str] = {}
         
         # Load configuration on initialization
         self._load_countries_config()
+        self._load_fields_config()
     
     def _load_countries_config(self) -> None:
         """Load countries configuration from YAML file."""
@@ -68,9 +72,45 @@ class ConfigLoader:
         except Exception as e:
             raise RuntimeError(f"Error loading countries configuration: {e}")
     
+    def _load_fields_config(self) -> None:
+        """Load fields configuration from YAML file."""
+        fields_file = self.config_dir / "fields.yaml"
+        
+        if not fields_file.exists():
+            # Fields configuration is optional, skip if not found
+            logger.warning(f"Fields configuration file not found: {fields_file}")
+            return
+        
+        try:
+            with open(fields_file, 'r', encoding='utf-8') as f:
+                self._fields_data = yaml.safe_load(f)
+            
+            if not self._fields_data or 'fields' not in self._fields_data:
+                raise ValueError("Invalid fields configuration: missing 'fields' section")
+            
+            # Build lookup dictionaries for efficient access
+            fields = self._fields_data['fields']
+            
+            for field in fields:
+                json_path = field.get('json_path', '')
+                display_name = field.get('display_name', '')
+                category = field.get('category', '')
+                
+                if json_path and display_name:
+                    self._json_path_to_display[json_path] = display_name
+                    if category:
+                        self._json_path_to_category[json_path] = category
+            
+            logger.info(f"Loaded {len(self._json_path_to_display)} fields from configuration")
+            
+        except yaml.YAMLError as e:
+            raise ValueError(f"Error parsing fields configuration: {e}")
+        except Exception as e:
+            raise RuntimeError(f"Error loading fields configuration: {e}")
+    
     def load_countries(self) -> List[Dict]:
         """
-        Load the complete countries list from configuration.
+        Load complete countries list from configuration.
         
         Returns:
             List of country dictionaries with code, name, and region
@@ -79,6 +119,18 @@ class ConfigLoader:
             raise RuntimeError("Configuration not loaded")
         
         return self._countries_data.get('countries', [])
+    
+    def load_fields(self) -> List[Dict]:
+        """
+        Load complete fields list from configuration.
+        
+        Returns:
+            List of field dictionaries with json_path, display_name, and category
+        """
+        if not self._fields_data:
+            return []
+        
+        return self._fields_data.get('fields', [])
     
     def get_country_name(self, gec_code: str) -> Optional[str]:
         """
@@ -104,6 +156,30 @@ class ConfigLoader:
         """
         return self._gec_to_region.get(gec_code.lower())
     
+    def get_field_display_name(self, json_path: str) -> Optional[str]:
+        """
+        Get the display name for a given JSON path.
+        
+        Args:
+            json_path: JSON path (e.g., "Geography.Location.text")
+            
+        Returns:
+            Display name or None if path not found
+        """
+        return self._json_path_to_display.get(json_path)
+    
+    def get_field_category(self, json_path: str) -> Optional[str]:
+        """
+        Get the category for a given JSON path.
+        
+        Args:
+            json_path: JSON path (e.g., "Geography.Location.text")
+            
+        Returns:
+            Category name or None if path not found
+        """
+        return self._json_path_to_category.get(json_path)
+    
     def get_all_countries(self) -> Dict[str, str]:
         """
         Get all country code to name mappings.
@@ -121,6 +197,41 @@ class ConfigLoader:
             Dictionary mapping GEC codes to regions
         """
         return self._gec_to_region.copy()
+    
+    def get_all_field_mappings(self) -> Dict[str, str]:
+        """
+        Get all JSON path to display name mappings.
+        
+        Returns:
+            Dictionary mapping JSON paths to display names
+        """
+        return self._json_path_to_display.copy()
+    
+    def get_fields_by_category(self, category: str) -> List[Dict]:
+        """
+        Get all fields in a specific category.
+        
+        Args:
+            category: Category name to filter by
+            
+        Returns:
+            List of field dictionaries in specified category
+        """
+        fields = self.load_fields()
+        return [field for field in fields if field.get('category') == category]
+    
+    def get_field_categories_list(self) -> List[str]:
+        """
+        Get list of all available field categories.
+        
+        Returns:
+            List of unique category names
+        """
+        categories = set()
+        for category in self._json_path_to_category.values():
+            if category:
+                categories.add(category)
+        return sorted(list(categories))
     
     def validate_country_code(self, gec_code: str) -> bool:
         """
@@ -142,7 +253,7 @@ class ConfigLoader:
             region: Region name to filter by
             
         Returns:
-            List of country dictionaries in the specified region
+            List of country dictionaries in specified region
         """
         countries = self.load_countries()
         return [country for country in countries if country.get('region') == region]
@@ -182,12 +293,16 @@ class ConfigLoader:
         }
     
     def reload_config(self) -> None:
-        """Reload the configuration from files."""
+        """Reload configuration from files."""
         logger.info("Reloading configuration...")
         self._countries_data = None
+        self._fields_data = None
         self._gec_to_name.clear()
         self._gec_to_region.clear()
+        self._json_path_to_display.clear()
+        self._json_path_to_category.clear()
         self._load_countries_config()
+        self._load_fields_config()
 
 
 # Global configuration loader instance
@@ -214,6 +329,11 @@ def load_countries() -> List[Dict]:
     return get_config_loader().load_countries()
 
 
+def load_fields() -> List[Dict]:
+    """Load fields from configuration using global loader."""
+    return get_config_loader().load_fields()
+
+
 def get_country_name(gec_code: str) -> Optional[str]:
     """Get country name using global loader."""
     return get_config_loader().get_country_name(gec_code)
@@ -222,6 +342,26 @@ def get_country_name(gec_code: str) -> Optional[str]:
 def get_country_region(gec_code: str) -> Optional[str]:
     """Get country region using global loader."""
     return get_config_loader().get_country_region(gec_code)
+
+
+def get_field_display_name(json_path: str) -> Optional[str]:
+    """Get field display name using global loader."""
+    return get_config_loader().get_field_display_name(json_path)
+
+
+def get_field_category(json_path: str) -> Optional[str]:
+    """Get field category using global loader."""
+    return get_config_loader().get_field_category(json_path)
+
+
+def get_all_field_mappings() -> Dict[str, str]:
+    """Get all field mappings using global loader."""
+    return get_config_loader().get_all_field_mappings()
+
+
+def get_fields_by_category(category: str) -> List[Dict]:
+    """Get fields by category using global loader."""
+    return get_config_loader().get_fields_by_category(category)
 
 
 def validate_country_code(gec_code: str) -> bool:
