@@ -1,6 +1,6 @@
-# CIA Factbook JSON to Excel Exporter v1.2
+# CIA Factbook JSON to Excel Exporter v1.3
 
-A Python application that extracts country data from the CIA World Factbook JSON repository and exports selected fields to Excel format.
+A Python application that extracts country data from CIA World Factbook JSON repository and exports selected fields to Excel format.
 
 ## Version History
 
@@ -21,23 +21,26 @@ A Python application that extracts country data from the CIA World Factbook JSON
 - **Region-based organization**: Countries organized by geographic regions
 - **Configuration generation script**: `scripts/generate_countries.py` for updating country data
 
-### v1.3 - Planned Features
-- **Configurable field selection**: External configuration for exported fields
-- **Dynamic field mapping**: User-defined field extraction rules
-- **Enhanced customization**: Flexible data extraction and export options
+### v1.3 - Field Configuration System
+- **Dynamic field configuration**: Migrated field definitions to `config/fields.yaml`
+- **Configurable field selection**: User can customize exported fields via YAML configuration
+- **Enhanced field management**: 19 high-coverage fields pre-configured
+- **Improved categorization**: Fields organized by categories (Geography, Government, Introduction, Environment)
+- **Flexible architecture**: No code changes needed for field modifications
 
 ## Features
 
 - **Data Source**: CIA World Factbook JSON repository (https://github.com/factbook/factbook.json)
 - **Interactive Interface**: Command-line interface with user input
 - **Comprehensive Country Support**: 250+ countries and territories across all geographic regions
-- **Dynamic Configuration**: External YAML configuration for countries and regions
+- **Dynamic Configuration**: External YAML configuration for countries and fields
 - **HTML Cleaning**: Automatic removal of HTML tags and entities from extracted text (v1.1+)
 - **Error Handling**: Graceful handling of missing data and network issues
 - **Excel Export**: Formatted Excel files with auto-sized columns and styling
 - **Comprehensive Logging**: Detailed progress reporting and error tracking
-- **Configuration Management**: Flexible country data loading with config generation tools (v1.2+)
+- **Configuration Management**: Flexible country and field data loading with config generation tools (v1.2+)
 - **Region-based Organization**: Countries organized by geographic regions for easy selection
+- **Field Customization**: Configurable field selection and categorization (v1.3+)
 - **Extensible Architecture**: Modular design for easy maintenance and enhancement
 
 ## Supported Countries
@@ -83,15 +86,13 @@ This script fetches the latest country data from the CIA Factbook repository and
 
 ## Extracted Fields
 
-The application extracts the following 7 fields for each country:
+The application extracts **configurable fields** for each country, loaded from `config/fields.yaml`.
 
-1. **Background** - Historical and political overview
-2. **Location** - Geographic description and coordinates
-3. **Total Area** - Country's total land area
-4. **Population Count** - Current population data
-5. **GDP PPP** - Gross Domestic Product (Purchasing Power Parity)
-6. **GDP Growth** - Real GDP growth rate
-7. **Country Code/Name** - GEC code and full country name
+**Benefits of field configuration:**
+- **Customizable**: Easy to add/remove fields by editing YAML
+- **Categorized**: Automatic grouping by category
+- **Coverage-based**: Pre-filtered by data availability
+- **Maintainable**: No code changes required
 
 ## Installation
 
@@ -123,7 +124,7 @@ python3 main.py
 
 ```
 ============================================================
-CIA Factbook JSON to Excel Exporter v1.2
+CIA Factbook JSON to Excel Exporter v1.3
 ============================================================
 
 This tool extracts country data from the CIA World Factbook
@@ -154,14 +155,23 @@ Successfully fetched data for 4 countries
 Step 2: Parsing extracted fields...
 Successfully parsed data for 4 countries
 
+Field availability summary:
+  • Country Code: 4/4 countries
+  • Country Name: 4/4 countries
+  • Background: 4/4 countries
+  • Location: 4/4 countries
+  • Area - Comparative: 4/4 countries
+  • Climate: 4/4 countries
+  • ...
+
 Step 3: Exporting to Excel...
 ✓ Success! Excel file created: /path/to/output/countries_data.xlsx
 
 Export Summary:
   • Countries processed: 4
-  • Fields extracted: 9
+  • Fields extracted: 19
   • Output file: /path/to/output/countries_data.xlsx
-  • File size: 12,655 bytes
+  • File size: 15,432 bytes
 
 ============================================================
 Export completed successfully!
@@ -194,8 +204,8 @@ The application automatically removes HTML tags and entities from extracted text
 **After**: "France is a landlocked country in Western Europe bordering..."
 
 ### Data Structure
-| Country Code | Country Name | Background | Location | Total Area | Population Count | GDP PPP | GDP Growth |
-|--------------|--------------|------------|-----------|-------------|-----------------|----------|------------|
+| Country Code | Country Name | Background | Location | Area - Comparative | Climate | Geographic Coordinates | ... | Natural Hazards | Terrain |
+|--------------|--------------|------------|-----------|------------------|----------|----------------------|-----|----------------|---------|
 
 ## Project Structure
 
@@ -205,17 +215,20 @@ factbook_exporter/
 ├── config.py                  # Core configuration settings (v1.0)
 ├── config_loader.py           # Dynamic configuration loading (v1.2+)
 ├── fetcher.py                 # Data retrieval from GitHub
-├── parser.py                  # JSON data extraction
+├── parser.py                  # JSON data extraction with dynamic fields (v1.3+)
 ├── exporter.py                # Excel file generation
 ├── cleaner.py                 # HTML cleaning and text processing (v1.1+)
 ├── requirements.txt           # Python dependencies
 ├── config/                    # Configuration files directory (v1.2+)
-│   └── countries.yaml         # Country and region mappings
+│   ├── countries.yaml         # Country and region mappings
+│   └── fields.yaml          # Field definitions and mappings (v1.3+)
 ├── scripts/                   # Utility and maintenance scripts
 │   ├── generate_countries.py  # Country configuration generator
-│   └── analyze_coverage.py    # Data coverage analysis tool
+│   ├── analyze_coverage.py    # Data coverage analysis tool
+│   └── analyze_coverage_simple.py # Simplified coverage analysis
 ├── reports/                   # Generated reports and analysis
-│   └── coverage_report.yaml   # Data coverage analysis results
+│   ├── coverage_report.yaml   # Data coverage analysis results
+│   └── coverage_simple.yaml  # Simplified coverage data for field selection
 └── output/                    # Generated Excel files
 ```
 
@@ -237,6 +250,12 @@ factbook_exporter/
 - `scripts/generate_countries.py` - Automated configuration updates
 - `scripts/analyze_coverage.py` - Data analysis and reporting tools
 
+#### v1.3 - Field Configuration System
+- `config/fields.yaml` - External field definitions (19 high-coverage fields)
+- Enhanced `config_loader.py` - Field loading and categorization support
+- Updated `parser.py` - Dynamic field extraction from configuration
+- `scripts/analyze_coverage_simple.py` - Coverage data for field selection
+
 ## Error Handling
 
 The application handles errors gracefully:
@@ -245,6 +264,7 @@ The application handles errors gracefully:
 - **Network Issues**: Logs errors and continues with other countries
 - **Missing Fields**: Uses empty values for unavailable data
 - **File Permissions**: Creates directories and handles write errors
+- **Configuration Errors**: Validates field and country configurations
 
 ## Configuration System
 
@@ -278,21 +298,43 @@ python3 scripts/generate_countries.py
 python3 scripts/analyze_coverage.py
 ```
 
-### Field Configuration (Current)
+### Field Configuration (v1.3+)
 
-Field definitions are currently maintained in `config.py`:
-```python
-SECTION_DEFINITIONS = {
-    "Introduction.Background": "Background",
-    "Geography.Location": "Location",
-    "Geography.Area": "Total Area",
-    "People and Society.Population": "Population Count",
-    "Economy.Real GDP (purchasing power parity)": "GDP PPP",
-    "Economy.Real GDP growth rate": "GDP Growth"
-}
+Field definitions are now maintained externally in `config/fields.yaml`:
+
+#### Configuration File Structure
+```yaml
+fields:
+  - json_path: "Geography.Location.text"
+    display_name: "Location"
+    category: "Geography"
+    coverage_pct: 100.0
+  - json_path: "Introduction.Background.text"
+    display_name: "Background"
+    category: "Introduction"
+    coverage_pct: 100.0
+  # ... more fields
 ```
 
-**Note**: Field configuration externalization is planned for v1.3.
+#### Field Loading
+- **Primary Source**: `config/fields.yaml` (19 pre-selected high-coverage fields)
+- **Loader Module**: `config_loader.py` provides field access methods
+- **Parser Integration**: `parser.py` uses dynamic field mappings
+
+#### Field Management
+```bash
+# Analyze coverage to find best fields
+python3 scripts/analyze_coverage_simple.py
+
+# Edit fields configuration
+vim config/fields.yaml
+```
+
+#### Field Benefits
+- **Configurable**: Easy to modify without code changes
+- **Categorized**: Automatic grouping by section (Geography, Government, etc.)
+- **Coverage-based**: Pre-filtered for high data availability
+- **Extensible**: Unlimited field support
 
 ## Technical Details
 
@@ -324,17 +366,12 @@ The application provides comprehensive logging:
 
 ## Development Roadmap
 
-### v1.3 - Field Configuration (Planned)
-- **Configurable field selection**: External configuration for exported fields
-- **Dynamic field mapping**: User-defined field extraction rules
-- **Enhanced customization**: Flexible data extraction and export options
-- **Field validation**: Data quality checks and validation rules
-
 ### v1.4 - Enhanced Features (Future)
 - **Batch processing**: Process country lists from external files
 - **Custom output formats**: Support for CSV, JSON, and other formats
 - **Advanced filtering**: Region-based and criteria-based country selection
 - **Performance optimization**: Parallel processing for large datasets
+- **Field validation**: Data quality checks and validation rules
 
 ### v2.0 - Major Enhancements (Future)
 - **Graphical user interface**: Web-based UI using Streamlit
@@ -357,13 +394,19 @@ The application provides comprehensive logging:
 - Dynamic configuration loading with fallback support
 - Automated configuration generation and analysis tools
 
+✅ **v1.3 - Field Configuration**
+- External YAML configuration for field definitions
+- 19 high-coverage fields pre-configured
+- Dynamic field extraction and categorization
+- Flexible field management without code changes
+
 ## Troubleshooting
 
 ### Common Issues
 
 1. **"Country code not found"**
    - Verify you're using GEC codes, not ISO codes
-   - Check the supported countries list
+   - Check supported countries list
 
 2. **"Network error"**
    - Check internet connection
@@ -373,12 +416,18 @@ The application provides comprehensive logging:
    - Ensure write permissions in project directory
    - Check if output directory is accessible
 
+4. **"Field not found"**
+   - Verify field configuration in `config/fields.yaml`
+   - Check JSON paths are correct
+   - Run coverage analysis to validate field availability
+
 ### Getting Help
 
 For issues or questions:
 1. Check the logs for detailed error messages
 2. Verify country codes are valid GEC format
 3. Ensure all dependencies are installed correctly
+4. Validate configuration files are properly formatted
 
 ## License
 
