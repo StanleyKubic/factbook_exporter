@@ -1,7 +1,7 @@
 countries:
 - code: af
   name: Afghanistan
-  region: south_asia
+  region: south-asia
 - code: ax
   name: Akrotiri
   region: europe
@@ -13,7 +13,7 @@ countries:
   region: africa
 - code: aq
   name: American Samoa
-  region: australia_oceania
+  region: australia-oceania
 - code: an
   name: Andorra
   region: europe
@@ -22,47 +22,47 @@ countries:
   region: africa
 - code: av
   name: Anguilla
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ay
   name: Antarctica
   region: antarctica
 - code: ac
   name: Antigua and Barbuda
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ar
   name: Argentina
-  region: south_america
+  region: south-america
 - code: am
   name: Armenia
-  region: middle_east
+  region: middle-east
 - code: aa
   name: Aruba
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: at
   name: Ashmore and Cartier Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: as
   name: Australia
-  region: australia_oceania
+  region: australia-oceania
 - code: au
   name: Austria
   region: europe
 - code: aj
   name: Azerbaijan
-  region: middle_east
+  region: middle-east
 - code: ba
   name: Bahrain
-  region: middle_east
+  region: middle-east
 - code: um
   name: Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef,
     Midway Islands, Palmyra Atoll
-  region: australia_oceania
+  region: australia-oceania
 - code: bg
   name: Bangladesh
-  region: south_asia
+  region: south-asia
 - code: bb
   name: Barbados
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: bo
   name: Belarus
   region: europe
@@ -71,19 +71,19 @@ countries:
   region: europe
 - code: bh
   name: Belize
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: bn
   name: Benin
   region: africa
 - code: bd
   name: Bermuda
-  region: north_america
+  region: north-america
 - code: bt
   name: Bhutan
-  region: south_asia
+  region: south-asia
 - code: bl
   name: Bolivia
-  region: south_america
+  region: south-america
 - code: bk
   name: Bosnia and Herzegovina
   region: europe
@@ -95,16 +95,16 @@ countries:
   region: antarctica
 - code: br
   name: Brazil
-  region: south_america
+  region: south-america
 - code: io
   name: British Indian Ocean Territory
-  region: south_asia
+  region: south-asia
 - code: vi
   name: British Virgin Islands
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: bx
   name: Brunei
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: bu
   name: Bulgaria
   region: europe
@@ -113,7 +113,7 @@ countries:
   region: africa
 - code: bm
   name: Burma
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: by
   name: Burundi
   region: africa
@@ -122,16 +122,16 @@ countries:
   region: africa
 - code: cb
   name: Cambodia
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: cm
   name: Cameroon
   region: africa
 - code: ca
   name: Canada
-  region: north_america
+  region: north-america
 - code: cj
   name: Cayman Islands
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ct
   name: Central African Republic
   region: africa
@@ -140,22 +140,22 @@ countries:
   region: africa
 - code: ci
   name: Chile
-  region: south_america
+  region: south-america
 - code: ch
   name: China
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: kt
   name: Christmas Island
-  region: australia_oceania
+  region: australia-oceania
 - code: ip
   name: Clipperton Island
-  region: north_america
+  region: north-america
 - code: ck
   name: Cocos (Keeling) Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: co
   name: Colombia
-  region: south_america
+  region: south-america
 - code: cn
   name: Comoros
   region: africa
@@ -164,22 +164,22 @@ countries:
   region: africa
 - code: cw
   name: Cook Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: cr
   name: Coral Sea Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: cs
   name: Costa Rica
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: hr
   name: Croatia
   region: europe
 - code: cu
   name: Cuba
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: uc
   name: Curacao
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: cy
   name: Cyprus
   region: europe
@@ -203,16 +203,16 @@ countries:
   region: africa
 - code: do
   name: Dominica
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ec
   name: Ecuador
-  region: south_america
+  region: south-america
 - code: eg
   name: Egypt
   region: africa
 - code: es
   name: El Salvador
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ek
   name: Equatorial Guinea
   region: africa
@@ -233,16 +233,16 @@ countries:
   region: europe
 - code: fk
   name: Falkland Islands (Islas Malvinas)
-  region: south_america
+  region: south-america
 - code: fo
   name: Faroe Islands
   region: europe
 - code: fm
   name: Federated States of Micronesia
-  region: australia_oceania
+  region: australia-oceania
 - code: fj
   name: Fiji
-  region: australia_oceania
+  region: australia-oceania
 - code: fi
   name: Finland
   region: europe
@@ -251,7 +251,7 @@ countries:
   region: europe
 - code: fp
   name: French Polynesia
-  region: australia_oceania
+  region: australia-oceania
 - code: fs
   name: French Southern and Antarctic Lands
   region: antarctica
@@ -260,10 +260,10 @@ countries:
   region: africa
 - code: gz
   name: Gaza, Gaza Strip
-  region: middle_east
+  region: middle-east
 - code: gg
   name: Georgia
-  region: middle_east
+  region: middle-east
 - code: gm
   name: Germany
   region: europe
@@ -278,16 +278,16 @@ countries:
   region: europe
 - code: gl
   name: Greenland
-  region: north_america
+  region: north-america
 - code: gj
   name: Grenada
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: gq
   name: Guam
-  region: australia_oceania
+  region: australia-oceania
 - code: gt
   name: Guatemala
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: gk
   name: Guernsey
   region: europe
@@ -299,10 +299,10 @@ countries:
   region: africa
 - code: gy
   name: Guyana
-  region: south_america
+  region: south-america
 - code: ha
   name: Haiti
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: hm
   name: Heard Island and McDonald Islands
   region: antarctica
@@ -311,10 +311,10 @@ countries:
   region: europe
 - code: ho
   name: Honduras
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: hk
   name: Hong Kong
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: hu
   name: Hungary
   region: europe
@@ -323,16 +323,16 @@ countries:
   region: europe
 - code: in
   name: India
-  region: south_asia
+  region: south-asia
 - code: id
   name: Indonesia
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: ir
   name: Iran
-  region: middle_east
+  region: middle-east
 - code: iz
   name: Iraq
-  region: middle_east
+  region: middle-east
 - code: ei
   name: Ireland
   region: europe
@@ -341,52 +341,52 @@ countries:
   region: europe
 - code: is
   name: Israel
-  region: middle_east
+  region: middle-east
 - code: it
   name: Italy
   region: europe
 - code: jm
   name: Jamaica
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: jn
   name: Jan Mayen
   region: europe
 - code: ja
   name: Japan
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: je
   name: Jersey
   region: europe
 - code: jo
   name: Jordan
-  region: middle_east
+  region: middle-east
 - code: kz
   name: Kazakhstan
-  region: central_asia
+  region: central-asia
 - code: ke
   name: Kenya
   region: africa
 - code: kr
   name: Kiribati
-  region: australia_oceania
+  region: australia-oceania
 - code: kv
   name: Kosovo
   region: europe
 - code: ku
   name: Kuwait
-  region: middle_east
+  region: middle-east
 - code: kg
   name: Kyrgyzstan
-  region: central_asia
+  region: central-asia
 - code: la
   name: Laos
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: lg
   name: Latvia
   region: europe
 - code: le
   name: Lebanon
-  region: middle_east
+  region: middle-east
 - code: lt
   name: Lesotho
   region: africa
@@ -407,7 +407,7 @@ countries:
   region: europe
 - code: mc
   name: Macau
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: ma
   name: Madagascar
   region: africa
@@ -416,10 +416,10 @@ countries:
   region: africa
 - code: my
   name: Malaysia
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: mv
   name: Maldives
-  region: south_asia
+  region: south-asia
 - code: ml
   name: Mali
   region: africa
@@ -428,7 +428,7 @@ countries:
   region: europe
 - code: rm
   name: Marshall Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: mr
   name: Mauritania
   region: africa
@@ -437,7 +437,7 @@ countries:
   region: africa
 - code: mx
   name: Mexico
-  region: north_america
+  region: north-america
 - code: md
   name: Moldova
   region: europe
@@ -446,13 +446,13 @@ countries:
   region: europe
 - code: mg
   name: Mongolia
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: mj
   name: Montenegro
   region: europe
 - code: mh
   name: Montserrat
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: mo
   name: Morocco
   region: africa
@@ -464,25 +464,25 @@ countries:
   region: africa
 - code: nr
   name: Nauru
-  region: australia_oceania
+  region: australia-oceania
 - code: bq
   name: Navassa Island
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: np
   name: Nepal
-  region: south_asia
+  region: south-asia
 - code: nl
   name: Netherlands
   region: europe
 - code: nc
   name: New Caledonia
-  region: australia_oceania
+  region: australia-oceania
 - code: nz
   name: New Zealand
-  region: australia_oceania
+  region: australia-oceania
 - code: nu
   name: Nicaragua
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ng
   name: Niger
   region: africa
@@ -491,52 +491,52 @@ countries:
   region: africa
 - code: ne
   name: Niue
-  region: australia_oceania
+  region: australia-oceania
 - code: nf
   name: Norfolk Island
-  region: australia_oceania
+  region: australia-oceania
 - code: kn
   name: North Korea
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: mk
   name: North Macedonia
   region: europe
 - code: cq
   name: Northern Mariana Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: 'no'
   name: Norway
   region: europe
 - code: mu
   name: Oman
-  region: middle_east
+  region: middle-east
 - code: pk
   name: Pakistan
-  region: south_asia
+  region: south-asia
 - code: ps
   name: Palau
-  region: australia_oceania
+  region: australia-oceania
 - code: pm
   name: Panama
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: pp
   name: Papua New Guinea
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: pf
   name: Paracel Islands
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: pa
   name: Paraguay
-  region: south_america
+  region: south-america
 - code: pe
   name: Peru
-  region: south_america
+  region: south-america
 - code: rp
   name: Philippines
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: pc
   name: Pitcairn Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: pl
   name: Poland
   region: europe
@@ -545,43 +545,43 @@ countries:
   region: europe
 - code: rq
   name: Puerto Rico
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: qa
   name: Qatar
-  region: middle_east
+  region: middle-east
 - code: ro
   name: Romania
   region: europe
 - code: rs
   name: Russia
-  region: central_asia
+  region: central-asia
 - code: rw
   name: Rwanda
   region: africa
 - code: tb
   name: Saint Barthelemy
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: sh
   name: Saint Helena, Ascension, and Tristan da Cunha
   region: africa
 - code: sc
   name: Saint Kitts and Nevis
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: st
   name: Saint Lucia
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: rn
   name: Saint Martin
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: sb
   name: Saint Pierre and Miquelon
-  region: north_america
+  region: north-america
 - code: vc
   name: Saint Vincent and the Grenadines
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ws
   name: Samoa
-  region: australia_oceania
+  region: australia-oceania
 - code: sm
   name: San Marino
   region: europe
@@ -590,7 +590,7 @@ countries:
   region: africa
 - code: sa
   name: Saudi Arabia
-  region: middle_east
+  region: middle-east
 - code: sg
   name: Senegal
   region: africa
@@ -605,10 +605,10 @@ countries:
   region: africa
 - code: sn
   name: Singapore
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: nn
   name: Sint Maarten
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: lo
   name: Slovakia
   region: europe
@@ -617,7 +617,7 @@ countries:
   region: europe
 - code: bp
   name: Solomon Islands
-  region: australia_oceania
+  region: australia-oceania
 - code: so
   name: Somalia
   region: africa
@@ -626,10 +626,10 @@ countries:
   region: africa
 - code: sx
   name: South Georgia and South Sandwich Islands
-  region: south_america
+  region: south-america
 - code: ks
   name: South Korea
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: od
   name: South Sudan
   region: africa
@@ -638,16 +638,16 @@ countries:
   region: europe
 - code: pg
   name: Spratly Islands
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: ce
   name: Sri Lanka
-  region: south_asia
+  region: south-asia
 - code: su
   name: Sudan
   region: africa
 - code: ns
   name: Suriname
-  region: south_america
+  region: south-america
 - code: sv
   name: Svalbard (sometimes referred to as Spitsbergen, the largest island in the
     archipelago)
@@ -660,19 +660,19 @@ countries:
   region: europe
 - code: sy
   name: Syria
-  region: middle_east
+  region: middle-east
 - code: tw
   name: Taiwan
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: ti
   name: Tajikistan
-  region: central_asia
+  region: central-asia
 - code: tz
   name: Tanzania
   region: africa
 - code: th
   name: Thailand
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: xq
   name: The Arctic Ocean is
   region: oceans
@@ -681,10 +681,10 @@ countries:
   region: oceans
 - code: bf
   name: The Bahamas
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: dr
   name: The Dominican
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ga
   name: The Gambia
   region: africa
@@ -696,34 +696,34 @@ countries:
   region: oceans
 - code: tt
   name: Timor-Leste
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: to
   name: Togo
   region: africa
 - code: tl
   name: Tokelau
-  region: australia_oceania
+  region: australia-oceania
 - code: tn
   name: Tonga
-  region: australia_oceania
+  region: australia-oceania
 - code: td
   name: Trinidad and Tobago
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: ts
   name: Tunisia
   region: africa
 - code: tu
   name: Turkey
-  region: middle_east
+  region: middle-east
 - code: tx
   name: Turkmenistan
-  region: central_asia
+  region: central-asia
 - code: tk
   name: Turks and Caicos Islands
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: tv
   name: Tuvalu
-  region: australia_oceania
+  region: australia-oceania
 - code: ug
   name: Uganda
   region: africa
@@ -732,46 +732,46 @@ countries:
   region: europe
 - code: ae
   name: United Arab Emirates
-  region: middle_east
+  region: middle-east
 - code: uk
   name: United Kingdom
   region: europe
 - code: us
   name: United States
-  region: north_america
+  region: north-america
 - code: uy
   name: Uruguay
-  region: south_america
+  region: south-america
 - code: uz
   name: Uzbekistan
-  region: central_asia
+  region: central-asia
 - code: nh
   name: Vanuatu
-  region: australia_oceania
+  region: australia-oceania
 - code: ve
   name: Venezuela
-  region: south_america
+  region: south-america
 - code: vm
   name: Vietnam
-  region: east_n_southeast_asia
+  region: east-n-southeast-asia
 - code: vq
   name: Virgin Islands
-  region: central_america_n_caribbean
+  region: central-america-n-caribbean
 - code: wq
   name: Wake Island
-  region: australia_oceania
+  region: australia-oceania
 - code: wf
   name: Wallis and Futuna
-  region: australia_oceania
+  region: australia-oceania
 - code: we
   name: West Bank
-  region: middle_east
+  region: middle-east
 - code: wi
   name: Western Sahara
   region: africa
 - code: ym
   name: Yemen
-  region: middle_east
+  region: middle-east
 - code: za
   name: Zambia
   region: africa
