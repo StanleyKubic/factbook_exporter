@@ -107,9 +107,34 @@ The application extracts **configurable fields** for each country, loaded from `
 cd factbook_exporter
 ```
 
-2. Install dependencies:
+2. Create and activate virtual environment:
 ```bash
-pip3 install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### Virtual Environment Usage
+
+#### Option 1: Manual Activation
+```bash
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+python main.py
+```
+
+#### Option 2: Using the Activation Script (Linux/macOS)
+```bash
+./activate.sh
+python main.py
+```
+
+To deactivate the virtual environment when done:
+```bash
+deactivate
 ```
 
 ## Usage
@@ -117,7 +142,11 @@ pip3 install -r requirements.txt
 ### Running the Application
 
 ```bash
-python3 main.py
+# Make sure virtual environment is activated first
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Run the application
+python main.py
 ```
 
 ### Example Session
