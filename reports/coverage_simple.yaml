@@ -1,0 +1,2269 @@
+metadata:
+  total_countries: 259
+  generated_at: '2025-10-26T14:37:22.436076'
+fields:
+- field_name: Background
+  json_path: Introduction.Background.text
+  coverage_pct: 100.0
+- field_name: Location
+  json_path: Geography.Location.text
+  coverage_pct: 100.0
+- field_name: Area - Comparative
+  json_path: Geography.Area - comparative.text
+  coverage_pct: 100.0
+- field_name: Climate
+  json_path: Geography.Climate.text
+  coverage_pct: 100.0
+- field_name: Geographic Coordinates
+  json_path: Geography.Geographic coordinates.text
+  coverage_pct: 99.6
+- field_name: Coastline
+  json_path: Geography.Coastline.text
+  coverage_pct: 99.6
+- field_name: Climate
+  json_path: Environment.Climate.text
+  coverage_pct: 99.6
+- field_name: Map References
+  json_path: Geography.Map references.text
+  coverage_pct: 99.2
+- field_name: Highest Point
+  json_path: Geography.Elevation.highest point.text
+  coverage_pct: 99.2
+- field_name: Lowest Point
+  json_path: Geography.Elevation.lowest point.text
+  coverage_pct: 99.2
+- field_name: Natural Resources
+  json_path: Geography.Natural resources.text
+  coverage_pct: 99.2
+- field_name: Geography - Note
+  json_path: Geography.Geography - note.text
+  coverage_pct: 99.2
+- field_name: Etymology
+  json_path: Government.Country name.etymology.text
+  coverage_pct: 98.8
+- field_name: Total
+  json_path: Geography.Area.total .text
+  coverage_pct: 98.1
+- field_name: Total
+  json_path: Geography.Land boundaries.total.text
+  coverage_pct: 98.1
+- field_name: Conventional Long Form
+  json_path: Government.Country name.conventional long form.text
+  coverage_pct: 98.1
+- field_name: Conventional Short Form
+  json_path: Government.Country name.conventional short form.text
+  coverage_pct: 98.1
+- field_name: Natural Hazards
+  json_path: Geography.Natural hazards.text
+  coverage_pct: 97.7
+- field_name: Terrain
+  json_path: Geography.Terrain.text
+  coverage_pct: 97.3
+- field_name: Environmental Issues
+  json_path: Environment.Environmental issues.text
+  coverage_pct: 97.3
+- field_name: Land
+  json_path: Geography.Area.land.text
+  coverage_pct: 96.9
+- field_name: Military - Note
+  json_path: Military and Security.Military - note.text
+  coverage_pct: 96.9
+- field_name: Total
+  json_path: People and Society.Population.total.text
+  coverage_pct: 96.5
+- field_name: Other
+  json_path: Geography.Land use.other.text
+  coverage_pct: 96.1
+- field_name: Legal System
+  json_path: Government.Legal system.text
+  coverage_pct: 96.1
+- field_name: Water
+  json_path: Geography.Area.water.text
+  coverage_pct: 95.8
+- field_name: Other
+  json_path: Environment.Land use.other.text
+  coverage_pct: 95.8
+- field_name: Agricultural Land
+  json_path: Geography.Land use.agricultural land.text
+  coverage_pct: 95.0
+- field_name: Agricultural Land
+  json_path: Environment.Land use.agricultural land.text
+  coverage_pct: 94.6
+- field_name: Flag
+  json_path: Government.Flag.text
+  coverage_pct: 94.6
+- field_name: Internet Co U Ntry Code
+  json_path: Communications.Internet country code.text
+  coverage_pct: 93.8
+- field_name: International Organization Participation
+  json_path: Government.International organization participation.text
+  coverage_pct: 92.3
+- field_name: Broadcast Media
+  json_path: Communications.Broadcast media.text
+  coverage_pct: 92.3
+- field_name: Forest
+  json_path: Geography.Land use.forest.text
+  coverage_pct: 91.9
+- field_name: Population Growth Rate
+  json_path: People and Society.Population growth rate.text
+  coverage_pct: 91.9
+- field_name: Chief Of State
+  json_path: Government.Executive branch.chief of state.text
+  coverage_pct: 91.9
+- field_name: Exports - Commodities
+  json_path: Economy.Exports - commodities.text
+  coverage_pct: 91.9
+- field_name: Imports - Commodities
+  json_path: Economy.Imports - commodities.text
+  coverage_pct: 91.9
+- field_name: Ethnic Groups
+  json_path: People and Society.Ethnic groups.text
+  coverage_pct: 91.5
+- field_name: Religions
+  json_path: People and Society.Religions.text
+  coverage_pct: 91.5
+- field_name: Forest
+  json_path: Environment.Land use.forest.text
+  coverage_pct: 91.5
+- field_name: Government Type
+  json_path: Government.Government type.text
+  coverage_pct: 91.5
+- field_name: Time Difference
+  json_path: Government.Capital.time difference.text
+  coverage_pct: 91.5
+- field_name: History
+  json_path: Government.Constitution.history.text
+  coverage_pct: 91.5
+- field_name: Head Of Government
+  json_path: Government.Executive branch.head of government.text
+  coverage_pct: 91.5
+- field_name: Title
+  json_path: Government.National anthem(s).title.text
+  coverage_pct: 91.5
+- field_name: Lyrics/m U Sic
+  json_path: Government.National anthem(s).lyrics/music.text
+  coverage_pct: 91.5
+- field_name: History
+  json_path: Government.National anthem(s).history.text
+  coverage_pct: 91.5
+- field_name: Irrigated Land
+  json_path: Geography.Irrigated land.text
+  coverage_pct: 91.1
+- field_name: Economic Overview
+  json_path: Economy.Economic overview.text
+  coverage_pct: 91.1
+- field_name: Ind U Stries
+  json_path: Economy.Industries.text
+  coverage_pct: 91.1
+- field_name: Exports - Partners
+  json_path: Economy.Exports - partners.text
+  coverage_pct: 91.1
+- field_name: Imports - Partners
+  json_path: Economy.Imports - partners.text
+  coverage_pct: 91.1
+- field_name: Airports
+  json_path: Transportation.Airports.text
+  coverage_pct: 91.1
+- field_name: Male
+  json_path: People and Society.Population.male.text
+  coverage_pct: 90.7
+- field_name: Female
+  json_path: People and Society.Population.female.text
+  coverage_pct: 90.7
+- field_name: Name
+  json_path: Government.Capital.name.text
+  coverage_pct: 90.7
+- field_name: Suffrage
+  json_path: Government.Suffrage.text
+  coverage_pct: 90.7
+- field_name: Highest Court(s)
+  json_path: Government.Judicial branch.highest court(s).text
+  coverage_pct: 90.7
+- field_name: Independence
+  json_path: Government.Independence.text
+  coverage_pct: 90.7
+- field_name: Note
+  json_path: Economy.Exports - commodities.note
+  coverage_pct: 90.7
+- field_name: Percent Of Population
+  json_path: Communications.Internet users.percent of population.text
+  coverage_pct: 90.7
+- field_name: Total Dependency Ratio
+  json_path: People and Society.Dependency ratios.total dependency ratio.text
+  coverage_pct: 90.3
+- field_name: Youth Dependency Ratio
+  json_path: People and Society.Dependency ratios.youth dependency ratio.text
+  coverage_pct: 90.3
+- field_name: Elderly Dependency Ratio
+  json_path: People and Society.Dependency ratios.elderly dependency ratio.text
+  coverage_pct: 90.3
+- field_name: Potential Support Ratio
+  json_path: People and Society.Dependency ratios.potential support ratio.text
+  coverage_pct: 90.3
+- field_name: Geographic Coordinates
+  json_path: Government.Capital.geographic coordinates.text
+  coverage_pct: 90.3
+- field_name: Election/appointment Process
+  json_path: Government.Executive branch.election/appointment process.text
+  coverage_pct: 90.3
+- field_name: Political Parties
+  json_path: Government.Political parties.text
+  coverage_pct: 90.3
+- field_name: 0-14 Years
+  json_path: People and Society.Age structure.0-14 years.text
+  coverage_pct: 90.0
+- field_name: 65 Years And Over
+  json_path: People and Society.Age structure.65 years and over.text
+  coverage_pct: 90.0
+- field_name: Death Rate
+  json_path: People and Society.Death rate.text
+  coverage_pct: 90.0
+- field_name: Administrative Divisions
+  json_path: Government.Administrative divisions.text
+  coverage_pct: 90.0
+- field_name: 15-64 Years
+  json_path: People and Society.Age structure.15-64 years.text
+  coverage_pct: 89.6
+- field_name: Birth Rate
+  json_path: People and Society.Birth rate.text
+  coverage_pct: 89.6
+- field_name: Net Migration Rate
+  json_path: People and Society.Net migration rate.text
+  coverage_pct: 89.6
+- field_name: Cabinet
+  json_path: Government.Executive branch.cabinet.text
+  coverage_pct: 89.6
+- field_name: Embassy
+  json_path: Government.Diplomatic representation from the US.embassy.text
+  coverage_pct: 89.6
+- field_name: National Holiday
+  json_path: Government.National holiday.text
+  coverage_pct: 89.6
+- field_name: Agricultural Products
+  json_path: Economy.Agricultural products.text
+  coverage_pct: 89.6
+- field_name: Population Distribution
+  json_path: Geography.Population distribution.text
+  coverage_pct: 89.2
+- field_name: No U N
+  json_path: People and Society.Nationality.noun.text
+  coverage_pct: 89.2
+- field_name: Adjective
+  json_path: People and Society.Nationality.adjective.text
+  coverage_pct: 89.2
+- field_name: Total
+  json_path: People and Society.Median age.total.text
+  coverage_pct: 89.2
+- field_name: Population Distribution
+  json_path: People and Society.Population distribution.text
+  coverage_pct: 89.2
+- field_name: Male
+  json_path: People and Society.Life expectancy at birth.male.text
+  coverage_pct: 89.2
+- field_name: Female
+  json_path: People and Society.Life expectancy at birth.female.text
+  coverage_pct: 89.2
+- field_name: Total Population
+  json_path: People and Society.Sex ratio.total population.text
+  coverage_pct: 88.8
+- field_name: Total Population
+  json_path: People and Society.Life expectancy at birth.total population.text
+  coverage_pct: 88.8
+- field_name: Male
+  json_path: People and Society.Median age.male.text
+  coverage_pct: 88.4
+- field_name: Female
+  json_path: People and Society.Median age.female.text
+  coverage_pct: 88.4
+- field_name: Urban Population
+  json_path: People and Society.Urbanization.urban population.text
+  coverage_pct: 88.4
+- field_name: Rate Of Urbanization
+  json_path: People and Society.Urbanization.rate of urbanization.text
+  coverage_pct: 88.4
+- field_name: At Birth
+  json_path: People and Society.Sex ratio.at birth.text
+  coverage_pct: 88.4
+- field_name: 0-14 Years
+  json_path: People and Society.Sex ratio.0-14 years.text
+  coverage_pct: 88.4
+- field_name: 65 Years And Over
+  json_path: People and Society.Sex ratio.65 years and over.text
+  coverage_pct: 88.4
+- field_name: Total
+  json_path: People and Society.Infant mortality rate.total.text
+  coverage_pct: 88.4
+- field_name: Total Fertility Rate
+  json_path: People and Society.Total fertility rate.text
+  coverage_pct: 88.4
+- field_name: Subordinate Courts
+  json_path: Government.Judicial branch.subordinate courts.text
+  coverage_pct: 88.4
+- field_name: National Symbol(s)
+  json_path: Government.National symbol(s).text
+  coverage_pct: 88.4
+- field_name: Judge Selection And Term Of Office
+  json_path: Government.Judicial branch.judge selection and term of office.text
+  coverage_pct: 88.4
+- field_name: 'Agricultural Land: Arable Land'
+  json_path: 'Geography.Land use.agricultural land: arable land.text'
+  coverage_pct: 88.0
+- field_name: 15-64 Years
+  json_path: People and Society.Sex ratio.15-64 years.text
+  coverage_pct: 88.0
+- field_name: Male
+  json_path: People and Society.Infant mortality rate.male.text
+  coverage_pct: 88.0
+- field_name: Female
+  json_path: People and Society.Infant mortality rate.female.text
+  coverage_pct: 88.0
+- field_name: Gross Reproduction Rate
+  json_path: People and Society.Gross reproduction rate.text
+  coverage_pct: 88.0
+- field_name: 'Agricultural Land: Arable Land'
+  json_path: 'Environment.Land use.agricultural land: arable land.text'
+  coverage_pct: 88.0
+- field_name: Urban Population
+  json_path: Environment.Urbanization.urban population.text
+  coverage_pct: 88.0
+- field_name: Rate Of Urbanization
+  json_path: Environment.Urbanization.rate of urbanization.text
+  coverage_pct: 88.0
+- field_name: G D P (official Exchange Rate)
+  json_path: Economy.GDP (official exchange rate).text
+  coverage_pct: 88.0
+- field_name: 'Agricultural Land: Permanent Crops'
+  json_path: 'Geography.Land use.agricultural land: permanent crops.text'
+  coverage_pct: 87.6
+- field_name: 'Agricultural Land: Permanent Pasture'
+  json_path: 'Geography.Land use.agricultural land: permanent pasture.text'
+  coverage_pct: 87.6
+- field_name: 'Agricultural Land: Permanent Crops'
+  json_path: 'Environment.Land use.agricultural land: permanent crops.text'
+  coverage_pct: 87.6
+- field_name: 'Agricultural Land: Permanent Pasture'
+  json_path: 'Environment.Land use.agricultural land: permanent pasture.text'
+  coverage_pct: 87.6
+- field_name: Total Subscriptions
+  json_path: Communications.Telephones - fixed lines.total subscriptions.text
+  coverage_pct: 87.6
+- field_name: Subscriptions Per 100 Inhabitants
+  json_path: Communications.Telephones - fixed lines.subscriptions per 100 inhabitants.text
+  coverage_pct: 87.6
+- field_name: Note
+  json_path: Economy.Exports - partners.note
+  coverage_pct: 87.3
+- field_name: Note
+  json_path: Economy.Imports - partners.note
+  coverage_pct: 87.3
+- field_name: Total Subscriptions
+  json_path: Communications.Telephones - mobile cellular.total subscriptions.text
+  coverage_pct: 87.3
+- field_name: Subscriptions Per 100 Inhabitants
+  json_path: Communications.Telephones - mobile cellular.subscriptions per 100 inhabitants.text
+  coverage_pct: 87.3
+- field_name: Major Urban Areas - Population
+  json_path: People and Society.Major urban areas - population.text
+  coverage_pct: 86.9
+- field_name: Etymology
+  json_path: Government.Capital.etymology.text
+  coverage_pct: 86.9
+- field_name: Legislative Structure
+  json_path: Government.Legislative branch.legislative structure.text
+  coverage_pct: 86.9
+- field_name: Note
+  json_path: Economy.GDP (official exchange rate).note
+  coverage_pct: 86.5
+- field_name: Electrification - Total Population
+  json_path: Energy.Electricity access.electrification - total population.text
+  coverage_pct: 86.5
+- field_name: Note
+  json_path: Economy.Imports - commodities.note
+  coverage_pct: 85.7
+- field_name: Currency
+  json_path: Economy.Exchange rates.Currency.text
+  coverage_pct: 85.7
+- field_name: Military And Security Forces
+  json_path: Military and Security.Military and security forces.text
+  coverage_pct: 85.3
+- field_name: Note
+  json_path: Economy.Real GDP (purchasing power parity).note
+  coverage_pct: 84.9
+- field_name: National Color(s)
+  json_path: Government.National color(s).text
+  coverage_pct: 84.6
+- field_name: Currently Married Women (ages 15-49)
+  json_path: People and Society.Currently married women (ages 15-49).text
+  coverage_pct: 84.2
+- field_name: Note
+  json_path: Economy.Real GDP per capita.note
+  coverage_pct: 84.2
+- field_name: Exchange Rates 2020
+  json_path: Economy.Exchange rates.Exchange rates 2020.text
+  coverage_pct: 84.2
+- field_name: Total
+  json_path: Communications.Broadband - fixed subscriptions.total.text
+  coverage_pct: 84.2
+- field_name: Subscriptions Per 100 Inhabitants
+  json_path: Communications.Broadband - fixed subscriptions.subscriptions per 100
+    inhabitants.text
+  coverage_pct: 84.2
+- field_name: Legislature Name
+  json_path: Government.Legislative branch.legislature name.text
+  coverage_pct: 84.2
+- field_name: M U Nicipal Solid Waste Generated Annually
+  json_path: Environment.Waste and recycling.municipal solid waste generated annually.text
+  coverage_pct: 83.8
+- field_name: Total Emissions
+  json_path: Environment.Carbon dioxide emissions.total emissions.text
+  coverage_pct: 83.4
+- field_name: From Petrol E Um And Other Liquids
+  json_path: Environment.Carbon dioxide emissions.from petroleum and other liquids.text
+  coverage_pct: 83.4
+- field_name: Real G D P (purchasing Power Parity) 2022
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2022.text
+  coverage_pct: 83.4
+- field_name: Note
+  json_path: Economy.Real GDP growth rate.note
+  coverage_pct: 83.4
+- field_name: Real G D P Per Capita 2022
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2022.text
+  coverage_pct: 83.4
+- field_name: Refined Petrol E Um Consumption
+  json_path: Energy.Petroleum.refined petroleum consumption.text
+  coverage_pct: 83.4
+- field_name: Exchange Rates 2022
+  json_path: Economy.Exchange rates.Exchange rates 2022.text
+  coverage_pct: 83.4
+- field_name: Exchange Rates 2021
+  json_path: Economy.Exchange rates.Exchange rates 2021.text
+  coverage_pct: 83.4
+- field_name: Note
+  json_path: Economy.Inflation rate (consumer prices).note
+  coverage_pct: 83.0
+- field_name: Civil Aircraft Registration Co U Ntry Code Prefix
+  json_path: Transportation.Civil aircraft registration country code prefix.text
+  coverage_pct: 83.0
+- field_name: Real G D P (purchasing Power Parity) 2023
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2023.text
+  coverage_pct: 82.6
+- field_name: Real G D P Per Capita 2023
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2023.text
+  coverage_pct: 82.6
+- field_name: Note
+  json_path: Economy.Exports.note
+  coverage_pct: 82.6
+- field_name: Exchange Rates 2023
+  json_path: Economy.Exchange rates.Exchange rates 2023.text
+  coverage_pct: 82.6
+- field_name: Real G D P Growth Rate 2022
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2022.text
+  coverage_pct: 82.2
+- field_name: Revenues
+  json_path: Economy.Budget.revenues.text
+  coverage_pct: 81.9
+- field_name: Expenditures
+  json_path: Economy.Budget.expenditures.text
+  coverage_pct: 81.9
+- field_name: Note
+  json_path: Economy.Imports.note
+  coverage_pct: 81.9
+- field_name: Installed Generating Capacity
+  json_path: Energy.Electricity.installed generating capacity.text
+  coverage_pct: 81.9
+- field_name: Consumption
+  json_path: Energy.Electricity.consumption.text
+  coverage_pct: 81.9
+- field_name: Transmission/distribution Losses
+  json_path: Energy.Electricity.transmission/distribution losses.text
+  coverage_pct: 81.9
+- field_name: Amendment Process
+  json_path: Government.Constitution.amendment process.text
+  coverage_pct: 81.9
+- field_name: 'Improved: Total'
+  json_path: 'People and Society.Drinking water source.improved: total.text'
+  coverage_pct: 80.7
+- field_name: Ind U Stry
+  json_path: Economy.GDP - composition, by sector of origin.industry.text
+  coverage_pct: 80.7
+- field_name: Services
+  json_path: Economy.GDP - composition, by sector of origin.services.text
+  coverage_pct: 80.7
+- field_name: Note
+  json_path: Economy.GDP - composition, by sector of origin.note
+  coverage_pct: 79.9
+- field_name: 'U Nimproved: Total'
+  json_path: 'People and Society.Drinking water source.unimproved: total.text'
+  coverage_pct: 79.5
+- field_name: Agriculture
+  json_path: Economy.GDP - composition, by sector of origin.agriculture.text
+  coverage_pct: 79.5
+- field_name: Physician Density
+  json_path: People and Society.Physician density.text
+  coverage_pct: 79.2
+- field_name: Real G D P Growth Rate 2023
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2023.text
+  coverage_pct: 79.2
+- field_name: Fossil Fuels
+  json_path: Energy.Electricity generation sources.fossil fuels.text
+  coverage_pct: 79.2
+- field_name: 'Improved: Total'
+  json_path: 'People and Society.Sanitation facility access.improved: total.text'
+  coverage_pct: 78.4
+- field_name: Inflation Rate (consumer Prices) 2022
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2022.text
+  coverage_pct: 78.0
+- field_name: 'U Nimproved: Total'
+  json_path: 'People and Society.Sanitation facility access.unimproved: total.text'
+  coverage_pct: 77.6
+- field_name: Note
+  json_path: Economy.Remittances.note
+  coverage_pct: 77.6
+- field_name: Note
+  json_path: Economy.Agricultural products.note
+  coverage_pct: 77.2
+- field_name: Remittances 2022
+  json_path: Economy.Remittances.Remittances 2022.text
+  coverage_pct: 77.2
+- field_name: Ind U Strial Production Growth Rate
+  json_path: Economy.Industrial production growth rate.text
+  coverage_pct: 76.8
+- field_name: Exports 2022
+  json_path: Economy.Exports.Exports 2022.text
+  coverage_pct: 76.8
+- field_name: Imports 2022
+  json_path: Economy.Imports.Imports 2022.text
+  coverage_pct: 76.8
+- field_name: Note
+  json_path: Economy.Industrial production growth rate.note
+  coverage_pct: 76.4
+- field_name: Remittances 2023
+  json_path: Economy.Remittances.Remittances 2023.text
+  coverage_pct: 76.4
+- field_name: Party To
+  json_path: Environment.International environmental agreements.party to.text
+  coverage_pct: 76.1
+- field_name: Signed, But Not Ratified
+  json_path: Environment.International environmental agreements.signed, but not ratified.text
+  coverage_pct: 76.1
+- field_name: International Law Organization Participation
+  json_path: Government.International law organization participation.text
+  coverage_pct: 76.1
+- field_name: Territorial Sea
+  json_path: Geography.Maritime claims.territorial sea.text
+  coverage_pct: 76.1
+- field_name: Real G D P (purchasing Power Parity) 2024
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2024.text
+  coverage_pct: 76.1
+- field_name: Real G D P Per Capita 2024
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2024.text
+  coverage_pct: 76.1
+- field_name: Maternal Mortality Ratio
+  json_path: People and Society.Maternal mortality ratio.text
+  coverage_pct: 75.7
+- field_name: Particulate Matter Emissions
+  json_path: Environment.Particulate matter emissions.text
+  coverage_pct: 75.7
+- field_name: Citizenship By Birth
+  json_path: Government.Citizenship.citizenship by birth.text
+  coverage_pct: 75.7
+- field_name: Citizenship By Descent Only
+  json_path: Government.Citizenship.citizenship by descent only.text
+  coverage_pct: 75.7
+- field_name: Dual Citizenship Recognized
+  json_path: Government.Citizenship.dual citizenship recognized.text
+  coverage_pct: 75.7
+- field_name: Residency Requirement For Naturalization
+  json_path: Government.Citizenship.residency requirement for naturalization.text
+  coverage_pct: 75.7
+- field_name: Exchange Rates 2024
+  json_path: Economy.Exchange rates.Exchange rates 2024.text
+  coverage_pct: 75.3
+- field_name: Note
+  json_path: Economy.Current account balance.note
+  coverage_pct: 74.9
+- field_name: Total Energy Consumption Per Capita 2023
+  json_path: Energy.Energy consumption per capita.Total energy consumption per capita
+    2023.text
+  coverage_pct: 74.9
+- field_name: Percent Of M U Nicipal Solid Waste Recycled
+  json_path: Environment.Waste and recycling.percent of municipal solid waste recycled.text
+  coverage_pct: 74.5
+- field_name: Obesity - Adult Prevalence Rate
+  json_path: People and Society.Obesity - adult prevalence rate.text
+  coverage_pct: 74.1
+- field_name: Labor Force
+  json_path: Economy.Labor force.text
+  coverage_pct: 74.1
+- field_name: Note
+  json_path: Economy.Unemployment rate.note
+  coverage_pct: 74.1
+- field_name: Chief Of Mission
+  json_path: Government.Diplomatic representation in the US.chief of mission.text
+  coverage_pct: 74.1
+- field_name: Note
+  json_path: Economy.Labor force.note
+  coverage_pct: 73.7
+- field_name: Health Expenditure (as % Of G D P)
+  json_path: People and Society.Health expenditure.Health expenditure (as % of GDP).text
+  coverage_pct: 73.4
+- field_name: Health Expenditure (as % Of National Budget)
+  json_path: People and Society.Health expenditure.Health expenditure (as % of national
+    budget).text
+  coverage_pct: 73.4
+- field_name: Unemployment Rate 2022
+  json_path: Economy.Unemployment rate.Unemployment rate 2022.text
+  coverage_pct: 73.4
+- field_name: Total
+  json_path: Economy.Youth unemployment rate (ages 15-24).total.text
+  coverage_pct: 73.4
+- field_name: Male
+  json_path: Economy.Youth unemployment rate (ages 15-24).male.text
+  coverage_pct: 73.4
+- field_name: Female
+  json_path: Economy.Youth unemployment rate (ages 15-24).female.text
+  coverage_pct: 73.4
+- field_name: Note
+  json_path: Economy.Youth unemployment rate (ages 15-24).note
+  coverage_pct: 73.4
+- field_name: Chancery
+  json_path: Government.Diplomatic representation in the US.chancery.text
+  coverage_pct: 73.4
+- field_name: Telephone
+  json_path: Government.Diplomatic representation in the US.telephone.text
+  coverage_pct: 73.4
+- field_name: Total
+  json_path: People and Society.Alcohol consumption per capita.total.text
+  coverage_pct: 73.0
+- field_name: Beer
+  json_path: People and Society.Alcohol consumption per capita.beer.text
+  coverage_pct: 73.0
+- field_name: Wine
+  json_path: People and Society.Alcohol consumption per capita.wine.text
+  coverage_pct: 73.0
+- field_name: Spirits
+  json_path: People and Society.Alcohol consumption per capita.spirits.text
+  coverage_pct: 73.0
+- field_name: Other Alcohols
+  json_path: People and Society.Alcohol consumption per capita.other alcohols.text
+  coverage_pct: 73.0
+- field_name: Solar
+  json_path: Energy.Electricity generation sources.solar.text
+  coverage_pct: 73.0
+- field_name: Email Address And Website
+  json_path: Government.Diplomatic representation in the US.email address and website.text
+  coverage_pct: 73.0
+- field_name: Education Expenditure (% G D P)
+  json_path: People and Society.Education expenditure.Education expenditure (% GDP).text
+  coverage_pct: 72.6
+- field_name: Education Expenditure (% National Budget)
+  json_path: People and Society.Education expenditure.Education expenditure (% national
+    budget).text
+  coverage_pct: 72.6
+- field_name: Ho U Sehold Consumption
+  json_path: Economy.GDP - composition, by end use.household consumption.text
+  coverage_pct: 72.6
+- field_name: Government Consumption
+  json_path: Economy.GDP - composition, by end use.government consumption.text
+  coverage_pct: 72.6
+- field_name: Investment In Fixed Capital
+  json_path: Economy.GDP - composition, by end use.investment in fixed capital.text
+  coverage_pct: 72.6
+- field_name: Exports Of Goods And Services
+  json_path: Economy.GDP - composition, by end use.exports of goods and services.text
+  coverage_pct: 72.6
+- field_name: Imports Of Goods And Services
+  json_path: Economy.GDP - composition, by end use.imports of goods and services.text
+  coverage_pct: 72.6
+- field_name: Unemployment Rate 2023
+  json_path: Economy.Unemployment rate.Unemployment rate 2023.text
+  coverage_pct: 72.6
+- field_name: Investment In Inventories
+  json_path: Economy.GDP - composition, by end use.investment in inventories.text
+  coverage_pct: 72.2
+- field_name: F A X
+  json_path: Government.Diplomatic representation in the US.FAX.text
+  coverage_pct: 72.2
+- field_name: Total
+  json_path: Transportation.Merchant marine.total.text
+  coverage_pct: 72.2
+- field_name: Total Ports
+  json_path: Transportation.Ports.total ports.text
+  coverage_pct: 72.2
+- field_name: Large
+  json_path: Transportation.Ports.large.text
+  coverage_pct: 72.2
+- field_name: Medium
+  json_path: Transportation.Ports.medium.text
+  coverage_pct: 72.2
+- field_name: Small
+  json_path: Transportation.Ports.small.text
+  coverage_pct: 72.2
+- field_name: Very Small
+  json_path: Transportation.Ports.very small.text
+  coverage_pct: 72.2
+- field_name: Ports With Oil Terminals
+  json_path: Transportation.Ports.ports with oil terminals.text
+  coverage_pct: 72.2
+- field_name: Key Ports
+  json_path: Transportation.Ports.key ports.text
+  coverage_pct: 72.2
+- field_name: Total Renewable Water Resources
+  json_path: Environment.Total renewable water resources.text
+  coverage_pct: 71.8
+- field_name: Local Long Form
+  json_path: Government.Country name.local long form.text
+  coverage_pct: 71.8
+- field_name: Local Short Form
+  json_path: Government.Country name.local short form.text
+  coverage_pct: 71.8
+- field_name: Real G D P Growth Rate 2024
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2024.text
+  coverage_pct: 71.8
+- field_name: By Type
+  json_path: Transportation.Merchant marine.by type.text
+  coverage_pct: 71.8
+- field_name: Unemployment Rate 2024
+  json_path: Economy.Unemployment rate.Unemployment rate 2024.text
+  coverage_pct: 71.4
+- field_name: Imports
+  json_path: Energy.Coal.imports.text
+  coverage_pct: 71.4
+- field_name: M U Nicipal
+  json_path: Environment.Total water withdrawal.municipal.text
+  coverage_pct: 71.0
+- field_name: Chief Of Mission
+  json_path: Government.Diplomatic representation from the US.chief of mission.text
+  coverage_pct: 70.7
+- field_name: Exports 2023
+  json_path: Economy.Exports.Exports 2023.text
+  coverage_pct: 70.7
+- field_name: Imports 2023
+  json_path: Economy.Imports.Imports 2023.text
+  coverage_pct: 70.7
+- field_name: 'U Nimproved: Urban'
+  json_path: 'People and Society.Drinking water source.unimproved: urban.text'
+  coverage_pct: 70.3
+- field_name: Ind U Strial
+  json_path: Environment.Total water withdrawal.industrial.text
+  coverage_pct: 69.9
+- field_name: Agricultural
+  json_path: Environment.Total water withdrawal.agricultural.text
+  coverage_pct: 69.9
+- field_name: Note
+  json_path: Economy.GDP - composition, by end use.note
+  coverage_pct: 69.9
+- field_name: Current Acco U Nt Balance 2022
+  json_path: Economy.Current account balance.Current account balance 2022.text
+  coverage_pct: 69.9
+- field_name: Military And Security Service Personnel Strengths
+  json_path: Military and Security.Military and security service personnel strengths.text
+  coverage_pct: 69.5
+- field_name: Military Equipment Inventories And Acquisitions
+  json_path: Military and Security.Military equipment inventories and acquisitions.text
+  coverage_pct: 69.5
+- field_name: 'Improved: Urban'
+  json_path: 'People and Society.Drinking water source.improved: urban.text'
+  coverage_pct: 69.1
+- field_name: Email Address And Website
+  json_path: Government.Diplomatic representation from the US.email address and website.text
+  coverage_pct: 69.1
+- field_name: Note
+  json_path: Economy.Reserves of foreign exchange and gold.note
+  coverage_pct: 68.7
+- field_name: Military Service Age And Obligation
+  json_path: Military and Security.Military service age and obligation.text
+  coverage_pct: 68.7
+- field_name: Telephone
+  json_path: Government.Diplomatic representation from the US.telephone.text
+  coverage_pct: 68.7
+- field_name: Mailing Address
+  json_path: Government.Diplomatic representation from the US.mailing address.text
+  coverage_pct: 68.3
+- field_name: 'U Nimproved: Urban'
+  json_path: 'People and Society.Sanitation facility access.unimproved: urban.text'
+  coverage_pct: 67.6
+- field_name: Total World Heritage Sites
+  json_path: Government.National heritage.total World Heritage Sites.text
+  coverage_pct: 67.6
+- field_name: Selected World Heritage Site Locales
+  json_path: Government.National heritage.selected World Heritage Site locales.text
+  coverage_pct: 67.6
+- field_name: Inflation Rate (consumer Prices) 2023
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2023.text
+  coverage_pct: 67.6
+- field_name: Election Results
+  json_path: Government.Executive branch.election results.text
+  coverage_pct: 67.2
+- field_name: Most Recent Election Date
+  json_path: Government.Executive branch.most recent election date.text
+  coverage_pct: 66.8
+- field_name: 'Improved: Urban'
+  json_path: 'People and Society.Sanitation facility access.improved: urban.text'
+  coverage_pct: 66.4
+- field_name: Refugees
+  json_path: Transnational Issues.Refugees and internally displaced persons.refugees.text
+  coverage_pct: 66.4
+- field_name: 'U Nimproved: Rural'
+  json_path: 'People and Society.Drinking water source.unimproved: rural.text'
+  coverage_pct: 66.0
+- field_name: 'Improved: Rural'
+  json_path: 'People and Society.Drinking water source.improved: rural.text'
+  coverage_pct: 65.6
+- field_name: Current Acco U Nt Balance 2023
+  json_path: Economy.Current account balance.Current account balance 2023.text
+  coverage_pct: 65.6
+- field_name: Reserves Of Foreign Exchange And Gold 2022
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2022.text
+  coverage_pct: 65.3
+- field_name: Mean Elevation
+  json_path: Geography.Elevation.mean elevation.text
+  coverage_pct: 64.9
+- field_name: Total
+  json_path: People and Society.Tobacco use.total.text
+  coverage_pct: 64.9
+- field_name: Male
+  json_path: People and Society.Tobacco use.male.text
+  coverage_pct: 64.9
+- field_name: Female
+  json_path: People and Society.Tobacco use.female.text
+  coverage_pct: 64.9
+- field_name: Note
+  json_path: Economy.Budget.note
+  coverage_pct: 64.9
+- field_name: From Coal And Metallurgical Coke
+  json_path: Environment.Carbon dioxide emissions.from coal and metallurgical coke.text
+  coverage_pct: 64.5
+- field_name: Heliports
+  json_path: Transportation.Heliports.text
+  coverage_pct: 64.5
+- field_name: Reserves Of Foreign Exchange And Gold 2023
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2023.text
+  coverage_pct: 64.5
+- field_name: Border Co U Ntries
+  json_path: Geography.Land boundaries.border countries.text
+  coverage_pct: 64.1
+- field_name: 'U Nimproved: Rural'
+  json_path: 'People and Society.Sanitation facility access.unimproved: rural.text'
+  coverage_pct: 63.7
+- field_name: 'Improved: Rural'
+  json_path: 'People and Society.Sanitation facility access.improved: rural.text'
+  coverage_pct: 62.5
+- field_name: Expected Date Of Next Election
+  json_path: Government.Executive branch.expected date of next election.text
+  coverage_pct: 62.5
+- field_name: Inflation Rate (consumer Prices) 2024
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2024.text
+  coverage_pct: 62.2
+- field_name: F A X
+  json_path: Government.Diplomatic representation from the US.FAX.text
+  coverage_pct: 61.4
+- field_name: Hospital Bed Density
+  json_path: People and Society.Hospital bed density.text
+  coverage_pct: 61.0
+- field_name: Military Expenditures 2021
+  json_path: Military and Security.Military expenditures.Military Expenditures 2021.text
+  coverage_pct: 61.0
+- field_name: Total
+  json_path: People and Society.School life expectancy (primary to tertiary education).total.text
+  coverage_pct: 60.2
+- field_name: Male
+  json_path: People and Society.School life expectancy (primary to tertiary education).male.text
+  coverage_pct: 60.2
+- field_name: Female
+  json_path: People and Society.School life expectancy (primary to tertiary education).female.text
+  coverage_pct: 60.2
+- field_name: Taxes And Other Revenues
+  json_path: Economy.Taxes and other revenues.text
+  coverage_pct: 59.8
+- field_name: Military Expenditures 2022
+  json_path: Military and Security.Military expenditures.Military Expenditures 2022.text
+  coverage_pct: 59.8
+- field_name: Note
+  json_path: Economy.Taxes and other revenues.note
+  coverage_pct: 59.5
+- field_name: Military Expenditures 2023
+  json_path: Military and Security.Military expenditures.Military Expenditures 2023.text
+  coverage_pct: 59.5
+- field_name: Hydroelectricity
+  json_path: Energy.Electricity generation sources.hydroelectricity.text
+  coverage_pct: 59.1
+- field_name: Military Expenditures 2024
+  json_path: Military and Security.Military expenditures.Military Expenditures 2024.text
+  coverage_pct: 57.5
+- field_name: Note
+  json_path: Economy.Gini Index coefficient - distribution of family income.note
+  coverage_pct: 57.1
+- field_name: Lowest 10%
+  json_path: Economy.Household income or consumption by percentage share.lowest 10%.text
+  coverage_pct: 57.1
+- field_name: Highest 10%
+  json_path: Economy.Household income or consumption by percentage share.highest 10%.text
+  coverage_pct: 57.1
+- field_name: Note
+  json_path: Military and Security.Military and security forces.note
+  coverage_pct: 57.1
+- field_name: Note
+  json_path: Economy.Household income or consumption by percentage share.note
+  coverage_pct: 56.8
+- field_name: Excl U Sive Economic Zone
+  json_path: Geography.Maritime claims.exclusive economic zone.text
+  coverage_pct: 55.2
+- field_name: Most Recent Election Date
+  json_path: Government.Legislative branch.most recent election date.text
+  coverage_pct: 54.8
+- field_name: Number Of Seats
+  json_path: Government.Legislative branch.number of seats.text
+  coverage_pct: 54.4
+- field_name: Languages
+  json_path: People and Society.Languages.Languages.text
+  coverage_pct: 54.1
+- field_name: Major-language Sample(s)
+  json_path: People and Society.Languages.major-language sample(s).text
+  coverage_pct: 54.1
+- field_name: Consumption
+  json_path: Energy.Coal.consumption.text
+  coverage_pct: 54.1
+- field_name: Population Below Poverty Line
+  json_path: Economy.Population below poverty line.text
+  coverage_pct: 53.7
+- field_name: Expected Date Of Next Election
+  json_path: Government.Legislative branch.expected date of next election.text
+  coverage_pct: 53.7
+- field_name: Note
+  json_path: Economy.Population below poverty line.note
+  coverage_pct: 53.3
+- field_name: Total
+  json_path: Transportation.Railways.total.text
+  coverage_pct: 53.3
+- field_name: Scope Of Elections
+  json_path: Government.Legislative branch.scope of elections.text
+  coverage_pct: 52.9
+- field_name: Term In Office
+  json_path: Government.Legislative branch.term in office.text
+  coverage_pct: 52.5
+- field_name: Reserves Of Foreign Exchange And Gold 2024
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2024.text
+  coverage_pct: 52.5
+- field_name: Electoral System
+  json_path: Government.Legislative branch.electoral system.text
+  coverage_pct: 51.7
+- field_name: Percentage Of Women In Chamber
+  json_path: Government.Legislative branch.percentage of women in chamber.text
+  coverage_pct: 51.4
+- field_name: Mother's Mean Age At First Birth
+  json_path: People and Society.Mother's mean age at first birth.text
+  coverage_pct: 50.6
+- field_name: Biomass And Waste
+  json_path: Energy.Electricity generation sources.biomass and waste.text
+  coverage_pct: 49.8
+- field_name: Consumption
+  json_path: Energy.Natural gas.consumption.text
+  coverage_pct: 49.4
+- field_name: Military Expenditures 2020
+  json_path: Military and Security.Military expenditures.Military Expenditures 2020.text
+  coverage_pct: 49.4
+- field_name: From Consumed Natural Gas
+  json_path: Environment.Carbon dioxide emissions.from consumed natural gas.text
+  coverage_pct: 48.6
+- field_name: Former
+  json_path: Government.Country name.former.text
+  coverage_pct: 47.9
+- field_name: Note
+  json_path: Economy.Debt - external.note
+  coverage_pct: 47.5
+- field_name: Exports 2024
+  json_path: Economy.Exports.Exports 2024.text
+  coverage_pct: 47.5
+- field_name: Imports 2024
+  json_path: Economy.Imports.Imports 2024.text
+  coverage_pct: 47.5
+- field_name: Imports
+  json_path: Energy.Electricity.imports.text
+  coverage_pct: 47.1
+- field_name: Female
+  json_path: People and Society.Literacy.female.text
+  coverage_pct: 46.3
+- field_name: Debt - External 2023
+  json_path: Economy.Debt - external.Debt - external 2023.text
+  coverage_pct: 46.3
+- field_name: Exports
+  json_path: Energy.Coal.exports.text
+  coverage_pct: 46.3
+- field_name: Children U Nder The Age Of 5 Years Underweight
+  json_path: People and Society.Children under the age of 5 years underweight.text
+  coverage_pct: 45.9
+- field_name: I D Ps
+  json_path: Transnational Issues.Refugees and internally displaced persons.IDPs.text
+  coverage_pct: 45.9
+- field_name: Consulate(s) General
+  json_path: Government.Diplomatic representation in the US.consulate(s) general.text
+  coverage_pct: 45.9
+- field_name: Total Petrol E Um Production
+  json_path: Energy.Petroleum.total petroleum production.text
+  coverage_pct: 45.9
+- field_name: Wind
+  json_path: Energy.Electricity generation sources.wind.text
+  coverage_pct: 44.8
+- field_name: Women Married By Age 18
+  json_path: People and Society.Child marriage.women married by age 18.text
+  coverage_pct: 44.4
+- field_name: Current Acco U Nt Balance 2024
+  json_path: Economy.Current account balance.Current account balance 2024.text
+  coverage_pct: 44.0
+- field_name: Total Population
+  json_path: People and Society.Literacy.total population.text
+  coverage_pct: 43.6
+- field_name: Male
+  json_path: People and Society.Literacy.male.text
+  coverage_pct: 43.6
+- field_name: Parties Elected And Seats Per Party
+  json_path: Government.Legislative branch.parties elected and seats per party.text
+  coverage_pct: 43.6
+- field_name: Women Married By Age 15
+  json_path: People and Society.Child marriage.women married by age 15.text
+  coverage_pct: 43.2
+- field_name: Note
+  json_path: Economy.Public debt.note
+  coverage_pct: 42.9
+- field_name: Remittances 2024
+  json_path: Economy.Remittances.Remittances 2024.text
+  coverage_pct: 40.5
+- field_name: On Food
+  json_path: Economy.Average household expenditures.on food.text
+  coverage_pct: 40.5
+- field_name: On Alcohol And Tobacco
+  json_path: Economy.Average household expenditures.on alcohol and tobacco.text
+  coverage_pct: 40.5
+- field_name: Exports
+  json_path: Energy.Electricity.exports.text
+  coverage_pct: 39.8
+- field_name: Production
+  json_path: Energy.Natural gas.production.text
+  coverage_pct: 39.4
+- field_name: Note
+  json_path: Military and Security.Military service age and obligation.note
+  coverage_pct: 38.6
+- field_name: Languages
+  json_path: People and Society.Languages.text
+  coverage_pct: 38.6
+- field_name: Proven Reserves
+  json_path: Energy.Natural gas.proven reserves.text
+  coverage_pct: 38.2
+- field_name: Crude Oil Estimated Reserves
+  json_path: Energy.Petroleum.crude oil estimated reserves.text
+  coverage_pct: 38.2
+- field_name: Terrorist Group(s)
+  json_path: Terrorism.Terrorist group(s).text
+  coverage_pct: 37.5
+- field_name: Electrification - Urban Areas
+  json_path: Energy.Electricity access.electrification - urban areas.text
+  coverage_pct: 37.1
+- field_name: Continental Shelf
+  json_path: Geography.Maritime claims.continental shelf.text
+  coverage_pct: 37.1
+- field_name: Remittances 2021
+  json_path: Economy.Remittances.Remittances 2021.text
+  coverage_pct: 36.7
+- field_name: Stateless Persons
+  json_path: Transnational Issues.Refugees and internally displaced persons.stateless
+    persons.text
+  coverage_pct: 36.7
+- field_name: Note
+  json_path: Government.Executive branch.note
+  coverage_pct: 36.3
+- field_name: Electrification - Rural Areas
+  json_path: Energy.Electricity access.electrification - rural areas.text
+  coverage_pct: 36.3
+- field_name: Imports
+  json_path: Energy.Natural gas.imports.text
+  coverage_pct: 36.3
+- field_name: Note
+  json_path: Terrorism.Terrorist group(s).note
+  coverage_pct: 35.1
+- field_name: Contiguo U S Zone
+  json_path: Geography.Maritime claims.contiguous zone.text
+  coverage_pct: 34.7
+- field_name: Energy
+  json_path: Environment.Methane emissions.energy.text
+  coverage_pct: 34.7
+- field_name: Agriculture
+  json_path: Environment.Methane emissions.agriculture.text
+  coverage_pct: 34.7
+- field_name: Waste
+  json_path: Environment.Methane emissions.waste.text
+  coverage_pct: 34.7
+- field_name: Other
+  json_path: Environment.Methane emissions.other.text
+  coverage_pct: 34.7
+- field_name: Proven Reserves
+  json_path: Energy.Coal.proven reserves.text
+  coverage_pct: 34.0
+- field_name: Military Deployments
+  json_path: Military and Security.Military deployments.text
+  coverage_pct: 32.8
+- field_name: Chamber Name
+  json_path: Government.Legislative branch - lower chamber.chamber name.text
+  coverage_pct: 32.4
+- field_name: Number Of Seats
+  json_path: Government.Legislative branch - lower chamber.number of seats.text
+  coverage_pct: 32.4
+- field_name: Scope Of Elections
+  json_path: Government.Legislative branch - lower chamber.scope of elections.text
+  coverage_pct: 32.4
+- field_name: Most Recent Election Date
+  json_path: Government.Legislative branch - lower chamber.most recent election date.text
+  coverage_pct: 32.4
+- field_name: Percentage Of Women In Chamber
+  json_path: Government.Legislative branch - lower chamber.percentage of women in
+    chamber.text
+  coverage_pct: 32.4
+- field_name: Chamber Name
+  json_path: Government.Legislative branch - upper chamber.chamber name.text
+  coverage_pct: 32.4
+- field_name: Number Of Seats
+  json_path: Government.Legislative branch - upper chamber.number of seats.text
+  coverage_pct: 32.4
+- field_name: Note
+  json_path: People and Society.Ethnic groups.note
+  coverage_pct: 32.0
+- field_name: Expected Date Of Next Election
+  json_path: Government.Legislative branch - lower chamber.expected date of next election.text
+  coverage_pct: 32.0
+- field_name: Percentage Of Women In Chamber
+  json_path: Government.Legislative branch - upper chamber.percentage of women in
+    chamber.text
+  coverage_pct: 32.0
+- field_name: Imports 2021
+  json_path: Economy.Imports.Imports 2021.text
+  coverage_pct: 32.0
+- field_name: Public Debt 2016
+  json_path: Economy.Public debt.Public debt 2016.text
+  coverage_pct: 31.7
+- field_name: Term In Office
+  json_path: Government.Legislative branch - lower chamber.term in office.text
+  coverage_pct: 31.7
+- field_name: Electoral System
+  json_path: Government.Legislative branch - lower chamber.electoral system.text
+  coverage_pct: 31.3
+- field_name: Exports 2021
+  json_path: Economy.Exports.Exports 2021.text
+  coverage_pct: 31.3
+- field_name: Major Rivers (by Length In Km)
+  json_path: Geography.Major rivers (by length in km).text
+  coverage_pct: 30.9
+- field_name: Production
+  json_path: Energy.Coal.production.text
+  coverage_pct: 30.9
+- field_name: Note
+  json_path: People and Society.Languages.note
+  coverage_pct: 30.5
+- field_name: Note
+  json_path: Government.Flag.note
+  coverage_pct: 30.5
+- field_name: Most Recent Election Date
+  json_path: Government.Legislative branch - upper chamber.most recent election date.text
+  coverage_pct: 30.1
+- field_name: Note
+  json_path: Government.Legislative branch.note
+  coverage_pct: 30.1
+- field_name: Daylight Saving Time
+  json_path: Government.Capital.daylight saving time.text
+  coverage_pct: 29.7
+- field_name: Expected Date Of Next Election
+  json_path: Government.Legislative branch - upper chamber.expected date of next election.text
+  coverage_pct: 29.7
+- field_name: Men Married By Age 18
+  json_path: People and Society.Child marriage.men married by age 18.text
+  coverage_pct: 29.3
+- field_name: Note
+  json_path: People and Society.Mother's mean age at first birth.note
+  coverage_pct: 29.0
+- field_name: Atlantic Ocean Drainage
+  json_path: Geography.Major watersheds (area sq km).Atlantic Ocean drainage.text
+  coverage_pct: 29.0
+- field_name: Scope Of Elections
+  json_path: Government.Legislative branch - upper chamber.scope of elections.text
+  coverage_pct: 29.0
+- field_name: Term In Office
+  json_path: Government.Legislative branch - upper chamber.term in office.text
+  coverage_pct: 29.0
+- field_name: Parties Elected And Seats Per Party
+  json_path: Government.Legislative branch - lower chamber.parties elected and seats
+    per party.text
+  coverage_pct: 28.2
+- field_name: Space Agency/agencies
+  json_path: Space.Space agency/agencies.text
+  coverage_pct: 27.8
+- field_name: Space Program Overview
+  json_path: Space.Space program overview.text
+  coverage_pct: 27.8
+- field_name: Note
+  json_path: Space.Space program overview.note
+  coverage_pct: 27.4
+- field_name: Current Acco U Nt Balance 2021
+  json_path: Economy.Current account balance.Current account balance 2021.text
+  coverage_pct: 26.6
+- field_name: Narrow Gauge
+  json_path: Transportation.Railways.narrow gauge.text
+  coverage_pct: 25.5
+- field_name: Exports
+  json_path: Energy.Natural gas.exports.text
+  coverage_pct: 24.3
+- field_name: Note
+  json_path: Government.Judicial branch.note
+  coverage_pct: 23.6
+- field_name: Note
+  json_path: Geography.Area.note
+  coverage_pct: 22.0
+- field_name: Note
+  json_path: Government.National holiday.note
+  coverage_pct: 22.0
+- field_name: Dependency Stat U S
+  json_path: Government.Dependency status.text
+  coverage_pct: 20.1
+- field_name: Major Aquifers
+  json_path: Geography.Major aquifers.text
+  coverage_pct: 20.1
+- field_name: Maritime Claims
+  json_path: Geography.Maritime claims.text
+  coverage_pct: 19.3
+- field_name: Standard Gauge
+  json_path: Transportation.Railways.standard gauge.text
+  coverage_pct: 18.9
+- field_name: Total Global Geoparks And Regional Networks
+  json_path: Environment.Geoparks.total global geoparks and regional networks.text
+  coverage_pct: 18.9
+- field_name: Global Geoparks And Regional Networks
+  json_path: Environment.Geoparks.global geoparks and regional networks.text
+  coverage_pct: 18.9
+- field_name: Fresh Water Lake(s)
+  json_path: Geography.Major lakes (area sq km).fresh water lake(s).text
+  coverage_pct: 18.5
+- field_name: Diplomatic Representation In The U S
+  json_path: Government.Diplomatic representation in the US.text
+  coverage_pct: 18.1
+- field_name: Tier Rating
+  json_path: Transnational Issues.Trafficking in persons.tier rating.text
+  coverage_pct: 17.8
+- field_name: Inflation Rate (consumer Prices) 2021
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2021.text
+  coverage_pct: 16.6
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2022
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2022.text
+  coverage_pct: 16.6
+- field_name: National Coat Of Arms
+  json_path: Government.National coat of arms.text
+  coverage_pct: 15.8
+- field_name: Citizenship
+  json_path: Government.Citizenship.text
+  coverage_pct: 15.1
+- field_name: Note
+  json_path: Government.Administrative divisions.note
+  coverage_pct: 15.1
+- field_name: Note
+  json_path: People and Society.Religions.note
+  coverage_pct: 14.7
+- field_name: Salt Water Lake(s)
+  json_path: Geography.Major lakes (area sq km).salt water lake(s).text
+  coverage_pct: 14.3
+- field_name: U S G Identification
+  json_path: Transnational Issues.Illicit drugs.USG identification.text
+  coverage_pct: 14.3
+- field_name: Public Debt 2023
+  json_path: Economy.Public debt.Public debt 2023.text
+  coverage_pct: 14.3
+- field_name: Reserves Of Foreign Exchange And Gold 2021
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2021.text
+  coverage_pct: 13.5
+- field_name: Public Debt 2017
+  json_path: Economy.Public debt.Public debt 2017.text
+  coverage_pct: 13.1
+- field_name: Parties Elected And Seats Per Party
+  json_path: Government.Legislative branch - upper chamber.parties elected and seats
+    per party.text
+  coverage_pct: 13.1
+- field_name: Nuclear
+  json_path: Energy.Electricity generation sources.nuclear.text
+  coverage_pct: 13.1
+- field_name: Excl U Sive Fishing Zone
+  json_path: Geography.Maritime claims.exclusive fishing zone.text
+  coverage_pct: 12.7
+- field_name: Space La U Nch Site(s)
+  json_path: Space.Space launch site(s).text
+  coverage_pct: 12.7
+- field_name: Abbreviation
+  json_path: Government.Country name.abbreviation.text
+  coverage_pct: 12.7
+- field_name: Number Of Operational Nuclear Reactors
+  json_path: Energy.Nuclear energy.Number of operational nuclear reactors.text
+  coverage_pct: 12.7
+- field_name: Net Capacity Of Operational Nuclear Reactors
+  json_path: Energy.Nuclear energy.Net capacity of operational nuclear reactors.text
+  coverage_pct: 12.7
+- field_name: Percent Of Total Electricity Production
+  json_path: Energy.Nuclear energy.Percent of total electricity production.text
+  coverage_pct: 12.7
+- field_name: Military Expenditures 2025
+  json_path: Military and Security.Military expenditures.Military Expenditures 2025.text
+  coverage_pct: 12.0
+- field_name: Electoral System
+  json_path: Government.Legislative branch - upper chamber.electoral system.text
+  coverage_pct: 12.0
+- field_name: Consulate(s) General
+  json_path: Government.Diplomatic representation from the US.consulate(s) general.text
+  coverage_pct: 12.0
+- field_name: Note
+  json_path: Transportation.Railways.note
+  coverage_pct: 11.6
+- field_name: Inflation Rate (consumer Prices) 2020
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2020.text
+  coverage_pct: 11.6
+- field_name: Real G D P Growth Rate 2021
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2021.text
+  coverage_pct: 10.8
+- field_name: Note
+  json_path: Government.Political parties.note
+  coverage_pct: 10.4
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2021
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2021.text
+  coverage_pct: 10.4
+- field_name: Indian Ocean Drainage
+  json_path: Geography.Major watersheds (area sq km).Indian Ocean drainage.text
+  coverage_pct: 9.7
+- field_name: Time Zone Note
+  json_path: Government.Capital.time zone note.text
+  coverage_pct: 9.7
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2023
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2023.text
+  coverage_pct: 9.3
+- field_name: Exports 2020
+  json_path: Economy.Exports.Exports 2020.text
+  coverage_pct: 8.9
+- field_name: Imports 2020
+  json_path: Economy.Imports.Imports 2020.text
+  coverage_pct: 8.9
+- field_name: Exchange Rates 2019
+  json_path: Economy.Exchange rates.Exchange rates 2019.text
+  coverage_pct: 8.9
+- field_name: Number Of Nuclear Reactors Permanently Shut Down
+  json_path: Energy.Nuclear energy.Number of nuclear reactors permanently shut down.text
+  coverage_pct: 8.9
+- field_name: Internal (endorheic Basin) Drainage
+  json_path: Geography.Major watersheds (area sq km).Internal (endorheic basin) drainage.text
+  coverage_pct: 8.5
+- field_name: Size U Nknown
+  json_path: Transportation.Ports.size unknown.text
+  coverage_pct: 8.5
+- field_name: Note
+  json_path: Military and Security.Military and security service personnel strengths.note
+  coverage_pct: 8.1
+- field_name: Geothermal
+  json_path: Energy.Electricity generation sources.geothermal.text
+  coverage_pct: 8.1
+- field_name: Real G D P (purchasing Power Parity) 2021
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2021.text
+  coverage_pct: 7.7
+- field_name: Real G D P Per Capita 2021
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2021.text
+  coverage_pct: 7.7
+- field_name: Broad Gauge
+  json_path: Transportation.Railways.broad gauge.text
+  coverage_pct: 7.7
+- field_name: Exchange Rates
+  json_path: Economy.Exchange rates.text
+  coverage_pct: 7.3
+- field_name: Note
+  json_path: Government.Capital.note
+  coverage_pct: 7.3
+- field_name: Note
+  json_path: Geography.Maritime claims.note
+  coverage_pct: 7.3
+- field_name: Military Expenditures 2019
+  json_path: Military and Security.Military expenditures.Military Expenditures 2019.text
+  coverage_pct: 6.9
+- field_name: Consulate(s)
+  json_path: Government.Diplomatic representation in the US.consulate(s).text
+  coverage_pct: 6.9
+- field_name: Note
+  json_path: Military and Security.Military deployments.note
+  coverage_pct: 6.6
+- field_name: Education Expenditure
+  json_path: People and Society.Education expenditure.text
+  coverage_pct: 6.6
+- field_name: Number Of Nuclear Reactors U Nder Construction
+  json_path: Energy.Nuclear energy.Number of nuclear reactors under construction.text
+  coverage_pct: 6.2
+- field_name: Public Debt 2022
+  json_path: Economy.Public debt.Public debt 2022.text
+  coverage_pct: 6.2
+- field_name: Note
+  json_path: Military and Security.Military equipment inventories and acquisitions.note
+  coverage_pct: 6.2
+- field_name: Current Acco U Nt Balance 2020
+  json_path: Economy.Current account balance.Current account balance 2020.text
+  coverage_pct: 5.8
+- field_name: Note
+  json_path: Government.Country name.note
+  coverage_pct: 5.8
+- field_name: Note
+  json_path: People and Society.Population.note
+  coverage_pct: 5.4
+- field_name: Note
+  json_path: Government.Independence.note
+  coverage_pct: 5.4
+- field_name: Military Expenditures 2018
+  json_path: Military and Security.Military expenditures.Military Expenditures 2018.text
+  coverage_pct: 5.0
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2018
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2018.text
+  coverage_pct: 5.0
+- field_name: Note
+  json_path: Government.Constitution.note
+  coverage_pct: 5.0
+- field_name: Military Expenditures 2017
+  json_path: Military and Security.Military expenditures.Military Expenditures 2017.text
+  coverage_pct: 4.6
+- field_name: Chamber Name
+  json_path: Government.Legislative branch.chamber name.text
+  coverage_pct: 4.6
+- field_name: Note
+  json_path: People and Society.Urbanization.note
+  coverage_pct: 4.6
+- field_name: Note
+  json_path: Environment.Urbanization.note
+  coverage_pct: 4.6
+- field_name: Note
+  json_path: Government.Suffrage.note
+  coverage_pct: 4.6
+- field_name: Note
+  json_path: Space.Space agency/agencies.note
+  coverage_pct: 4.6
+- field_name: Note
+  json_path: Economy.Exchange rates.note
+  coverage_pct: 4.2
+- field_name: Note
+  json_path: Geography.Natural resources.note
+  coverage_pct: 4.2
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2019
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2019.text
+  coverage_pct: 4.2
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2020
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2020.text
+  coverage_pct: 3.9
+- field_name: Inflation Rate (consumer Prices) 2017
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2017.text
+  coverage_pct: 3.9
+- field_name: Pacific Ocean Drainage
+  json_path: Geography.Major watersheds (area sq km).Pacific Ocean drainage.text
+  coverage_pct: 3.9
+- field_name: Note
+  json_path: Government.Legislative branch - upper chamber.note
+  coverage_pct: 3.9
+- field_name: Military Expenditures 2016
+  json_path: Military and Security.Military expenditures.Military Expenditures 2016.text
+  coverage_pct: 3.5
+- field_name: Note
+  json_path: Government.International organization participation.note
+  coverage_pct: 3.5
+- field_name: Real G D P Growth Rate 2020
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2020.text
+  coverage_pct: 3.5
+- field_name: Note
+  json_path: Geography.Elevation.note
+  coverage_pct: 3.5
+- field_name: Public Debt 2020
+  json_path: Economy.Public debt.Public debt 2020.text
+  coverage_pct: 3.5
+- field_name: People - Note
+  json_path: People and Society.People - note.text
+  coverage_pct: 3.5
+- field_name: Exports 2019
+  json_path: Economy.Exports.Exports 2019.text
+  coverage_pct: 3.1
+- field_name: Imports 2019
+  json_path: Economy.Imports.Imports 2019.text
+  coverage_pct: 3.1
+- field_name: Military Expenditures 2015
+  json_path: Military and Security.Military expenditures.Military Expenditures 2015.text
+  coverage_pct: 3.1
+- field_name: Inflation Rate (consumer Prices) 2019
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2019.text
+  coverage_pct: 3.1
+- field_name: Note
+  json_path: Geography.Coastline.note
+  coverage_pct: 3.1
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2016
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2016.text
+  coverage_pct: 3.1
+- field_name: Note
+  json_path: Government.Diplomatic representation in the US.note
+  coverage_pct: 3.1
+- field_name: Note
+  json_path: Government.Diplomatic representation from the US.note
+  coverage_pct: 3.1
+- field_name: Note
+  json_path: Communications.Internet country code.note
+  coverage_pct: 3.1
+- field_name: Public Debt 2021
+  json_path: Economy.Public debt.Public debt 2021.text
+  coverage_pct: 2.7
+- field_name: Note
+  json_path: Government.National anthem(s).note
+  coverage_pct: 2.7
+- field_name: Diplomatic Representation From The U S
+  json_path: Government.Diplomatic representation from the US.text
+  coverage_pct: 2.7
+- field_name: Current Acco U Nt Balance 2016
+  json_path: Economy.Current account balance.Current account balance 2016.text
+  coverage_pct: 2.7
+- field_name: Public Debt 2019
+  json_path: Economy.Public debt.Public debt 2019.text
+  coverage_pct: 2.7
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2017
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2017.text
+  coverage_pct: 2.7
+- field_name: Note
+  json_path: Government.Legislative branch - lower chamber.note
+  coverage_pct: 2.7
+- field_name: Consulate(s)
+  json_path: Government.Diplomatic representation from the US.consulate(s).text
+  coverage_pct: 2.7
+- field_name: Note
+  json_path: Geography.Land boundaries.note
+  coverage_pct: 2.7
+- field_name: Exports 2018
+  json_path: Economy.Exports.Exports 2018.text
+  coverage_pct: 2.3
+- field_name: Imports 2018
+  json_path: Economy.Imports.Imports 2018.text
+  coverage_pct: 2.3
+- field_name: Reserves Of Foreign Exchange And Gold 2020
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2020.text
+  coverage_pct: 2.3
+- field_name: Exchange Rates 2017
+  json_path: Economy.Exchange rates.Exchange rates 2017.text
+  coverage_pct: 2.3
+- field_name: Exchange Rates 2016
+  json_path: Economy.Exchange rates.Exchange rates 2016.text
+  coverage_pct: 2.3
+- field_name: Exports 2017
+  json_path: Economy.Exports.Exports 2017.text
+  coverage_pct: 2.3
+- field_name: Exports 2016
+  json_path: Economy.Exports.Exports 2016.text
+  coverage_pct: 2.3
+- field_name: Transportation - Note
+  json_path: Transportation.Transportation - note.text
+  coverage_pct: 2.3
+- field_name: Note
+  json_path: Government.Legal system.note
+  coverage_pct: 2.3
+- field_name: Dependent Areas
+  json_path: Government.Dependent areas.text
+  coverage_pct: 2.3
+- field_name: Current Acco U Nt Balance 2015
+  json_path: Economy.Current account balance.Current account balance 2015.text
+  coverage_pct: 2.3
+- field_name: Health Expenditure
+  json_path: People and Society.Health expenditure.text
+  coverage_pct: 2.3
+- field_name: Unemployment Rate 2021
+  json_path: Economy.Unemployment rate.Unemployment rate 2021.text
+  coverage_pct: 2.3
+- field_name: Current Acco U Nt Balance 2019
+  json_path: Economy.Current account balance.Current account balance 2019.text
+  coverage_pct: 1.9
+- field_name: Reserves Of Foreign Exchange And Gold 2019
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2019.text
+  coverage_pct: 1.9
+- field_name: Reserves Of Foreign Exchange And Gold 2018
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2018.text
+  coverage_pct: 1.9
+- field_name: Population
+  json_path: People and Society.Population.text
+  coverage_pct: 1.9
+- field_name: Flag Description
+  json_path: Government.Flag description.text
+  coverage_pct: 1.9
+- field_name: Inflation Rate (consumer Prices) 2018
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2018.text
+  coverage_pct: 1.9
+- field_name: Imports 2017
+  json_path: Economy.Imports.Imports 2017.text
+  coverage_pct: 1.9
+- field_name: Imports 2016
+  json_path: Economy.Imports.Imports 2016.text
+  coverage_pct: 1.9
+- field_name: Branch Office(s)
+  json_path: Government.Diplomatic representation from the US.branch office(s).text
+  coverage_pct: 1.9
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2015
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2015.text
+  coverage_pct: 1.9
+- field_name: Note
+  json_path: People and Society.Nationality.note
+  coverage_pct: 1.9
+- field_name: Reserves Of Foreign Exchange And Gold 2017
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2017.text
+  coverage_pct: 1.9
+- field_name: Current Acco U Nt Balance 2014
+  json_path: Economy.Current account balance.Current account balance 2014.text
+  coverage_pct: 1.9
+- field_name: Note
+  json_path: Environment.Waste and recycling.note
+  coverage_pct: 1.9
+- field_name: Military Expenditures
+  json_path: Military and Security.Military expenditures.text
+  coverage_pct: 1.9
+- field_name: Note
+  json_path: Government.National heritage.note
+  coverage_pct: 1.5
+- field_name: Current Acco U Nt Balance 2018
+  json_path: Economy.Current account balance.Current account balance 2018.text
+  coverage_pct: 1.5
+- field_name: Exchange Rates 2018
+  json_path: Economy.Exchange rates.Exchange rates 2018.text
+  coverage_pct: 1.5
+- field_name: Real G D P (purchasing Power Parity) 2015
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2015.text
+  coverage_pct: 1.5
+- field_name: Public Debt 2013
+  json_path: Economy.Public debt.Public debt 2013.text
+  coverage_pct: 1.5
+- field_name: Public Debt 2014
+  json_path: Economy.Public debt.Public debt 2014.text
+  coverage_pct: 1.5
+- field_name: Note
+  json_path: Government.Dependency status.note
+  coverage_pct: 1.5
+- field_name: Current Acco U Nt Balance 2017
+  json_path: Economy.Current account balance.Current account balance 2017.text
+  coverage_pct: 1.5
+- field_name: Inflation Rate (consumer Prices) 2016
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2016.text
+  coverage_pct: 1.5
+- field_name: Note
+  json_path: People and Society.Dependency ratios.note
+  coverage_pct: 1.5
+- field_name: Note
+  json_path: Communications.Internet users.note
+  coverage_pct: 1.5
+- field_name: Note
+  json_path: Government.Government type.note
+  coverage_pct: 1.5
+- field_name: Real G D P Growth Rate 2017
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2017.text
+  coverage_pct: 1.5
+- field_name: Note
+  json_path: Military and Security.Military expenditures.note
+  coverage_pct: 1.5
+- field_name: Note
+  json_path: Environment.Total renewable water resources.note
+  coverage_pct: 1.5
+- field_name: Note
+  json_path: Energy.Electricity access.note
+  coverage_pct: 1.5
+- field_name: Exchange Rates 2015
+  json_path: Economy.Exchange rates.Exchange rates 2015.text
+  coverage_pct: 1.5
+- field_name: Reserves Of Foreign Exchange And Gold 2016
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2016.text
+  coverage_pct: 1.5
+- field_name: Ocean Volume
+  json_path: Geography.Ocean volume.ocean volume.text
+  coverage_pct: 1.5
+- field_name: Percent Of World Ocean Total Volume
+  json_path: Geography.Ocean volume.percent of World Ocean total volume.text
+  coverage_pct: 1.5
+- field_name: Major Ocean Currents
+  json_path: Geography.Major ocean currents.text
+  coverage_pct: 1.5
+- field_name: Continental Shelf
+  json_path: Geography.Bathymetry.continental shelf.text
+  coverage_pct: 1.5
+- field_name: Continental Slope
+  json_path: Geography.Bathymetry.continental slope.text
+  coverage_pct: 1.5
+- field_name: Abyssal Plains
+  json_path: Geography.Bathymetry.abyssal plains.text
+  coverage_pct: 1.5
+- field_name: Mid-ocean Ridge
+  json_path: Geography.Bathymetry.mid-ocean ridge.text
+  coverage_pct: 1.5
+- field_name: U Ndersea Terrain Features
+  json_path: Geography.Bathymetry.undersea terrain features.text
+  coverage_pct: 1.5
+- field_name: Ocean Trenches
+  json_path: Geography.Bathymetry.ocean trenches.text
+  coverage_pct: 1.5
+- field_name: Atolls
+  json_path: Geography.Bathymetry.atolls.text
+  coverage_pct: 1.5
+- field_name: Mean Depth
+  json_path: Geography.Elevation.mean depth.text
+  coverage_pct: 1.5
+- field_name: Ocean Zones
+  json_path: Geography.Elevation.ocean zones.text
+  coverage_pct: 1.5
+- field_name: Marine Fisheries
+  json_path: Environment.Marine fisheries.text
+  coverage_pct: 1.5
+- field_name: Total
+  json_path: Geography.Area.total.text
+  coverage_pct: 1.2
+- field_name: Education Expenditures
+  json_path: People and Society.Education expenditures.text
+  coverage_pct: 1.2
+- field_name: Real G D P (purchasing Power Parity) 2016
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2016.text
+  coverage_pct: 1.2
+- field_name: Real G D P (purchasing Power Parity) 2014
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2014.text
+  coverage_pct: 1.2
+- field_name: Exports 2015
+  json_path: Economy.Exports.Exports 2015.text
+  coverage_pct: 1.2
+- field_name: Dual Gauge
+  json_path: Transportation.Railways.dual gauge.text
+  coverage_pct: 1.2
+- field_name: Note
+  json_path: Government.Citizenship.note
+  coverage_pct: 1.2
+- field_name: Arctic Ocean Drainage
+  json_path: Geography.Major watersheds (area sq km).Arctic Ocean drainage.text
+  coverage_pct: 1.2
+- field_name: Note
+  json_path: Space.Space launch site(s).note
+  coverage_pct: 1.2
+- field_name: Inflation Rate (consumer Prices) 2015
+  json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2015.text
+  coverage_pct: 1.2
+- field_name: Real G D P Growth Rate 2016
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2016.text
+  coverage_pct: 1.2
+- field_name: Real G D P Per Capita 2015
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2015.text
+  coverage_pct: 1.2
+- field_name: Note
+  json_path: Geography.Climate.note
+  coverage_pct: 1.2
+- field_name: Note
+  json_path: Environment.Climate.note
+  coverage_pct: 1.2
+- field_name: Note
+  json_path: Transportation.Merchant marine.note
+  coverage_pct: 1.2
+- field_name: Note
+  json_path: People and Society.Child marriage.note
+  coverage_pct: 1.2
+- field_name: Note
+  json_path: Environment.Total water withdrawal.note
+  coverage_pct: 1.2
+- field_name: Unemployment Rate 2020
+  json_path: Economy.Unemployment rate.Unemployment rate 2020.text
+  coverage_pct: 1.2
+- field_name: Real G D P (purchasing Power Parity) 2020
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2020.text
+  coverage_pct: 1.2
+- field_name: Real G D P Per Capita 2020
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2020.text
+  coverage_pct: 1.2
+- field_name: Exchange Rates 2014
+  json_path: Economy.Exchange rates.Exchange rates 2014.text
+  coverage_pct: 1.2
+- field_name: Contraceptive Prevalence Rate
+  json_path: People and Society.Contraceptive prevalence rate.text
+  coverage_pct: 0.8
+- field_name: Current Health Expenditure
+  json_path: People and Society.Current health expenditure.text
+  coverage_pct: 0.8
+- field_name: Environment - Current Issues
+  json_path: Environment.Environment - current issues.text
+  coverage_pct: 0.8
+- field_name: Elections/appointments
+  json_path: Government.Executive branch.elections/appointments.text
+  coverage_pct: 0.8
+- field_name: National Anthem
+  json_path: Government.National anthem.text
+  coverage_pct: 0.8
+- field_name: Total Energy Consumption Per Capita 2019
+  json_path: Energy.Energy consumption per capita.Total energy consumption per capita
+    2019.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Geography.Geographic coordinates.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Major urban areas - population.note
+  coverage_pct: 0.8
+- field_name: Debt - External 2022
+  json_path: Economy.Debt - external.Debt - external 2022.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Geography.Major watersheds (area sq km).note
+  coverage_pct: 0.8
+- field_name: Gini Index Coefficient - Distribution Of Family Income 2024
+  json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2024.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Economy.Industries.note
+  coverage_pct: 0.8
+- field_name: Real G D P Growth Rate 2015
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2015.text
+  coverage_pct: 0.8
+- field_name: Real G D P Per Capita 2014
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2014.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Government.Dependent areas.note
+  coverage_pct: 0.8
+- field_name: Tide And Wave
+  json_path: Energy.Electricity generation sources.tide and wave.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Transportation.Airports.note
+  coverage_pct: 0.8
+- field_name: Government - Note
+  json_path: Government.Government - note.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Maternal mortality ratio.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Drinking water source.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Health expenditure.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Sanitation facility access.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Children under the age of 5 years underweight.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Currently married women (ages 15-49).note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Education expenditure.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Literacy.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.School life expectancy (primary to tertiary education).note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Environment.Carbon dioxide emissions.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Energy.Electricity.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Energy.Electricity generation sources.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Energy.Coal.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Energy.Petroleum.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Energy.Energy consumption per capita.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Communications.Telephones - fixed lines.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Communications.Telephones - mobile cellular.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Communications.Broadband - fixed subscriptions.note
+  coverage_pct: 0.8
+- field_name: Real G D P Per Capita 2016
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2016.text
+  coverage_pct: 0.8
+- field_name: Regional Borders
+  json_path: Geography.Land boundaries.regional borders.text
+  coverage_pct: 0.8
+- field_name: Public Debt 2018
+  json_path: Economy.Public debt.Public debt 2018.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Environment.Environmental issues.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Geography.Land use.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Environment.Land use.note
+  coverage_pct: 0.8
+- field_name: Remittances 2020
+  json_path: Economy.Remittances.Remittances 2020.text
+  coverage_pct: 0.8
+- field_name: Exchange Rates 2013
+  json_path: Economy.Exchange rates.Exchange rates 2013.text
+  coverage_pct: 0.8
+- field_name: Reserves Of Foreign Exchange And Gold 2015
+  json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2015.text
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: Geography.Population distribution.note
+  coverage_pct: 0.8
+- field_name: Note
+  json_path: People and Society.Population distribution.note
+  coverage_pct: 0.8
+- field_name: Real G D P Growth Rate 2018
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2018.text
+  coverage_pct: 0.8
+- field_name: Legislative Branch
+  json_path: Government.Legislative branch.text
+  coverage_pct: 0.4
+- field_name: Amendments
+  json_path: Government.Constitution.amendments.text
+  coverage_pct: 0.4
+- field_name: Illicit Drugs
+  json_path: Transnational Issues.Illicit drugs.text
+  coverage_pct: 0.4
+- field_name: Land Bo U Ndaries
+  json_path: Geography.Land boundaries.text
+  coverage_pct: 0.4
+- field_name: Environment ( Protection And Preservation) Zone
+  json_path: Geography.Maritime claims.Environment (Protection and Preservation) Zone.text
+  coverage_pct: 0.4
+- field_name: Comm U Nications - Note
+  json_path: Communications.Communications - note.text
+  coverage_pct: 0.4
+- field_name: State Co U Nsellor
+  json_path: Government.Executive branch.state counsellor.text
+  coverage_pct: 0.4
+- field_name: Trade Office(s)
+  json_path: Government.Diplomatic representation in the US.trade office(s).text
+  coverage_pct: 0.4
+- field_name: Border Sovereign Base Areas
+  json_path: Geography.Land boundaries.border sovereign base areas.text
+  coverage_pct: 0.4
+- field_name: Honorary Consulate(s)
+  json_path: Government.Diplomatic representation in the US.honorary consulate(s).text
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: Economy.Economic overview.note
+  coverage_pct: 0.4
+- field_name: Representative Office
+  json_path: Government.Diplomatic representation in the US.representative office.text
+  coverage_pct: 0.4
+- field_name: Exports 2011
+  json_path: Economy.Exports.Exports 2011.text
+  coverage_pct: 0.4
+- field_name: Imports 2010
+  json_path: Economy.Imports.Imports 2010.text
+  coverage_pct: 0.4
+- field_name: Imports 2009
+  json_path: Economy.Imports.Imports 2009.text
+  coverage_pct: 0.4
+- field_name: Preliminary Statement
+  json_path: Introduction.Preliminary statement.text
+  coverage_pct: 0.4
+- field_name: Conventional Long Form
+  json_path: Government.Union name.conventional long form.text
+  coverage_pct: 0.4
+- field_name: Abbreviation
+  json_path: Government.Union name.abbreviation.text
+  coverage_pct: 0.4
+- field_name: Member States
+  json_path: Government.Member states.text
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: Government.Member states.note
+  coverage_pct: 0.4
+- field_name: Executive Branch
+  json_path: Government.Executive branch.text
+  coverage_pct: 0.4
+- field_name: Metropolitan France - Total
+  json_path: Geography.Land boundaries.metropolitan France - total.text
+  coverage_pct: 0.4
+- field_name: French Guiana - Total
+  json_path: Geography.Land boundaries.French Guiana - total.text
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: Transportation.Heliports.note
+  coverage_pct: 0.4
+- field_name: Area
+  json_path: Geography.Area.text
+  coverage_pct: 0.4
+- field_name: Current Acco U Nt Balance 2013
+  json_path: Economy.Current account balance.Current account balance 2013.text
+  coverage_pct: 0.4
+- field_name: Budget
+  json_path: Economy.Budget.text
+  coverage_pct: 0.4
+- field_name: H K E T O Offices
+  json_path: Government.Diplomatic representation in the US.HKETO offices.text
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: Geography.Irrigated land.note
+  coverage_pct: 0.4
+- field_name: Exports 2014
+  json_path: Economy.Exports.Exports 2014.text
+  coverage_pct: 0.4
+- field_name: Official Long Form
+  json_path: Government.Country name.official long form.text
+  coverage_pct: 0.4
+- field_name: Official Short Form
+  json_path: Government.Country name.official short form.text
+  coverage_pct: 0.4
+- field_name: Carbon Dioxide Emissions
+  json_path: Environment.Carbon dioxide emissions.text
+  coverage_pct: 0.4
+- field_name: Railways
+  json_path: Transportation.Railways.text
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: People and Society.Hospital bed density.note
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: People and Society.Obesity - adult prevalence rate.note
+  coverage_pct: 0.4
+- field_name: Real G D P (purchasing Power Parity) 2019
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2019.text
+  coverage_pct: 0.4
+- field_name: Real G D P Per Capita 2019
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2019.text
+  coverage_pct: 0.4
+- field_name: Real G D P Growth Rate 2019
+  json_path: Economy.Real GDP growth rate.Real GDP growth rate 2019.text
+  coverage_pct: 0.4
+- field_name: Remittances 2015
+  json_path: Economy.Remittances.Remittances 2015.text
+  coverage_pct: 0.4
+- field_name: Remittances 2014
+  json_path: Economy.Remittances.Remittances 2014.text
+  coverage_pct: 0.4
+- field_name: Remittances 2013
+  json_path: Economy.Remittances.Remittances 2013.text
+  coverage_pct: 0.4
+- field_name: Taipei Economic And Cultural Offices (branch Offices)
+  json_path: Government.Diplomatic representation in the US.Taipei Economic and Cultural
+    Offices (branch offices).text
+  coverage_pct: 0.4
+- field_name: Other Offices
+  json_path: Government.Diplomatic representation from the US.other offices.text
+  coverage_pct: 0.4
+- field_name: Real G D P (purchasing Power Parity) 2017
+  json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2017.text
+  coverage_pct: 0.4
+- field_name: Real G D P Per Capita 2017
+  json_path: Economy.Real GDP per capita.Real GDP per capita 2017.text
+  coverage_pct: 0.4
+- field_name: Unemployment Rate 2019
+  json_path: Economy.Unemployment rate.Unemployment rate 2019.text
+  coverage_pct: 0.4
+- field_name: Arable Land / Permanent Crops / Permanent Pasture
+  json_path: Geography.Land use.arable land / permanent crops / permanent pasture.text
+  coverage_pct: 0.4
+- field_name: Environment - Current Issues
+  json_path: Geography.Environment - current issues.text
+  coverage_pct: 0.4
+- field_name: Demographic Profile
+  json_path: People and Society.Demographic profile.text
+  coverage_pct: 0.4
+- field_name: 15-24 Years
+  json_path: People and Society.Age structure.15-24 years.text
+  coverage_pct: 0.4
+- field_name: 25-54 Years
+  json_path: People and Society.Age structure.25-54 years.text
+  coverage_pct: 0.4
+- field_name: 55-64 Years
+  json_path: People and Society.Age structure.55-64 years.text
+  coverage_pct: 0.4
+- field_name: 15-24 Years
+  json_path: People and Society.Sex ratio.15-24 years.text
+  coverage_pct: 0.4
+- field_name: 25-54 Years
+  json_path: People and Society.Sex ratio.25-54 years.text
+  coverage_pct: 0.4
+- field_name: 55-64 Years
+  json_path: People and Society.Sex ratio.55-64 years.text
+  coverage_pct: 0.4
+- field_name: H I V/ A I D S - Adult Prevalence Rate
+  json_path: People and Society.HIV/AIDS - adult prevalence rate.text
+  coverage_pct: 0.4
+- field_name: H I V/ A I D S - People Living With H I V/ A I D S
+  json_path: People and Society.HIV/AIDS - people living with HIV/AIDS.text
+  coverage_pct: 0.4
+- field_name: H I V/ A I D S - Deaths
+  json_path: People and Society.HIV/AIDS - deaths.text
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: Economy.GDP real growth rate.note
+  coverage_pct: 0.4
+- field_name: G D P (purchasing Power Parity) - Real
+  json_path: Economy.GDP (purchasing power parity) - real.text
+  coverage_pct: 0.4
+- field_name: G D P - Per Capita ( P P P)
+  json_path: Economy.GDP - per capita (PPP).text
+  coverage_pct: 0.4
+- field_name: Agriculture - Products
+  json_path: Economy.Agriculture - products.text
+  coverage_pct: 0.4
+- field_name: Agriculture
+  json_path: Economy.Labor force - by occupation.agriculture.text
+  coverage_pct: 0.4
+- field_name: Ind U Stry
+  json_path: Economy.Labor force - by occupation.industry.text
+  coverage_pct: 0.4
+- field_name: Ind U Stry And Services
+  json_path: Economy.Labor force - by occupation.industry and services.text
+  coverage_pct: 0.4
+- field_name: Budget Surpl U S (+) Or Deficit (-)
+  json_path: Economy.Budget surplus (+) or deficit (-).text
+  coverage_pct: 0.4
+- field_name: Fiscal Year
+  json_path: Economy.Fiscal year.text
+  coverage_pct: 0.4
+- field_name: Electricity - Production
+  json_path: Energy.Electricity - production.text
+  coverage_pct: 0.4
+- field_name: Electricity - Consumption
+  json_path: Energy.Electricity - consumption.text
+  coverage_pct: 0.4
+- field_name: Electricity - Exports
+  json_path: Energy.Electricity - exports.text
+  coverage_pct: 0.4
+- field_name: Electricity - Imports
+  json_path: Energy.Electricity - imports.text
+  coverage_pct: 0.4
+- field_name: Electricity - Installed Generating Capacity
+  json_path: Energy.Electricity - installed generating capacity.text
+  coverage_pct: 0.4
+- field_name: Electricity - From Fossil Fuels
+  json_path: Energy.Electricity - from fossil fuels.text
+  coverage_pct: 0.4
+- field_name: Electricity - From Nuclear Fuels
+  json_path: Energy.Electricity - from nuclear fuels.text
+  coverage_pct: 0.4
+- field_name: Electricity - From Hydroelectric Plants
+  json_path: Energy.Electricity - from hydroelectric plants.text
+  coverage_pct: 0.4
+- field_name: Electricity - From Other Renewable Sources
+  json_path: Energy.Electricity - from other renewable sources.text
+  coverage_pct: 0.4
+- field_name: Crude Oil - Production
+  json_path: Energy.Crude oil - production.text
+  coverage_pct: 0.4
+- field_name: Crude Oil - Exports
+  json_path: Energy.Crude oil - exports.text
+  coverage_pct: 0.4
+- field_name: Crude Oil - Imports
+  json_path: Energy.Crude oil - imports.text
+  coverage_pct: 0.4
+- field_name: Crude Oil - Proved Reserves
+  json_path: Energy.Crude oil - proved reserves.text
+  coverage_pct: 0.4
+- field_name: Refined Petrol E Um Products - Production
+  json_path: Energy.Refined petroleum products - production.text
+  coverage_pct: 0.4
+- field_name: Refined Petrol E Um Products - Consumption
+  json_path: Energy.Refined petroleum products - consumption.text
+  coverage_pct: 0.4
+- field_name: Refined Petrol E Um Products - Exports
+  json_path: Energy.Refined petroleum products - exports.text
+  coverage_pct: 0.4
+- field_name: Refined Petrol E Um Products - Imports
+  json_path: Energy.Refined petroleum products - imports.text
+  coverage_pct: 0.4
+- field_name: Natural Gas - Production
+  json_path: Energy.Natural gas - production.text
+  coverage_pct: 0.4
+- field_name: Natural Gas - Consumption
+  json_path: Energy.Natural gas - consumption.text
+  coverage_pct: 0.4
+- field_name: Natural Gas - Exports
+  json_path: Energy.Natural gas - exports.text
+  coverage_pct: 0.4
+- field_name: Natural Gas - Imports
+  json_path: Energy.Natural gas - imports.text
+  coverage_pct: 0.4
+- field_name: Natural Gas - Proved Reserves
+  json_path: Energy.Natural gas - proved reserves.text
+  coverage_pct: 0.4
+- field_name: Carbon Dioxide Emissions From Consumption Of Energy
+  json_path: Energy.Carbon dioxide emissions from consumption of energy.text
+  coverage_pct: 0.4
+- field_name: General Assessment
+  json_path: Communications.Telecommunication systems.general assessment.text
+  coverage_pct: 0.4
+- field_name: International
+  json_path: Communications.Telecommunication systems.international.text
+  coverage_pct: 0.4
+- field_name: Note
+  json_path: Communications.Telecommunication systems.note
+  coverage_pct: 0.4
+- field_name: Total
+  json_path: Transportation.Airports - with paved runways.total.text
+  coverage_pct: 0.4
+- field_name: 2,438 To 3,047 M
+  json_path: Transportation.Airports - with paved runways.2,438 to 3,047 m.text
+  coverage_pct: 0.4
+- field_name: Total
+  json_path: Transportation.Airports - with unpaved runways.total.text
+  coverage_pct: 0.4
+- field_name: 1,524 To 2,437 M
+  json_path: Transportation.Airports - with unpaved runways.1,524 to 2,437 m.text
+  coverage_pct: 0.4
+- field_name: 914 To 1,523 M
+  json_path: Transportation.Airports - with unpaved runways.914 to 1,523 m.text
+  coverage_pct: 0.4
+- field_name: U Nder 914 M
+  json_path: Transportation.Airports - with unpaved runways.under 914 m.text
+  coverage_pct: 0.4
+- field_name: Major Seaport(s)
+  json_path: Transportation.Ports and terminals.major seaport(s).text
+  coverage_pct: 0.4
+- field_name: Disputes - International
+  json_path: Transnational Issues.Disputes - international.text
+  coverage_pct: 0.4
+- field_name: Imports 2015
+  json_path: Economy.Imports.Imports 2015.text
+  coverage_pct: 0.4
