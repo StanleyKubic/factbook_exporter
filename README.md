@@ -1,55 +1,85 @@
-# CIA Factbook JSON to Excel Exporter v1.0
+# CIA Factbook JSON to Excel Exporter v1.2
 
 A Python application that extracts country data from the CIA World Factbook JSON repository and exports selected fields to Excel format.
+
+## Version History
+
+### v1.0 - Initial Release
+- **All hardcoded configurations**: Country mappings, regions, and field definitions were hardcoded in `config.py`
+- **Basic functionality**: Data fetching, parsing, and Excel export
+- **Limited country support**: 20 pre-selected countries across 7 regions
+
+### v1.1 - Data Quality Improvements
+- **HTML cleaning implementation**: Added `cleaner.py` module for removing HTML tags and entities
+- **Enhanced text processing**: Automatic cleanup of HTML markup from extracted text data
+- **Improved data quality**: Clean, readable text output with proper spacing
+
+### v1.2 - Configuration File Support
+- **External country configuration**: Migrated country data to `config/countries.yaml`
+- **Config loader module**: Added `config_loader.py` for dynamic configuration loading
+- **Expanded country database**: Support for 250+ countries and territories
+- **Region-based organization**: Countries organized by geographic regions
+- **Configuration generation script**: `scripts/generate_countries.py` for updating country data
+
+### v1.3 - Planned Features
+- **Configurable field selection**: External configuration for exported fields
+- **Dynamic field mapping**: User-defined field extraction rules
+- **Enhanced customization**: Flexible data extraction and export options
 
 ## Features
 
 - **Data Source**: CIA World Factbook JSON repository (https://github.com/factbook/factbook.json)
 - **Interactive Interface**: Command-line interface with user input
-- **Multi-region Support**: 20 countries across 7 geographic regions
-- **HTML Cleaning**: Automatic removal of HTML tags and entities from extracted text
+- **Comprehensive Country Support**: 250+ countries and territories across all geographic regions
+- **Dynamic Configuration**: External YAML configuration for countries and regions
+- **HTML Cleaning**: Automatic removal of HTML tags and entities from extracted text (v1.1+)
 - **Error Handling**: Graceful handling of missing data and network issues
 - **Excel Export**: Formatted Excel files with auto-sized columns and styling
 - **Comprehensive Logging**: Detailed progress reporting and error tracking
-  +++++++ REPLACE
+- **Configuration Management**: Flexible country data loading with config generation tools (v1.2+)
+- **Region-based Organization**: Countries organized by geographic regions for easy selection
+- **Extensible Architecture**: Modular design for easy maintenance and enhancement
 
 ## Supported Countries
 
-The application supports 20 countries across all major regions:
+The application supports **250+ countries and territories** across all geographic regions, loaded dynamically from `config/countries.yaml`. The configuration includes:
 
-### Europe (6)
-- `fr` - France
-- `gm` - Germany  
-- `uk` - United Kingdom
-- `sp` - Spain
-- `it` - Italy
-- `au` - Austria
+### Major Regions
+- **Africa** (58+ countries)
+- **Asia** (50+ countries) 
+- **Europe** (50+ countries)
+- **Middle East** (20+ countries)
+- **North America** (40+ countries)
+- **South America** (15+ countries)
+- **Australia-Oceania** (25+ countries)
+- **Central Asia** (5+ countries)
+- **Antarctica & Oceans** (5+ territories)
 
-### North America (3)
-- `us` - United States
-- `ca` - Canada
-- `mx` - Mexico
+### Popular Examples
+Here are some commonly used country codes:
 
-### South America (2)
-- `br` - Brazil
-- `ar` - Argentina
+#### Europe
+- `fr` - France, `gm` - Germany, `uk` - United Kingdom
+- `sp` - Spain, `it` - Italy, `au` - Austria
 
-### Asia (4)
-- `ch` - China
-- `ja` - Japan
-- `in` - India
-- `ks` - South Korea
+#### North America  
+- `us` - United States, `ca` - Canada, `mx` - Mexico
 
-### Australia-Oceania (1)
-- `as` - Australia
+#### Asia
+- `ch` - China, `ja` - Japan, `in` - India, `ks` - South Korea
 
-### Africa (3)
-- `sf` - South Africa
-- `eg` - Egypt
-- `ni` - Nigeria
-
-### Central Asia (1)
+#### Other Regions
+- `as` - Australia, `br` - Brazil, `ar` - Argentina
+- `sf` - South Africa, `eg` - Egypt, `ni` - Nigeria
 - `rs` - Russia
+
+### Configuration Management
+The country list is maintained in `config/countries.yaml` and can be updated using:
+```bash
+python3 scripts/generate_countries.py
+```
+
+This script fetches the latest country data from the CIA Factbook repository and updates the configuration file automatically.
 
 ## Extracted Fields
 
@@ -93,7 +123,7 @@ python3 main.py
 
 ```
 ============================================================
-CIA Factbook JSON to Excel Exporter v1.0
+CIA Factbook JSON to Excel Exporter v1.2
 ============================================================
 
 This tool extracts country data from the CIA World Factbook
@@ -166,20 +196,46 @@ The application automatically removes HTML tags and entities from extracted text
 ### Data Structure
 | Country Code | Country Name | Background | Location | Total Area | Population Count | GDP PPP | GDP Growth |
 |--------------|--------------|------------|-----------|-------------|-----------------|----------|------------|
-  +++++++ REPLACE
 
 ## Project Structure
 
 ```
 factbook_exporter/
-├── main.py              # Entry point and orchestration
-├── config.py            # Configuration and country mappings
-├── fetcher.py           # Data retrieval from GitHub
-├── parser.py            # JSON data extraction
-├── exporter.py          # Excel file generation
-├── requirements.txt     # Python dependencies
-└── output/              # Generated Excel files
+├── main.py                    # Entry point and orchestration
+├── config.py                  # Core configuration settings (v1.0)
+├── config_loader.py           # Dynamic configuration loading (v1.2+)
+├── fetcher.py                 # Data retrieval from GitHub
+├── parser.py                  # JSON data extraction
+├── exporter.py                # Excel file generation
+├── cleaner.py                 # HTML cleaning and text processing (v1.1+)
+├── requirements.txt           # Python dependencies
+├── config/                    # Configuration files directory (v1.2+)
+│   └── countries.yaml         # Country and region mappings
+├── scripts/                   # Utility and maintenance scripts
+│   ├── generate_countries.py  # Country configuration generator
+│   └── analyze_coverage.py    # Data coverage analysis tool
+├── reports/                   # Generated reports and analysis
+│   └── coverage_report.yaml   # Data coverage analysis results
+└── output/                    # Generated Excel files
 ```
+
+### Key Components by Version
+
+#### v1.0 - Core Components
+- `main.py` - Application orchestration and user interface
+- `config.py` - Hardcoded country mappings and settings
+- `fetcher.py` - GitHub API data retrieval
+- `parser.py` - JSON parsing and field extraction
+- `exporter.py` - Excel file generation and formatting
+
+#### v1.1 - Data Quality Enhancement
+- `cleaner.py` - HTML tag removal and text cleaning using BeautifulSoup
+
+#### v1.2 - Configuration System
+- `config_loader.py` - Dynamic YAML configuration loading
+- `config/countries.yaml` - External country database (250+ countries)
+- `scripts/generate_countries.py` - Automated configuration updates
+- `scripts/analyze_coverage.py` - Data analysis and reporting tools
 
 ## Error Handling
 
@@ -190,15 +246,63 @@ The application handles errors gracefully:
 - **Missing Fields**: Uses empty values for unavailable data
 - **File Permissions**: Creates directories and handles write errors
 
+## Configuration System
+
+### Country Configuration (v1.2+)
+
+The application uses a flexible YAML-based configuration system for country management:
+
+#### Configuration File Structure
+```yaml
+countries:
+  - code: fr
+    name: France
+    region: europe
+  - code: us
+    name: United States
+    region: north-america
+  # ... more countries
+```
+
+#### Configuration Loading
+- **Primary Source**: `config/countries.yaml` (250+ countries)
+- **Fallback**: `config.py` hardcoded mappings (v1.0 compatibility)
+- **Loader Module**: `config_loader.py` provides unified access
+
+#### Configuration Management
+```bash
+# Update country database from CIA Factbook
+python3 scripts/generate_countries.py
+
+# Analyze data coverage across countries
+python3 scripts/analyze_coverage.py
+```
+
+### Field Configuration (Current)
+
+Field definitions are currently maintained in `config.py`:
+```python
+SECTION_DEFINITIONS = {
+    "Introduction.Background": "Background",
+    "Geography.Location": "Location",
+    "Geography.Area": "Total Area",
+    "People and Society.Population": "Population Count",
+    "Economy.Real GDP (purchasing power parity)": "GDP PPP",
+    "Economy.Real GDP growth rate": "GDP Growth"
+}
+```
+
+**Note**: Field configuration externalization is planned for v1.3.
+
 ## Technical Details
 
 ### Dependencies
 - `requests` - HTTP requests for data fetching
 - `pandas` - Data manipulation and Excel export
 - `openpyxl` - Advanced Excel formatting
-- `beautifulsoup4` - HTML parsing and text cleaning
-- `lxml` - Fast HTML parser backend for BeautifulSoup
-  +++++++ REPLACE
+- `beautifulsoup4` - HTML parsing and text cleaning (v1.1+)
+- `lxml` - Fast HTML parser backend for BeautifulSoup (v1.1+)
+- `pyyaml` - YAML configuration file parsing (v1.2+)
 
 ### Data Source
 - **Repository**: https://github.com/factbook/factbook.json
@@ -218,14 +322,40 @@ The application provides comprehensive logging:
 - **WARNING**: Non-critical issues and skipped items
 - **ERROR**: Critical failures and exceptions
 
-## Future Enhancements (V2)
+## Development Roadmap
 
-Planned improvements for future versions:
-- External configuration files (YAML/JSON)
-- Graphical user interface (Streamlit/Tkinter)
-- Dynamic field selection
-- Extended country database
-- Batch processing from file input
+### v1.3 - Field Configuration (Planned)
+- **Configurable field selection**: External configuration for exported fields
+- **Dynamic field mapping**: User-defined field extraction rules
+- **Enhanced customization**: Flexible data extraction and export options
+- **Field validation**: Data quality checks and validation rules
+
+### v1.4 - Enhanced Features (Future)
+- **Batch processing**: Process country lists from external files
+- **Custom output formats**: Support for CSV, JSON, and other formats
+- **Advanced filtering**: Region-based and criteria-based country selection
+- **Performance optimization**: Parallel processing for large datasets
+
+### v2.0 - Major Enhancements (Future)
+- **Graphical user interface**: Web-based UI using Streamlit
+- **API endpoints**: RESTful API for programmatic access
+- **Database integration**: Local caching and history tracking
+- **Advanced reporting**: Statistical analysis and visualization
+
+### Completed Features
+
+✅ **v1.0 - Core Functionality**
+- Basic data fetching, parsing, and Excel export
+- 20 pre-selected countries with hardcoded configuration
+
+✅ **v1.1 - Data Quality**
+- HTML cleaning and text processing using BeautifulSoup
+- Improved data extraction and formatting
+
+✅ **v1.2 - Configuration System**
+- External YAML configuration for 250+ countries
+- Dynamic configuration loading with fallback support
+- Automated configuration generation and analysis tools
 
 ## Troubleshooting
 
