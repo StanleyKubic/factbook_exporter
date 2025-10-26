@@ -1,0 +1,81 @@
+metadata:
+  default_profile: "standard"
+  description: "Field selection profiles for different export use cases"
+
+profiles:
+  minimal:
+    description: "Essential country information only (5 fields)"
+    fields:
+      - Introduction.Background.text
+      - Geography.Location.text
+      - Geography.Area - comparative.text
+      - People and Society.Population.text
+      - Government.Capital.name.text
+  
+  standard:
+    description: "Balanced export for general OSINT (15 fields)"
+    fields:
+      - Introduction.Background.text
+      - Geography.Location.text
+      - Geography.Geographic coordinates.text
+      - Geography.Area - comparative.text
+      - Geography.Climate.text
+      - Geography.Terrain.text
+      - Geography.Natural resources.text
+      - People and Society.Population.text
+      - People and Society.Nationality.noun.text
+      - Economy.GDP (purchasing power parity) - real.text
+      - Economy.Real GDP growth rate.Real GDP growth rate 2023.text
+      - Government.Government type.text
+      - Government.Capital.name.text
+      - Communications.Internet users.percent of population.text
+      - Military and Security.Military expenditures.Military Expenditures 2023.text
+  
+  geography:
+    description: "Geographic intelligence focus (10 fields)"
+    fields:
+      - Geography.Location.text
+      - Geography.Geographic coordinates.text
+      - Geography.Area - comparative.text
+      - Geography.Climate.text
+      - Geography.Terrain.text
+      - Geography.Elevation.highest point.text
+      - Geography.Elevation.lowest point.text
+      - Geography.Natural resources.text
+      - Geography.Land use.agricultural land.text
+      - Environment.Climate.text
+  
+  economy:
+    description: "Economic analysis focus (12 fields)"
+    fields:
+      - Introduction.Background.text
+      - Geography.Location.text
+      - People and Society.Population.text
+      - Economy.GDP (purchasing power parity) - real.text
+      - Economy.Real GDP growth rate.Real GDP growth rate 2023.text
+      - Economy.GDP - per capita (PPP).text
+      - Economy.Inflation rate (consumer prices).Inflation rate (consumer prices) 2023.text
+      - Economy.Unemployment rate.Unemployment rate 2023.text
+      - Economy.Budget.revenues.text
+      - Economy.Budget.expenditures.text
+      - Economy.Public debt.Public debt 2023.text
+      - Economy.Exports.Exports 2023.text
+  
+  comprehensive:
+    description: "All available fields for complete analysis (20 fields)"
+    fields:
+      - Introduction.Background.text
+      - Geography.Location.text
+      - Geography.Geographic coordinates.text
+      - Geography.Area - comparative.text
+      - Geography.Climate.text
+      - Geography.Terrain.text
+      - Geography.Natural resources.text
+      - People and Society.Population.text
+      - People and Society.Nationality.noun.text
+      - Economy.GDP (purchasing power parity) - real.text
+      - Economy.Real GDP growth rate.Real GDP growth rate 2023.text
+      - Government.Government type.text
+      - Government.Capital.name.text
+      - Communications.Internet users.percent of population.text
+      - Military and Security.Military expenditures.Military Expenditures 2023.text

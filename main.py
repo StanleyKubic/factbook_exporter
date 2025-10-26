@@ -10,7 +10,13 @@ import sys
 from typing import List
 
 import click
-from config_loader import get_all_countries, get_all_regions
+from config_loader import (
+    get_all_countries, 
+    get_all_regions, 
+    get_profile_fields, 
+    get_default_profile,
+    list_available_profiles
+)
 from validator import validate_country_codes, get_country_name
 from fetcher import DataFetcher
 from parser import DataParser
@@ -44,8 +50,22 @@ logger = logging.getLogger(__name__)
 @click.option('--verbose', '-v',
               is_flag=True,
               help='Verbose output')
-def main(countries, output, interactive, verbose):
+@click.option('--profile', '-p',
+              default=None,
+              help='Field selection profile (minimal, standard, geography, economy, comprehensive)')
+@click.option('--list-profiles',
+              is_flag=True,
+              help='List available field profiles and exit')
+def main(countries, output, interactive, verbose, profile, list_profiles):
     """CIA Factbook Data Exporter - Extract country data to Excel"""
+    
+    # Handle --list-profiles
+    if list_profiles:
+        profiles = list_available_profiles()
+        print_info("Available field profiles:")
+        for name, description in profiles.items():
+            console.print(f"  [bold]{name}[/bold]: {description}")
+        return
     
     # Interactive mode
     if interactive:
@@ -107,6 +127,39 @@ def main(countries, output, interactive, verbose):
     if verbose:
         print_info(f'Processing {len(valid_codes)} countries: {", ".join(valid_codes)}')
     
+    # Determine which profile to use
+    if profile is None:
+        profile = get_default_profile()
+        if verbose:
+            print_info(f"Using default profile: {profile}")
+    else:
+        if verbose:
+            print_info(f"Using profile: {profile}")
+    
+    # Load fields from profile
+    try:
+        field_paths = get_profile_fields(profile)
+        if verbose:
+            print_info(f"Profile contains {len(field_paths)} fields")
+    except ValueError as e:
+        print_error(str(e))
+        print_info("Run with --list-profiles to see available profiles")
+        return
+    
+    # Convert field paths to field configs for parser
+    fields_config = []
+    for path in field_paths:
+        # Extract column name from path (last segment before .text)
+        if path.endswith('.text'):
+            column_name = path.split('.')[-2]
+        else:
+            column_name = path.split('.')[-1]
+        fields_config.append({
+            'json_path': path,
+            'column_name': column_name,
+            'optional': False  # Profile fields are expected to exist
+        })
+    
     # Update country_list to use only valid codes
     country_list = valid_codes
     
@@ -114,6 +167,9 @@ def main(countries, output, interactive, verbose):
     fetcher = DataFetcher()
     parser = DataParser()
     exporter = ExcelExporter()
+    
+    # Override parser's field mappings with profile fields
+    parser.section_definitions = {field['json_path']: field['column_name'] for field in fields_config}
     
     try:
         # Step 1: Fetch data from GitHub

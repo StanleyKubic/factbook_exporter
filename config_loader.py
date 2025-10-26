@@ -29,6 +29,7 @@ class ConfigLoader:
         self.config_dir = Path(config_dir)
         self._countries_data: Optional[Dict] = None
         self._fields_data: Optional[Dict] = None
+        self._profiles_data: Optional[Dict] = None
         self._gec_to_name: Dict[str, str] = {}
         self._gec_to_region: Dict[str, str] = {}
         self._json_path_to_display: Dict[str, str] = {}
@@ -37,6 +38,7 @@ class ConfigLoader:
         # Load configuration on initialization
         self._load_countries_config()
         self._load_fields_config()
+        self._load_profiles_config()
     
     def _load_countries_config(self) -> None:
         """Load countries configuration from YAML file."""
@@ -108,6 +110,27 @@ class ConfigLoader:
         except Exception as e:
             raise RuntimeError(f"Error loading fields configuration: {e}")
     
+    def _load_profiles_config(self) -> None:
+        """Load field profiles configuration from YAML file."""
+        profiles_file = self.config_dir / "field_profiles.yaml"
+        
+        if not profiles_file.exists():
+            raise FileNotFoundError(f"Field profiles configuration file not found: {profiles_file}")
+        
+        try:
+            with open(profiles_file, 'r', encoding='utf-8') as f:
+                self._profiles_data = yaml.safe_load(f)
+            
+            if not self._profiles_data or 'profiles' not in self._profiles_data:
+                raise ValueError("Invalid field profiles configuration: missing 'profiles' section")
+            
+            logger.info(f"Loaded {len(self._profiles_data['profiles'])} field profiles from configuration")
+            
+        except yaml.YAMLError as e:
+            raise ValueError(f"Error parsing field profiles configuration: {e}")
+        except Exception as e:
+            raise RuntimeError(f"Error loading field profiles configuration: {e}")
+    
     def load_countries(self) -> List[Dict]:
         """
         Load complete countries list from configuration.
@@ -131,6 +154,33 @@ class ConfigLoader:
             return []
         
         return self._fields_data.get('fields', [])
+    
+    def load_all_fields(self) -> List[Dict]:
+        """
+        Load complete fields list from fields_complete.yaml.
+        
+        Returns:
+            List of field dictionaries with coverage data
+        """
+        fields_complete_file = self.config_dir / "fields_complete.yaml"
+        
+        if not fields_complete_file.exists():
+            logger.warning(f"Complete fields configuration file not found: {fields_complete_file}")
+            return []
+        
+        try:
+            with open(fields_complete_file, 'r', encoding='utf-8') as f:
+                fields_complete_data = yaml.safe_load(f)
+            
+            if not fields_complete_data or 'fields' not in fields_complete_data:
+                raise ValueError("Invalid complete fields configuration: missing 'fields' section")
+            
+            return fields_complete_data.get('fields', [])
+            
+        except yaml.YAMLError as e:
+            raise ValueError(f"Error parsing complete fields configuration: {e}")
+        except Exception as e:
+            raise RuntimeError(f"Error loading complete fields configuration: {e}")
     
     def get_country_name(self, gec_code: str) -> Optional[str]:
         """
@@ -292,17 +342,73 @@ class ConfigLoader:
             'region': self._gec_to_region.get(code, '')
         }
     
+    def get_profile_fields(self, profile_name: str) -> List[str]:
+        """
+        Get list of field paths for a given profile.
+        
+        Args:
+            profile_name: Name of the profile (e.g., 'minimal', 'standard')
+            
+        Returns:
+            List of field path strings
+            
+        Raises:
+            ValueError: If profile doesn't exist
+        """
+        if not self._profiles_data:
+            raise RuntimeError("Profiles configuration not loaded")
+        
+        if profile_name not in self._profiles_data['profiles']:
+            available = ', '.join(self._profiles_data['profiles'].keys())
+            raise ValueError(f"Profile '{profile_name}' not found. Available: {available}")
+        
+        profile = self._profiles_data['profiles'][profile_name]
+        fields = profile['fields']
+        
+        # Special case: 'all_universal' means load all universal fields
+        if 'all_universal' in fields:
+            # Load from fields_complete.yaml where coverage >= 95
+            all_fields = self.load_all_fields()
+            universal = [f['json_path'] for f in all_fields if f.get('coverage_pct', 0) >= 95]
+            return universal
+        
+        return fields
+    
+    def get_default_profile(self) -> str:
+        """Get the default profile name from config"""
+        if not self._profiles_data:
+            raise RuntimeError("Profiles configuration not loaded")
+        
+        return self._profiles_data['metadata'].get('default_profile', 'standard')
+    
+    def list_available_profiles(self) -> Dict[str, str]:
+        """
+        Get all available profiles with their descriptions.
+        
+        Returns:
+            Dict mapping profile names to descriptions
+        """
+        if not self._profiles_data:
+            raise RuntimeError("Profiles configuration not loaded")
+        
+        return {
+            name: profile['description']
+            for name, profile in self._profiles_data['profiles'].items()
+        }
+    
     def reload_config(self) -> None:
         """Reload configuration from files."""
         logger.info("Reloading configuration...")
         self._countries_data = None
         self._fields_data = None
+        self._profiles_data = None
         self._gec_to_name.clear()
         self._gec_to_region.clear()
         self._json_path_to_display.clear()
         self._json_path_to_category.clear()
         self._load_countries_config()
         self._load_fields_config()
+        self._load_profiles_config()
 
 
 # Global configuration loader instance
@@ -332,6 +438,11 @@ def load_countries() -> List[Dict]:
 def load_fields() -> List[Dict]:
     """Load fields from configuration using global loader."""
     return get_config_loader().load_fields()
+
+
+def load_all_fields() -> List[Dict]:
+    """Load all fields from complete configuration using global loader."""
+    return get_config_loader().load_all_fields()
 
 
 def get_country_name(gec_code: str) -> Optional[str]:
@@ -377,3 +488,23 @@ def get_all_countries() -> Dict[str, str]:
 def get_all_regions() -> Dict[str, str]:
     """Get all region mappings using global loader."""
     return get_config_loader().get_all_regions()
+
+
+def load_profiles() -> Dict:
+    """Load field profiles configuration using global loader."""
+    return get_config_loader()._profiles_data
+
+
+def get_profile_fields(profile_name: str) -> List[str]:
+    """Get profile fields using global loader."""
+    return get_config_loader().get_profile_fields(profile_name)
+
+
+def get_default_profile() -> str:
+    """Get default profile using global loader."""
+    return get_config_loader().get_default_profile()
+
+
+def list_available_profiles() -> Dict[str, str]:
+    """List available profiles using global loader."""
+    return get_config_loader().list_available_profiles()
