@@ -1,0 +1,2266 @@
+fields:
+- json_path: Communications.Broadcast media.text
+  display_name: Broadcast Media
+  category: Communications
+- json_path: Communications.Communications - note.text
+  display_name: Comm U Nications - Note
+  category: Communications
+- json_path: Communications.Telecommunication systems.general assessment.text
+  display_name: General Assessment
+  category: Communications
+- json_path: Communications.Telecommunication systems.international.text
+  display_name: International
+  category: Communications
+- json_path: Communications.Internet country code.text
+  display_name: Internet Co U Ntry Code
+  category: Communications
+- json_path: Communications.Internet country code.note
+  display_name: Note
+  category: Communications
+- json_path: Communications.Internet users.note
+  display_name: Note
+  category: Communications
+- json_path: Communications.Telephones - fixed lines.note
+  display_name: Note
+  category: Communications
+- json_path: Communications.Telephones - mobile cellular.note
+  display_name: Note
+  category: Communications
+- json_path: Communications.Broadband - fixed subscriptions.note
+  display_name: Note
+  category: Communications
+- json_path: Communications.Telecommunication systems.note
+  display_name: Note
+  category: Communications
+- json_path: Communications.Internet users.percent of population.text
+  display_name: Percent Of Population
+  category: Communications
+- json_path: Communications.Telephones - fixed lines.subscriptions per 100 inhabitants.text
+  display_name: Subscriptions Per 100 Inhabitants
+  category: Communications
+- json_path: Communications.Telephones - mobile cellular.subscriptions per 100 inhabitants.text
+  display_name: Subscriptions Per 100 Inhabitants
+  category: Communications
+- json_path: Communications.Broadband - fixed subscriptions.subscriptions per 100
+    inhabitants.text
+  display_name: Subscriptions Per 100 Inhabitants
+  category: Communications
+- json_path: Communications.Broadband - fixed subscriptions.total.text
+  display_name: Total
+  category: Communications
+- json_path: Communications.Telephones - fixed lines.total subscriptions.text
+  display_name: Total Subscriptions
+  category: Communications
+- json_path: Communications.Telephones - mobile cellular.total subscriptions.text
+  display_name: Total Subscriptions
+  category: Communications
+- json_path: Economy.Agricultural products.text
+  display_name: Agricultural Products
+  category: Economy
+- json_path: Economy.GDP - composition, by sector of origin.agriculture.text
+  display_name: Agriculture
+  category: Economy
+- json_path: Economy.Labor force - by occupation.agriculture.text
+  display_name: Agriculture
+  category: Economy
+- json_path: Economy.Agriculture - products.text
+  display_name: Agriculture - Products
+  category: Economy
+- json_path: Economy.Budget.text
+  display_name: Budget
+  category: Economy
+- json_path: Economy.Budget surplus (+) or deficit (-).text
+  display_name: Budget Surpl U S (+) Or Deficit (-)
+  category: Economy
+- json_path: Economy.Exchange rates.Currency.text
+  display_name: Currency
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2013.text
+  display_name: Current Acco U Nt Balance 2013
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2014.text
+  display_name: Current Acco U Nt Balance 2014
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2015.text
+  display_name: Current Acco U Nt Balance 2015
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2016.text
+  display_name: Current Acco U Nt Balance 2016
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2017.text
+  display_name: Current Acco U Nt Balance 2017
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2018.text
+  display_name: Current Acco U Nt Balance 2018
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2019.text
+  display_name: Current Acco U Nt Balance 2019
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2020.text
+  display_name: Current Acco U Nt Balance 2020
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2021.text
+  display_name: Current Acco U Nt Balance 2021
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2022.text
+  display_name: Current Acco U Nt Balance 2022
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2023.text
+  display_name: Current Acco U Nt Balance 2023
+  category: Economy
+- json_path: Economy.Current account balance.Current account balance 2024.text
+  display_name: Current Acco U Nt Balance 2024
+  category: Economy
+- json_path: Economy.Debt - external.Debt - external 2022.text
+  display_name: Debt - External 2022
+  category: Economy
+- json_path: Economy.Debt - external.Debt - external 2023.text
+  display_name: Debt - External 2023
+  category: Economy
+- json_path: Economy.Economic overview.text
+  display_name: Economic Overview
+  category: Economy
+- json_path: Economy.Exchange rates.text
+  display_name: Exchange Rates
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2013.text
+  display_name: Exchange Rates 2013
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2014.text
+  display_name: Exchange Rates 2014
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2015.text
+  display_name: Exchange Rates 2015
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2016.text
+  display_name: Exchange Rates 2016
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2017.text
+  display_name: Exchange Rates 2017
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2018.text
+  display_name: Exchange Rates 2018
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2019.text
+  display_name: Exchange Rates 2019
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2020.text
+  display_name: Exchange Rates 2020
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2021.text
+  display_name: Exchange Rates 2021
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2022.text
+  display_name: Exchange Rates 2022
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2023.text
+  display_name: Exchange Rates 2023
+  category: Economy
+- json_path: Economy.Exchange rates.Exchange rates 2024.text
+  display_name: Exchange Rates 2024
+  category: Economy
+- json_path: Economy.Budget.expenditures.text
+  display_name: Expenditures
+  category: Economy
+- json_path: Economy.Exports - commodities.text
+  display_name: Exports - Commodities
+  category: Economy
+- json_path: Economy.Exports - partners.text
+  display_name: Exports - Partners
+  category: Economy
+- json_path: Economy.Exports.Exports 2011.text
+  display_name: Exports 2011
+  category: Economy
+- json_path: Economy.Exports.Exports 2014.text
+  display_name: Exports 2014
+  category: Economy
+- json_path: Economy.Exports.Exports 2015.text
+  display_name: Exports 2015
+  category: Economy
+- json_path: Economy.Exports.Exports 2016.text
+  display_name: Exports 2016
+  category: Economy
+- json_path: Economy.Exports.Exports 2017.text
+  display_name: Exports 2017
+  category: Economy
+- json_path: Economy.Exports.Exports 2018.text
+  display_name: Exports 2018
+  category: Economy
+- json_path: Economy.Exports.Exports 2019.text
+  display_name: Exports 2019
+  category: Economy
+- json_path: Economy.Exports.Exports 2020.text
+  display_name: Exports 2020
+  category: Economy
+- json_path: Economy.Exports.Exports 2021.text
+  display_name: Exports 2021
+  category: Economy
+- json_path: Economy.Exports.Exports 2022.text
+  display_name: Exports 2022
+  category: Economy
+- json_path: Economy.Exports.Exports 2023.text
+  display_name: Exports 2023
+  category: Economy
+- json_path: Economy.Exports.Exports 2024.text
+  display_name: Exports 2024
+  category: Economy
+- json_path: Economy.GDP - composition, by end use.exports of goods and services.text
+  display_name: Exports Of Goods And Services
+  category: Economy
+- json_path: Economy.Youth unemployment rate (ages 15-24).female.text
+  display_name: Female
+  category: Economy
+- json_path: Economy.Fiscal year.text
+  display_name: Fiscal Year
+  category: Economy
+- json_path: Economy.GDP (official exchange rate).text
+  display_name: G D P (official Exchange Rate)
+  category: Economy
+- json_path: Economy.GDP (purchasing power parity) - real.text
+  display_name: G D P (purchasing Power Parity) - Real
+  category: Economy
+- json_path: Economy.GDP - per capita (PPP).text
+  display_name: G D P - Per Capita ( P P P)
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2015.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2015
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2016.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2016
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2017.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2017
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2018.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2018
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2019.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2019
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2020.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2020
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2021.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2021
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2022.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2022
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2023.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2023
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.Gini Index
+    coefficient - distribution of family income 2024.text
+  display_name: Gini Index Coefficient - Distribution Of Family Income 2024
+  category: Economy
+- json_path: Economy.GDP - composition, by end use.government consumption.text
+  display_name: Government Consumption
+  category: Economy
+- json_path: Economy.Household income or consumption by percentage share.highest 10%.text
+  display_name: Highest 10%
+  category: Economy
+- json_path: Economy.GDP - composition, by end use.household consumption.text
+  display_name: Ho U Sehold Consumption
+  category: Economy
+- json_path: Economy.Imports - commodities.text
+  display_name: Imports - Commodities
+  category: Economy
+- json_path: Economy.Imports - partners.text
+  display_name: Imports - Partners
+  category: Economy
+- json_path: Economy.Imports.Imports 2009.text
+  display_name: Imports 2009
+  category: Economy
+- json_path: Economy.Imports.Imports 2010.text
+  display_name: Imports 2010
+  category: Economy
+- json_path: Economy.Imports.Imports 2015.text
+  display_name: Imports 2015
+  category: Economy
+- json_path: Economy.Imports.Imports 2016.text
+  display_name: Imports 2016
+  category: Economy
+- json_path: Economy.Imports.Imports 2017.text
+  display_name: Imports 2017
+  category: Economy
+- json_path: Economy.Imports.Imports 2018.text
+  display_name: Imports 2018
+  category: Economy
+- json_path: Economy.Imports.Imports 2019.text
+  display_name: Imports 2019
+  category: Economy
+- json_path: Economy.Imports.Imports 2020.text
+  display_name: Imports 2020
+  category: Economy
+- json_path: Economy.Imports.Imports 2021.text
+  display_name: Imports 2021
+  category: Economy
+- json_path: Economy.Imports.Imports 2022.text
+  display_name: Imports 2022
+  category: Economy
+- json_path: Economy.Imports.Imports 2023.text
+  display_name: Imports 2023
+  category: Economy
+- json_path: Economy.Imports.Imports 2024.text
+  display_name: Imports 2024
+  category: Economy
+- json_path: Economy.GDP - composition, by end use.imports of goods and services.text
+  display_name: Imports Of Goods And Services
+  category: Economy
+- json_path: Economy.Industrial production growth rate.text
+  display_name: Ind U Strial Production Growth Rate
+  category: Economy
+- json_path: Economy.Industries.text
+  display_name: Ind U Stries
+  category: Economy
+- json_path: Economy.GDP - composition, by sector of origin.industry.text
+  display_name: Ind U Stry
+  category: Economy
+- json_path: Economy.Labor force - by occupation.industry.text
+  display_name: Ind U Stry
+  category: Economy
+- json_path: Economy.Labor force - by occupation.industry and services.text
+  display_name: Ind U Stry And Services
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2015.text
+  display_name: Inflation Rate (consumer Prices) 2015
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2016.text
+  display_name: Inflation Rate (consumer Prices) 2016
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2017.text
+  display_name: Inflation Rate (consumer Prices) 2017
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2018.text
+  display_name: Inflation Rate (consumer Prices) 2018
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2019.text
+  display_name: Inflation Rate (consumer Prices) 2019
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2020.text
+  display_name: Inflation Rate (consumer Prices) 2020
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2021.text
+  display_name: Inflation Rate (consumer Prices) 2021
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2022.text
+  display_name: Inflation Rate (consumer Prices) 2022
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2023.text
+  display_name: Inflation Rate (consumer Prices) 2023
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
+    2024.text
+  display_name: Inflation Rate (consumer Prices) 2024
+  category: Economy
+- json_path: Economy.GDP - composition, by end use.investment in fixed capital.text
+  display_name: Investment In Fixed Capital
+  category: Economy
+- json_path: Economy.GDP - composition, by end use.investment in inventories.text
+  display_name: Investment In Inventories
+  category: Economy
+- json_path: Economy.Labor force.text
+  display_name: Labor Force
+  category: Economy
+- json_path: Economy.Household income or consumption by percentage share.lowest 10%.text
+  display_name: Lowest 10%
+  category: Economy
+- json_path: Economy.Youth unemployment rate (ages 15-24).male.text
+  display_name: Male
+  category: Economy
+- json_path: Economy.Exports - commodities.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Exports - partners.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Imports - partners.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.GDP (official exchange rate).note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Imports - commodities.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Real GDP per capita.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Real GDP growth rate.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Inflation rate (consumer prices).note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Exports.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Imports.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.GDP - composition, by sector of origin.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Remittances.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Agricultural products.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Industrial production growth rate.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Current account balance.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Unemployment rate.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Labor force.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Youth unemployment rate (ages 15-24).note
+  display_name: Note
+  category: Economy
+- json_path: Economy.GDP - composition, by end use.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Budget.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Taxes and other revenues.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Gini Index coefficient - distribution of family income.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Household income or consumption by percentage share.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Population below poverty line.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Debt - external.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Public debt.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Exchange rates.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Industries.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Economic overview.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.GDP real growth rate.note
+  display_name: Note
+  category: Economy
+- json_path: Economy.Average household expenditures.on alcohol and tobacco.text
+  display_name: On Alcohol And Tobacco
+  category: Economy
+- json_path: Economy.Average household expenditures.on food.text
+  display_name: On Food
+  category: Economy
+- json_path: Economy.Population below poverty line.text
+  display_name: Population Below Poverty Line
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2013.text
+  display_name: Public Debt 2013
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2014.text
+  display_name: Public Debt 2014
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2016.text
+  display_name: Public Debt 2016
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2017.text
+  display_name: Public Debt 2017
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2018.text
+  display_name: Public Debt 2018
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2019.text
+  display_name: Public Debt 2019
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2020.text
+  display_name: Public Debt 2020
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2021.text
+  display_name: Public Debt 2021
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2022.text
+  display_name: Public Debt 2022
+  category: Economy
+- json_path: Economy.Public debt.Public debt 2023.text
+  display_name: Public Debt 2023
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2014.text
+  display_name: Real G D P (purchasing Power Parity) 2014
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2015.text
+  display_name: Real G D P (purchasing Power Parity) 2015
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2016.text
+  display_name: Real G D P (purchasing Power Parity) 2016
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2017.text
+  display_name: Real G D P (purchasing Power Parity) 2017
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2019.text
+  display_name: Real G D P (purchasing Power Parity) 2019
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2020.text
+  display_name: Real G D P (purchasing Power Parity) 2020
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2021.text
+  display_name: Real G D P (purchasing Power Parity) 2021
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2022.text
+  display_name: Real G D P (purchasing Power Parity) 2022
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2023.text
+  display_name: Real G D P (purchasing Power Parity) 2023
+  category: Economy
+- json_path: Economy.Real GDP (purchasing power parity).Real GDP (purchasing power
+    parity) 2024.text
+  display_name: Real G D P (purchasing Power Parity) 2024
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2015.text
+  display_name: Real G D P Growth Rate 2015
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2016.text
+  display_name: Real G D P Growth Rate 2016
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2017.text
+  display_name: Real G D P Growth Rate 2017
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2018.text
+  display_name: Real G D P Growth Rate 2018
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2019.text
+  display_name: Real G D P Growth Rate 2019
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2020.text
+  display_name: Real G D P Growth Rate 2020
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2021.text
+  display_name: Real G D P Growth Rate 2021
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2022.text
+  display_name: Real G D P Growth Rate 2022
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2023.text
+  display_name: Real G D P Growth Rate 2023
+  category: Economy
+- json_path: Economy.Real GDP growth rate.Real GDP growth rate 2024.text
+  display_name: Real G D P Growth Rate 2024
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2014.text
+  display_name: Real G D P Per Capita 2014
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2015.text
+  display_name: Real G D P Per Capita 2015
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2016.text
+  display_name: Real G D P Per Capita 2016
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2017.text
+  display_name: Real G D P Per Capita 2017
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2019.text
+  display_name: Real G D P Per Capita 2019
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2020.text
+  display_name: Real G D P Per Capita 2020
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2021.text
+  display_name: Real G D P Per Capita 2021
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2022.text
+  display_name: Real G D P Per Capita 2022
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2023.text
+  display_name: Real G D P Per Capita 2023
+  category: Economy
+- json_path: Economy.Real GDP per capita.Real GDP per capita 2024.text
+  display_name: Real G D P Per Capita 2024
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2013.text
+  display_name: Remittances 2013
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2014.text
+  display_name: Remittances 2014
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2015.text
+  display_name: Remittances 2015
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2020.text
+  display_name: Remittances 2020
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2021.text
+  display_name: Remittances 2021
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2022.text
+  display_name: Remittances 2022
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2023.text
+  display_name: Remittances 2023
+  category: Economy
+- json_path: Economy.Remittances.Remittances 2024.text
+  display_name: Remittances 2024
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2015.text
+  display_name: Reserves Of Foreign Exchange And Gold 2015
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2016.text
+  display_name: Reserves Of Foreign Exchange And Gold 2016
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2017.text
+  display_name: Reserves Of Foreign Exchange And Gold 2017
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2018.text
+  display_name: Reserves Of Foreign Exchange And Gold 2018
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2019.text
+  display_name: Reserves Of Foreign Exchange And Gold 2019
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2020.text
+  display_name: Reserves Of Foreign Exchange And Gold 2020
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2021.text
+  display_name: Reserves Of Foreign Exchange And Gold 2021
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2022.text
+  display_name: Reserves Of Foreign Exchange And Gold 2022
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2023.text
+  display_name: Reserves Of Foreign Exchange And Gold 2023
+  category: Economy
+- json_path: Economy.Reserves of foreign exchange and gold.Reserves of foreign exchange
+    and gold 2024.text
+  display_name: Reserves Of Foreign Exchange And Gold 2024
+  category: Economy
+- json_path: Economy.Budget.revenues.text
+  display_name: Revenues
+  category: Economy
+- json_path: Economy.GDP - composition, by sector of origin.services.text
+  display_name: Services
+  category: Economy
+- json_path: Economy.Taxes and other revenues.text
+  display_name: Taxes And Other Revenues
+  category: Economy
+- json_path: Economy.Youth unemployment rate (ages 15-24).total.text
+  display_name: Total
+  category: Economy
+- json_path: Economy.Unemployment rate.Unemployment rate 2019.text
+  display_name: Unemployment Rate 2019
+  category: Economy
+- json_path: Economy.Unemployment rate.Unemployment rate 2020.text
+  display_name: Unemployment Rate 2020
+  category: Economy
+- json_path: Economy.Unemployment rate.Unemployment rate 2021.text
+  display_name: Unemployment Rate 2021
+  category: Economy
+- json_path: Economy.Unemployment rate.Unemployment rate 2022.text
+  display_name: Unemployment Rate 2022
+  category: Economy
+- json_path: Economy.Unemployment rate.Unemployment rate 2023.text
+  display_name: Unemployment Rate 2023
+  category: Economy
+- json_path: Economy.Unemployment rate.Unemployment rate 2024.text
+  display_name: Unemployment Rate 2024
+  category: Economy
+- json_path: Energy.Electricity generation sources.biomass and waste.text
+  display_name: Biomass And Waste
+  category: Energy
+- json_path: Energy.Carbon dioxide emissions from consumption of energy.text
+  display_name: Carbon Dioxide Emissions From Consumption Of Energy
+  category: Energy
+- json_path: Energy.Electricity.consumption.text
+  display_name: Consumption
+  category: Energy
+- json_path: Energy.Coal.consumption.text
+  display_name: Consumption
+  category: Energy
+- json_path: Energy.Natural gas.consumption.text
+  display_name: Consumption
+  category: Energy
+- json_path: Energy.Crude oil - exports.text
+  display_name: Crude Oil - Exports
+  category: Energy
+- json_path: Energy.Crude oil - imports.text
+  display_name: Crude Oil - Imports
+  category: Energy
+- json_path: Energy.Crude oil - production.text
+  display_name: Crude Oil - Production
+  category: Energy
+- json_path: Energy.Crude oil - proved reserves.text
+  display_name: Crude Oil - Proved Reserves
+  category: Energy
+- json_path: Energy.Petroleum.crude oil estimated reserves.text
+  display_name: Crude Oil Estimated Reserves
+  category: Energy
+- json_path: Energy.Electricity - consumption.text
+  display_name: Electricity - Consumption
+  category: Energy
+- json_path: Energy.Electricity - exports.text
+  display_name: Electricity - Exports
+  category: Energy
+- json_path: Energy.Electricity - from fossil fuels.text
+  display_name: Electricity - From Fossil Fuels
+  category: Energy
+- json_path: Energy.Electricity - from hydroelectric plants.text
+  display_name: Electricity - From Hydroelectric Plants
+  category: Energy
+- json_path: Energy.Electricity - from nuclear fuels.text
+  display_name: Electricity - From Nuclear Fuels
+  category: Energy
+- json_path: Energy.Electricity - from other renewable sources.text
+  display_name: Electricity - From Other Renewable Sources
+  category: Energy
+- json_path: Energy.Electricity - imports.text
+  display_name: Electricity - Imports
+  category: Energy
+- json_path: Energy.Electricity - installed generating capacity.text
+  display_name: Electricity - Installed Generating Capacity
+  category: Energy
+- json_path: Energy.Electricity - production.text
+  display_name: Electricity - Production
+  category: Energy
+- json_path: Energy.Electricity access.electrification - rural areas.text
+  display_name: Electrification - Rural Areas
+  category: Energy
+- json_path: Energy.Electricity access.electrification - total population.text
+  display_name: Electrification - Total Population
+  category: Energy
+- json_path: Energy.Electricity access.electrification - urban areas.text
+  display_name: Electrification - Urban Areas
+  category: Energy
+- json_path: Energy.Coal.exports.text
+  display_name: Exports
+  category: Energy
+- json_path: Energy.Electricity.exports.text
+  display_name: Exports
+  category: Energy
+- json_path: Energy.Natural gas.exports.text
+  display_name: Exports
+  category: Energy
+- json_path: Energy.Electricity generation sources.fossil fuels.text
+  display_name: Fossil Fuels
+  category: Energy
+- json_path: Energy.Electricity generation sources.geothermal.text
+  display_name: Geothermal
+  category: Energy
+- json_path: Energy.Electricity generation sources.hydroelectricity.text
+  display_name: Hydroelectricity
+  category: Energy
+- json_path: Energy.Coal.imports.text
+  display_name: Imports
+  category: Energy
+- json_path: Energy.Electricity.imports.text
+  display_name: Imports
+  category: Energy
+- json_path: Energy.Natural gas.imports.text
+  display_name: Imports
+  category: Energy
+- json_path: Energy.Electricity.installed generating capacity.text
+  display_name: Installed Generating Capacity
+  category: Energy
+- json_path: Energy.Natural gas - consumption.text
+  display_name: Natural Gas - Consumption
+  category: Energy
+- json_path: Energy.Natural gas - exports.text
+  display_name: Natural Gas - Exports
+  category: Energy
+- json_path: Energy.Natural gas - imports.text
+  display_name: Natural Gas - Imports
+  category: Energy
+- json_path: Energy.Natural gas - production.text
+  display_name: Natural Gas - Production
+  category: Energy
+- json_path: Energy.Natural gas - proved reserves.text
+  display_name: Natural Gas - Proved Reserves
+  category: Energy
+- json_path: Energy.Nuclear energy.Net capacity of operational nuclear reactors.text
+  display_name: Net Capacity Of Operational Nuclear Reactors
+  category: Energy
+- json_path: Energy.Electricity access.note
+  display_name: Note
+  category: Energy
+- json_path: Energy.Electricity.note
+  display_name: Note
+  category: Energy
+- json_path: Energy.Electricity generation sources.note
+  display_name: Note
+  category: Energy
+- json_path: Energy.Coal.note
+  display_name: Note
+  category: Energy
+- json_path: Energy.Petroleum.note
+  display_name: Note
+  category: Energy
+- json_path: Energy.Energy consumption per capita.note
+  display_name: Note
+  category: Energy
+- json_path: Energy.Electricity generation sources.nuclear.text
+  display_name: Nuclear
+  category: Energy
+- json_path: Energy.Nuclear energy.Number of nuclear reactors permanently shut down.text
+  display_name: Number Of Nuclear Reactors Permanently Shut Down
+  category: Energy
+- json_path: Energy.Nuclear energy.Number of nuclear reactors under construction.text
+  display_name: Number Of Nuclear Reactors U Nder Construction
+  category: Energy
+- json_path: Energy.Nuclear energy.Number of operational nuclear reactors.text
+  display_name: Number Of Operational Nuclear Reactors
+  category: Energy
+- json_path: Energy.Nuclear energy.Percent of total electricity production.text
+  display_name: Percent Of Total Electricity Production
+  category: Energy
+- json_path: Energy.Natural gas.production.text
+  display_name: Production
+  category: Energy
+- json_path: Energy.Coal.production.text
+  display_name: Production
+  category: Energy
+- json_path: Energy.Natural gas.proven reserves.text
+  display_name: Proven Reserves
+  category: Energy
+- json_path: Energy.Coal.proven reserves.text
+  display_name: Proven Reserves
+  category: Energy
+- json_path: Energy.Petroleum.refined petroleum consumption.text
+  display_name: Refined Petrol E Um Consumption
+  category: Energy
+- json_path: Energy.Refined petroleum products - consumption.text
+  display_name: Refined Petrol E Um Products - Consumption
+  category: Energy
+- json_path: Energy.Refined petroleum products - exports.text
+  display_name: Refined Petrol E Um Products - Exports
+  category: Energy
+- json_path: Energy.Refined petroleum products - imports.text
+  display_name: Refined Petrol E Um Products - Imports
+  category: Energy
+- json_path: Energy.Refined petroleum products - production.text
+  display_name: Refined Petrol E Um Products - Production
+  category: Energy
+- json_path: Energy.Electricity generation sources.solar.text
+  display_name: Solar
+  category: Energy
+- json_path: Energy.Electricity generation sources.tide and wave.text
+  display_name: Tide And Wave
+  category: Energy
+- json_path: Energy.Energy consumption per capita.Total energy consumption per capita
+    2019.text
+  display_name: Total Energy Consumption Per Capita 2019
+  category: Energy
+- json_path: Energy.Energy consumption per capita.Total energy consumption per capita
+    2023.text
+  display_name: Total Energy Consumption Per Capita 2023
+  category: Energy
+- json_path: Energy.Petroleum.total petroleum production.text
+  display_name: Total Petrol E Um Production
+  category: Energy
+- json_path: Energy.Electricity.transmission/distribution losses.text
+  display_name: Transmission/distribution Losses
+  category: Energy
+- json_path: Energy.Electricity generation sources.wind.text
+  display_name: Wind
+  category: Energy
+- json_path: Environment.Total water withdrawal.agricultural.text
+  display_name: Agricultural
+  category: Environment
+- json_path: Environment.Land use.agricultural land.text
+  display_name: Agricultural Land
+  category: Environment
+- json_path: 'Environment.Land use.agricultural land: arable land.text'
+  display_name: 'Agricultural Land: Arable Land'
+  category: Environment
+- json_path: 'Environment.Land use.agricultural land: permanent crops.text'
+  display_name: 'Agricultural Land: Permanent Crops'
+  category: Environment
+- json_path: 'Environment.Land use.agricultural land: permanent pasture.text'
+  display_name: 'Agricultural Land: Permanent Pasture'
+  category: Environment
+- json_path: Environment.Methane emissions.agriculture.text
+  display_name: Agriculture
+  category: Environment
+- json_path: Environment.Carbon dioxide emissions.text
+  display_name: Carbon Dioxide Emissions
+  category: Environment
+- json_path: Environment.Climate.text
+  display_name: Climate
+  category: Environment
+- json_path: Environment.Methane emissions.energy.text
+  display_name: Energy
+  category: Environment
+- json_path: Environment.Environment - current issues.text
+  display_name: Environment - Current Issues
+  category: Environment
+- json_path: Environment.Environmental issues.text
+  display_name: Environmental Issues
+  category: Environment
+- json_path: Environment.Land use.forest.text
+  display_name: Forest
+  category: Environment
+- json_path: Environment.Carbon dioxide emissions.from coal and metallurgical coke.text
+  display_name: From Coal And Metallurgical Coke
+  category: Environment
+- json_path: Environment.Carbon dioxide emissions.from consumed natural gas.text
+  display_name: From Consumed Natural Gas
+  category: Environment
+- json_path: Environment.Carbon dioxide emissions.from petroleum and other liquids.text
+  display_name: From Petrol E Um And Other Liquids
+  category: Environment
+- json_path: Environment.Geoparks.global geoparks and regional networks.text
+  display_name: Global Geoparks And Regional Networks
+  category: Environment
+- json_path: Environment.Total water withdrawal.industrial.text
+  display_name: Ind U Strial
+  category: Environment
+- json_path: Environment.Total water withdrawal.municipal.text
+  display_name: M U Nicipal
+  category: Environment
+- json_path: Environment.Waste and recycling.municipal solid waste generated annually.text
+  display_name: M U Nicipal Solid Waste Generated Annually
+  category: Environment
+- json_path: Environment.Marine fisheries.text
+  display_name: Marine Fisheries
+  category: Environment
+- json_path: Environment.Urbanization.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Waste and recycling.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Total renewable water resources.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Climate.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Total water withdrawal.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Carbon dioxide emissions.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Environmental issues.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Land use.note
+  display_name: Note
+  category: Environment
+- json_path: Environment.Land use.other.text
+  display_name: Other
+  category: Environment
+- json_path: Environment.Methane emissions.other.text
+  display_name: Other
+  category: Environment
+- json_path: Environment.Particulate matter emissions.text
+  display_name: Particulate Matter Emissions
+  category: Environment
+- json_path: Environment.International environmental agreements.party to.text
+  display_name: Party To
+  category: Environment
+- json_path: Environment.Waste and recycling.percent of municipal solid waste recycled.text
+  display_name: Percent Of M U Nicipal Solid Waste Recycled
+  category: Environment
+- json_path: Environment.Urbanization.rate of urbanization.text
+  display_name: Rate Of Urbanization
+  category: Environment
+- json_path: Environment.International environmental agreements.signed, but not ratified.text
+  display_name: Signed, But Not Ratified
+  category: Environment
+- json_path: Environment.Carbon dioxide emissions.total emissions.text
+  display_name: Total Emissions
+  category: Environment
+- json_path: Environment.Geoparks.total global geoparks and regional networks.text
+  display_name: Total Global Geoparks And Regional Networks
+  category: Environment
+- json_path: Environment.Total renewable water resources.text
+  display_name: Total Renewable Water Resources
+  category: Environment
+- json_path: Environment.Urbanization.urban population.text
+  display_name: Urban Population
+  category: Environment
+- json_path: Environment.Methane emissions.waste.text
+  display_name: Waste
+  category: Environment
+- json_path: Geography.Bathymetry.abyssal plains.text
+  display_name: Abyssal Plains
+  category: Geography
+- json_path: Geography.Land use.agricultural land.text
+  display_name: Agricultural Land
+  category: Geography
+- json_path: 'Geography.Land use.agricultural land: arable land.text'
+  display_name: 'Agricultural Land: Arable Land'
+  category: Geography
+- json_path: 'Geography.Land use.agricultural land: permanent crops.text'
+  display_name: 'Agricultural Land: Permanent Crops'
+  category: Geography
+- json_path: 'Geography.Land use.agricultural land: permanent pasture.text'
+  display_name: 'Agricultural Land: Permanent Pasture'
+  category: Geography
+- json_path: Geography.Land use.arable land / permanent crops / permanent pasture.text
+  display_name: Arable Land / Permanent Crops / Permanent Pasture
+  category: Geography
+- json_path: Geography.Major watersheds (area sq km).Arctic Ocean drainage.text
+  display_name: Arctic Ocean Drainage
+  category: Geography
+- json_path: Geography.Area.text
+  display_name: Area
+  category: Geography
+- json_path: Geography.Area - comparative.text
+  display_name: Area - Comparative
+  category: Geography
+- json_path: Geography.Major watersheds (area sq km).Atlantic Ocean drainage.text
+  display_name: Atlantic Ocean Drainage
+  category: Geography
+- json_path: Geography.Bathymetry.atolls.text
+  display_name: Atolls
+  category: Geography
+- json_path: Geography.Land boundaries.border countries.text
+  display_name: Border Co U Ntries
+  category: Geography
+- json_path: Geography.Land boundaries.border sovereign base areas.text
+  display_name: Border Sovereign Base Areas
+  category: Geography
+- json_path: Geography.Climate.text
+  display_name: Climate
+  category: Geography
+- json_path: Geography.Coastline.text
+  display_name: Coastline
+  category: Geography
+- json_path: Geography.Maritime claims.contiguous zone.text
+  display_name: Contiguo U S Zone
+  category: Geography
+- json_path: Geography.Maritime claims.continental shelf.text
+  display_name: Continental Shelf
+  category: Geography
+- json_path: Geography.Bathymetry.continental shelf.text
+  display_name: Continental Shelf
+  category: Geography
+- json_path: Geography.Bathymetry.continental slope.text
+  display_name: Continental Slope
+  category: Geography
+- json_path: Geography.Maritime claims.Environment (Protection and Preservation) Zone.text
+  display_name: Environment ( Protection And Preservation) Zone
+  category: Geography
+- json_path: Geography.Environment - current issues.text
+  display_name: Environment - Current Issues
+  category: Geography
+- json_path: Geography.Maritime claims.exclusive economic zone.text
+  display_name: Excl U Sive Economic Zone
+  category: Geography
+- json_path: Geography.Maritime claims.exclusive fishing zone.text
+  display_name: Excl U Sive Fishing Zone
+  category: Geography
+- json_path: Geography.Land use.forest.text
+  display_name: Forest
+  category: Geography
+- json_path: Geography.Land boundaries.French Guiana - total.text
+  display_name: French Guiana - Total
+  category: Geography
+- json_path: Geography.Major lakes (area sq km).fresh water lake(s).text
+  display_name: Fresh Water Lake(s)
+  category: Geography
+- json_path: Geography.Geographic coordinates.text
+  display_name: Geographic Coordinates
+  category: Geography
+- json_path: Geography.Geography - note.text
+  display_name: Geography - Note
+  category: Geography
+- json_path: Geography.Elevation.highest point.text
+  display_name: Highest Point
+  category: Geography
+- json_path: Geography.Major watersheds (area sq km).Indian Ocean drainage.text
+  display_name: Indian Ocean Drainage
+  category: Geography
+- json_path: Geography.Major watersheds (area sq km).Internal (endorheic basin) drainage.text
+  display_name: Internal (endorheic Basin) Drainage
+  category: Geography
+- json_path: Geography.Irrigated land.text
+  display_name: Irrigated Land
+  category: Geography
+- json_path: Geography.Area.land.text
+  display_name: Land
+  category: Geography
+- json_path: Geography.Land boundaries.text
+  display_name: Land Bo U Ndaries
+  category: Geography
+- json_path: Geography.Location.text
+  display_name: Location
+  category: Geography
+- json_path: Geography.Elevation.lowest point.text
+  display_name: Lowest Point
+  category: Geography
+- json_path: Geography.Major aquifers.text
+  display_name: Major Aquifers
+  category: Geography
+- json_path: Geography.Major ocean currents.text
+  display_name: Major Ocean Currents
+  category: Geography
+- json_path: Geography.Major rivers (by length in km).text
+  display_name: Major Rivers (by Length In Km)
+  category: Geography
+- json_path: Geography.Map references.text
+  display_name: Map References
+  category: Geography
+- json_path: Geography.Maritime claims.text
+  display_name: Maritime Claims
+  category: Geography
+- json_path: Geography.Elevation.mean depth.text
+  display_name: Mean Depth
+  category: Geography
+- json_path: Geography.Elevation.mean elevation.text
+  display_name: Mean Elevation
+  category: Geography
+- json_path: Geography.Land boundaries.metropolitan France - total.text
+  display_name: Metropolitan France - Total
+  category: Geography
+- json_path: Geography.Bathymetry.mid-ocean ridge.text
+  display_name: Mid-ocean Ridge
+  category: Geography
+- json_path: Geography.Natural hazards.text
+  display_name: Natural Hazards
+  category: Geography
+- json_path: Geography.Natural resources.text
+  display_name: Natural Resources
+  category: Geography
+- json_path: Geography.Area.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Maritime claims.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Natural resources.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Elevation.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Coastline.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Land boundaries.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Climate.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Geographic coordinates.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Major watersheds (area sq km).note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Land use.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Population distribution.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Irrigated land.note
+  display_name: Note
+  category: Geography
+- json_path: Geography.Bathymetry.ocean trenches.text
+  display_name: Ocean Trenches
+  category: Geography
+- json_path: Geography.Ocean volume.ocean volume.text
+  display_name: Ocean Volume
+  category: Geography
+- json_path: Geography.Elevation.ocean zones.text
+  display_name: Ocean Zones
+  category: Geography
+- json_path: Geography.Land use.other.text
+  display_name: Other
+  category: Geography
+- json_path: Geography.Major watersheds (area sq km).Pacific Ocean drainage.text
+  display_name: Pacific Ocean Drainage
+  category: Geography
+- json_path: Geography.Ocean volume.percent of World Ocean total volume.text
+  display_name: Percent Of World Ocean Total Volume
+  category: Geography
+- json_path: Geography.Population distribution.text
+  display_name: Population Distribution
+  category: Geography
+- json_path: Geography.Land boundaries.regional borders.text
+  display_name: Regional Borders
+  category: Geography
+- json_path: Geography.Major lakes (area sq km).salt water lake(s).text
+  display_name: Salt Water Lake(s)
+  category: Geography
+- json_path: Geography.Terrain.text
+  display_name: Terrain
+  category: Geography
+- json_path: Geography.Maritime claims.territorial sea.text
+  display_name: Territorial Sea
+  category: Geography
+- json_path: Geography.Area.total .text
+  display_name: Total
+  category: Geography
+- json_path: Geography.Land boundaries.total.text
+  display_name: Total
+  category: Geography
+- json_path: Geography.Area.total.text
+  display_name: Total
+  category: Geography
+- json_path: Geography.Bathymetry.undersea terrain features.text
+  display_name: U Ndersea Terrain Features
+  category: Geography
+- json_path: Geography.Area.water.text
+  display_name: Water
+  category: Geography
+- json_path: Government.Country name.abbreviation.text
+  display_name: Abbreviation
+  category: Government
+- json_path: Government.Union name.abbreviation.text
+  display_name: Abbreviation
+  category: Government
+- json_path: Government.Administrative divisions.text
+  display_name: Administrative Divisions
+  category: Government
+- json_path: Government.Constitution.amendment process.text
+  display_name: Amendment Process
+  category: Government
+- json_path: Government.Constitution.amendments.text
+  display_name: Amendments
+  category: Government
+- json_path: Government.Diplomatic representation from the US.branch office(s).text
+  display_name: Branch Office(s)
+  category: Government
+- json_path: Government.Executive branch.cabinet.text
+  display_name: Cabinet
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.chamber name.text
+  display_name: Chamber Name
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.chamber name.text
+  display_name: Chamber Name
+  category: Government
+- json_path: Government.Legislative branch.chamber name.text
+  display_name: Chamber Name
+  category: Government
+- json_path: Government.Diplomatic representation in the US.chancery.text
+  display_name: Chancery
+  category: Government
+- json_path: Government.Diplomatic representation in the US.chief of mission.text
+  display_name: Chief Of Mission
+  category: Government
+- json_path: Government.Diplomatic representation from the US.chief of mission.text
+  display_name: Chief Of Mission
+  category: Government
+- json_path: Government.Executive branch.chief of state.text
+  display_name: Chief Of State
+  category: Government
+- json_path: Government.Citizenship.text
+  display_name: Citizenship
+  category: Government
+- json_path: Government.Citizenship.citizenship by birth.text
+  display_name: Citizenship By Birth
+  category: Government
+- json_path: Government.Citizenship.citizenship by descent only.text
+  display_name: Citizenship By Descent Only
+  category: Government
+- json_path: Government.Diplomatic representation in the US.consulate(s).text
+  display_name: Consulate(s)
+  category: Government
+- json_path: Government.Diplomatic representation from the US.consulate(s).text
+  display_name: Consulate(s)
+  category: Government
+- json_path: Government.Diplomatic representation in the US.consulate(s) general.text
+  display_name: Consulate(s) General
+  category: Government
+- json_path: Government.Diplomatic representation from the US.consulate(s) general.text
+  display_name: Consulate(s) General
+  category: Government
+- json_path: Government.Country name.conventional long form.text
+  display_name: Conventional Long Form
+  category: Government
+- json_path: Government.Union name.conventional long form.text
+  display_name: Conventional Long Form
+  category: Government
+- json_path: Government.Country name.conventional short form.text
+  display_name: Conventional Short Form
+  category: Government
+- json_path: Government.Capital.daylight saving time.text
+  display_name: Daylight Saving Time
+  category: Government
+- json_path: Government.Dependency status.text
+  display_name: Dependency Stat U S
+  category: Government
+- json_path: Government.Dependent areas.text
+  display_name: Dependent Areas
+  category: Government
+- json_path: Government.Diplomatic representation from the US.text
+  display_name: Diplomatic Representation From The U S
+  category: Government
+- json_path: Government.Diplomatic representation in the US.text
+  display_name: Diplomatic Representation In The U S
+  category: Government
+- json_path: Government.Citizenship.dual citizenship recognized.text
+  display_name: Dual Citizenship Recognized
+  category: Government
+- json_path: Government.Executive branch.election results.text
+  display_name: Election Results
+  category: Government
+- json_path: Government.Executive branch.election/appointment process.text
+  display_name: Election/appointment Process
+  category: Government
+- json_path: Government.Executive branch.elections/appointments.text
+  display_name: Elections/appointments
+  category: Government
+- json_path: Government.Legislative branch.electoral system.text
+  display_name: Electoral System
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.electoral system.text
+  display_name: Electoral System
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.electoral system.text
+  display_name: Electoral System
+  category: Government
+- json_path: Government.Diplomatic representation in the US.email address and website.text
+  display_name: Email Address And Website
+  category: Government
+- json_path: Government.Diplomatic representation from the US.email address and website.text
+  display_name: Email Address And Website
+  category: Government
+- json_path: Government.Diplomatic representation from the US.embassy.text
+  display_name: Embassy
+  category: Government
+- json_path: Government.Country name.etymology.text
+  display_name: Etymology
+  category: Government
+- json_path: Government.Capital.etymology.text
+  display_name: Etymology
+  category: Government
+- json_path: Government.Executive branch.text
+  display_name: Executive Branch
+  category: Government
+- json_path: Government.Executive branch.expected date of next election.text
+  display_name: Expected Date Of Next Election
+  category: Government
+- json_path: Government.Legislative branch.expected date of next election.text
+  display_name: Expected Date Of Next Election
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.expected date of next election.text
+  display_name: Expected Date Of Next Election
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.expected date of next election.text
+  display_name: Expected Date Of Next Election
+  category: Government
+- json_path: Government.Diplomatic representation in the US.FAX.text
+  display_name: F A X
+  category: Government
+- json_path: Government.Diplomatic representation from the US.FAX.text
+  display_name: F A X
+  category: Government
+- json_path: Government.Flag.text
+  display_name: Flag
+  category: Government
+- json_path: Government.Flag description.text
+  display_name: Flag Description
+  category: Government
+- json_path: Government.Country name.former.text
+  display_name: Former
+  category: Government
+- json_path: Government.Capital.geographic coordinates.text
+  display_name: Geographic Coordinates
+  category: Government
+- json_path: Government.Government - note.text
+  display_name: Government - Note
+  category: Government
+- json_path: Government.Government type.text
+  display_name: Government Type
+  category: Government
+- json_path: Government.Diplomatic representation in the US.HKETO offices.text
+  display_name: H K E T O Offices
+  category: Government
+- json_path: Government.Executive branch.head of government.text
+  display_name: Head Of Government
+  category: Government
+- json_path: Government.Judicial branch.highest court(s).text
+  display_name: Highest Court(s)
+  category: Government
+- json_path: Government.Constitution.history.text
+  display_name: History
+  category: Government
+- json_path: Government.National anthem(s).history.text
+  display_name: History
+  category: Government
+- json_path: Government.Diplomatic representation in the US.honorary consulate(s).text
+  display_name: Honorary Consulate(s)
+  category: Government
+- json_path: Government.Independence.text
+  display_name: Independence
+  category: Government
+- json_path: Government.International law organization participation.text
+  display_name: International Law Organization Participation
+  category: Government
+- json_path: Government.International organization participation.text
+  display_name: International Organization Participation
+  category: Government
+- json_path: Government.Judicial branch.judge selection and term of office.text
+  display_name: Judge Selection And Term Of Office
+  category: Government
+- json_path: Government.Legal system.text
+  display_name: Legal System
+  category: Government
+- json_path: Government.Legislative branch.text
+  display_name: Legislative Branch
+  category: Government
+- json_path: Government.Legislative branch.legislative structure.text
+  display_name: Legislative Structure
+  category: Government
+- json_path: Government.Legislative branch.legislature name.text
+  display_name: Legislature Name
+  category: Government
+- json_path: Government.Country name.local long form.text
+  display_name: Local Long Form
+  category: Government
+- json_path: Government.Country name.local short form.text
+  display_name: Local Short Form
+  category: Government
+- json_path: Government.National anthem(s).lyrics/music.text
+  display_name: Lyrics/m U Sic
+  category: Government
+- json_path: Government.Diplomatic representation from the US.mailing address.text
+  display_name: Mailing Address
+  category: Government
+- json_path: Government.Member states.text
+  display_name: Member States
+  category: Government
+- json_path: Government.Executive branch.most recent election date.text
+  display_name: Most Recent Election Date
+  category: Government
+- json_path: Government.Legislative branch.most recent election date.text
+  display_name: Most Recent Election Date
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.most recent election date.text
+  display_name: Most Recent Election Date
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.most recent election date.text
+  display_name: Most Recent Election Date
+  category: Government
+- json_path: Government.Capital.name.text
+  display_name: Name
+  category: Government
+- json_path: Government.National anthem.text
+  display_name: National Anthem
+  category: Government
+- json_path: Government.National coat of arms.text
+  display_name: National Coat Of Arms
+  category: Government
+- json_path: Government.National color(s).text
+  display_name: National Color(s)
+  category: Government
+- json_path: Government.National holiday.text
+  display_name: National Holiday
+  category: Government
+- json_path: Government.National symbol(s).text
+  display_name: National Symbol(s)
+  category: Government
+- json_path: Government.Executive branch.note
+  display_name: Note
+  category: Government
+- json_path: Government.Flag.note
+  display_name: Note
+  category: Government
+- json_path: Government.Legislative branch.note
+  display_name: Note
+  category: Government
+- json_path: Government.Judicial branch.note
+  display_name: Note
+  category: Government
+- json_path: Government.National holiday.note
+  display_name: Note
+  category: Government
+- json_path: Government.Administrative divisions.note
+  display_name: Note
+  category: Government
+- json_path: Government.Political parties.note
+  display_name: Note
+  category: Government
+- json_path: Government.Capital.note
+  display_name: Note
+  category: Government
+- json_path: Government.Country name.note
+  display_name: Note
+  category: Government
+- json_path: Government.Independence.note
+  display_name: Note
+  category: Government
+- json_path: Government.Constitution.note
+  display_name: Note
+  category: Government
+- json_path: Government.Suffrage.note
+  display_name: Note
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.note
+  display_name: Note
+  category: Government
+- json_path: Government.International organization participation.note
+  display_name: Note
+  category: Government
+- json_path: Government.Diplomatic representation in the US.note
+  display_name: Note
+  category: Government
+- json_path: Government.Diplomatic representation from the US.note
+  display_name: Note
+  category: Government
+- json_path: Government.National anthem(s).note
+  display_name: Note
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.note
+  display_name: Note
+  category: Government
+- json_path: Government.Legal system.note
+  display_name: Note
+  category: Government
+- json_path: Government.National heritage.note
+  display_name: Note
+  category: Government
+- json_path: Government.Dependency status.note
+  display_name: Note
+  category: Government
+- json_path: Government.Government type.note
+  display_name: Note
+  category: Government
+- json_path: Government.Citizenship.note
+  display_name: Note
+  category: Government
+- json_path: Government.Dependent areas.note
+  display_name: Note
+  category: Government
+- json_path: Government.Member states.note
+  display_name: Note
+  category: Government
+- json_path: Government.Legislative branch.number of seats.text
+  display_name: Number Of Seats
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.number of seats.text
+  display_name: Number Of Seats
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.number of seats.text
+  display_name: Number Of Seats
+  category: Government
+- json_path: Government.Country name.official long form.text
+  display_name: Official Long Form
+  category: Government
+- json_path: Government.Country name.official short form.text
+  display_name: Official Short Form
+  category: Government
+- json_path: Government.Diplomatic representation from the US.other offices.text
+  display_name: Other Offices
+  category: Government
+- json_path: Government.Legislative branch.parties elected and seats per party.text
+  display_name: Parties Elected And Seats Per Party
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.parties elected and seats
+    per party.text
+  display_name: Parties Elected And Seats Per Party
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.parties elected and seats
+    per party.text
+  display_name: Parties Elected And Seats Per Party
+  category: Government
+- json_path: Government.Legislative branch.percentage of women in chamber.text
+  display_name: Percentage Of Women In Chamber
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.percentage of women in
+    chamber.text
+  display_name: Percentage Of Women In Chamber
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.percentage of women in
+    chamber.text
+  display_name: Percentage Of Women In Chamber
+  category: Government
+- json_path: Government.Political parties.text
+  display_name: Political Parties
+  category: Government
+- json_path: Government.Diplomatic representation in the US.representative office.text
+  display_name: Representative Office
+  category: Government
+- json_path: Government.Citizenship.residency requirement for naturalization.text
+  display_name: Residency Requirement For Naturalization
+  category: Government
+- json_path: Government.Legislative branch.scope of elections.text
+  display_name: Scope Of Elections
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.scope of elections.text
+  display_name: Scope Of Elections
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.scope of elections.text
+  display_name: Scope Of Elections
+  category: Government
+- json_path: Government.National heritage.selected World Heritage Site locales.text
+  display_name: Selected World Heritage Site Locales
+  category: Government
+- json_path: Government.Executive branch.state counsellor.text
+  display_name: State Co U Nsellor
+  category: Government
+- json_path: Government.Judicial branch.subordinate courts.text
+  display_name: Subordinate Courts
+  category: Government
+- json_path: Government.Suffrage.text
+  display_name: Suffrage
+  category: Government
+- json_path: Government.Diplomatic representation in the US.Taipei Economic and Cultural
+    Offices (branch offices).text
+  display_name: Taipei Economic And Cultural Offices (branch Offices)
+  category: Government
+- json_path: Government.Diplomatic representation in the US.telephone.text
+  display_name: Telephone
+  category: Government
+- json_path: Government.Diplomatic representation from the US.telephone.text
+  display_name: Telephone
+  category: Government
+- json_path: Government.Legislative branch.term in office.text
+  display_name: Term In Office
+  category: Government
+- json_path: Government.Legislative branch - lower chamber.term in office.text
+  display_name: Term In Office
+  category: Government
+- json_path: Government.Legislative branch - upper chamber.term in office.text
+  display_name: Term In Office
+  category: Government
+- json_path: Government.Capital.time difference.text
+  display_name: Time Difference
+  category: Government
+- json_path: Government.Capital.time zone note.text
+  display_name: Time Zone Note
+  category: Government
+- json_path: Government.National anthem(s).title.text
+  display_name: Title
+  category: Government
+- json_path: Government.National heritage.total World Heritage Sites.text
+  display_name: Total World Heritage Sites
+  category: Government
+- json_path: Government.Diplomatic representation in the US.trade office(s).text
+  display_name: Trade Office(s)
+  category: Government
+- json_path: Introduction.Background.text
+  display_name: Background
+  category: Introduction
+- json_path: Introduction.Preliminary statement.text
+  display_name: Preliminary Statement
+  category: Introduction
+- json_path: Military and Security.Military - note.text
+  display_name: Military - Note
+  category: Military and Security
+- json_path: Military and Security.Military and security forces.text
+  display_name: Military And Security Forces
+  category: Military and Security
+- json_path: Military and Security.Military and security service personnel strengths.text
+  display_name: Military And Security Service Personnel Strengths
+  category: Military and Security
+- json_path: Military and Security.Military deployments.text
+  display_name: Military Deployments
+  category: Military and Security
+- json_path: Military and Security.Military equipment inventories and acquisitions.text
+  display_name: Military Equipment Inventories And Acquisitions
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.text
+  display_name: Military Expenditures
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2015.text
+  display_name: Military Expenditures 2015
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2016.text
+  display_name: Military Expenditures 2016
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2017.text
+  display_name: Military Expenditures 2017
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2018.text
+  display_name: Military Expenditures 2018
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2019.text
+  display_name: Military Expenditures 2019
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2020.text
+  display_name: Military Expenditures 2020
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2021.text
+  display_name: Military Expenditures 2021
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2022.text
+  display_name: Military Expenditures 2022
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2023.text
+  display_name: Military Expenditures 2023
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2024.text
+  display_name: Military Expenditures 2024
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.Military Expenditures 2025.text
+  display_name: Military Expenditures 2025
+  category: Military and Security
+- json_path: Military and Security.Military service age and obligation.text
+  display_name: Military Service Age And Obligation
+  category: Military and Security
+- json_path: Military and Security.Military and security forces.note
+  display_name: Note
+  category: Military and Security
+- json_path: Military and Security.Military service age and obligation.note
+  display_name: Note
+  category: Military and Security
+- json_path: Military and Security.Military and security service personnel strengths.note
+  display_name: Note
+  category: Military and Security
+- json_path: Military and Security.Military deployments.note
+  display_name: Note
+  category: Military and Security
+- json_path: Military and Security.Military equipment inventories and acquisitions.note
+  display_name: Note
+  category: Military and Security
+- json_path: Military and Security.Military expenditures.note
+  display_name: Note
+  category: Military and Security
+- json_path: People and Society.Age structure.0-14 years.text
+  display_name: 0-14 Years
+  category: People and Society
+- json_path: People and Society.Sex ratio.0-14 years.text
+  display_name: 0-14 Years
+  category: People and Society
+- json_path: People and Society.Age structure.15-24 years.text
+  display_name: 15-24 Years
+  category: People and Society
+- json_path: People and Society.Sex ratio.15-24 years.text
+  display_name: 15-24 Years
+  category: People and Society
+- json_path: People and Society.Age structure.15-64 years.text
+  display_name: 15-64 Years
+  category: People and Society
+- json_path: People and Society.Sex ratio.15-64 years.text
+  display_name: 15-64 Years
+  category: People and Society
+- json_path: People and Society.Age structure.25-54 years.text
+  display_name: 25-54 Years
+  category: People and Society
+- json_path: People and Society.Sex ratio.25-54 years.text
+  display_name: 25-54 Years
+  category: People and Society
+- json_path: People and Society.Age structure.55-64 years.text
+  display_name: 55-64 Years
+  category: People and Society
+- json_path: People and Society.Sex ratio.55-64 years.text
+  display_name: 55-64 Years
+  category: People and Society
+- json_path: People and Society.Age structure.65 years and over.text
+  display_name: 65 Years And Over
+  category: People and Society
+- json_path: People and Society.Sex ratio.65 years and over.text
+  display_name: 65 Years And Over
+  category: People and Society
+- json_path: People and Society.Nationality.adjective.text
+  display_name: Adjective
+  category: People and Society
+- json_path: People and Society.Sex ratio.at birth.text
+  display_name: At Birth
+  category: People and Society
+- json_path: People and Society.Alcohol consumption per capita.beer.text
+  display_name: Beer
+  category: People and Society
+- json_path: People and Society.Birth rate.text
+  display_name: Birth Rate
+  category: People and Society
+- json_path: People and Society.Children under the age of 5 years underweight.text
+  display_name: Children U Nder The Age Of 5 Years Underweight
+  category: People and Society
+- json_path: People and Society.Contraceptive prevalence rate.text
+  display_name: Contraceptive Prevalence Rate
+  category: People and Society
+- json_path: People and Society.Current health expenditure.text
+  display_name: Current Health Expenditure
+  category: People and Society
+- json_path: People and Society.Currently married women (ages 15-49).text
+  display_name: Currently Married Women (ages 15-49)
+  category: People and Society
+- json_path: People and Society.Death rate.text
+  display_name: Death Rate
+  category: People and Society
+- json_path: People and Society.Demographic profile.text
+  display_name: Demographic Profile
+  category: People and Society
+- json_path: People and Society.Education expenditure.text
+  display_name: Education Expenditure
+  category: People and Society
+- json_path: People and Society.Education expenditure.Education expenditure (% GDP).text
+  display_name: Education Expenditure (% G D P)
+  category: People and Society
+- json_path: People and Society.Education expenditure.Education expenditure (% national
+    budget).text
+  display_name: Education Expenditure (% National Budget)
+  category: People and Society
+- json_path: People and Society.Education expenditures.text
+  display_name: Education Expenditures
+  category: People and Society
+- json_path: People and Society.Dependency ratios.elderly dependency ratio.text
+  display_name: Elderly Dependency Ratio
+  category: People and Society
+- json_path: People and Society.Ethnic groups.text
+  display_name: Ethnic Groups
+  category: People and Society
+- json_path: People and Society.Population.female.text
+  display_name: Female
+  category: People and Society
+- json_path: People and Society.Life expectancy at birth.female.text
+  display_name: Female
+  category: People and Society
+- json_path: People and Society.Median age.female.text
+  display_name: Female
+  category: People and Society
+- json_path: People and Society.Infant mortality rate.female.text
+  display_name: Female
+  category: People and Society
+- json_path: People and Society.Tobacco use.female.text
+  display_name: Female
+  category: People and Society
+- json_path: People and Society.School life expectancy (primary to tertiary education).female.text
+  display_name: Female
+  category: People and Society
+- json_path: People and Society.Literacy.female.text
+  display_name: Female
+  category: People and Society
+- json_path: People and Society.Gross reproduction rate.text
+  display_name: Gross Reproduction Rate
+  category: People and Society
+- json_path: People and Society.HIV/AIDS - adult prevalence rate.text
+  display_name: H I V/ A I D S - Adult Prevalence Rate
+  category: People and Society
+- json_path: People and Society.HIV/AIDS - deaths.text
+  display_name: H I V/ A I D S - Deaths
+  category: People and Society
+- json_path: People and Society.HIV/AIDS - people living with HIV/AIDS.text
+  display_name: H I V/ A I D S - People Living With H I V/ A I D S
+  category: People and Society
+- json_path: People and Society.Health expenditure.text
+  display_name: Health Expenditure
+  category: People and Society
+- json_path: People and Society.Health expenditure.Health expenditure (as % of GDP).text
+  display_name: Health Expenditure (as % Of G D P)
+  category: People and Society
+- json_path: People and Society.Health expenditure.Health expenditure (as % of national
+    budget).text
+  display_name: Health Expenditure (as % Of National Budget)
+  category: People and Society
+- json_path: People and Society.Hospital bed density.text
+  display_name: Hospital Bed Density
+  category: People and Society
+- json_path: 'People and Society.Drinking water source.improved: rural.text'
+  display_name: 'Improved: Rural'
+  category: People and Society
+- json_path: 'People and Society.Sanitation facility access.improved: rural.text'
+  display_name: 'Improved: Rural'
+  category: People and Society
+- json_path: 'People and Society.Drinking water source.improved: total.text'
+  display_name: 'Improved: Total'
+  category: People and Society
+- json_path: 'People and Society.Sanitation facility access.improved: total.text'
+  display_name: 'Improved: Total'
+  category: People and Society
+- json_path: 'People and Society.Drinking water source.improved: urban.text'
+  display_name: 'Improved: Urban'
+  category: People and Society
+- json_path: 'People and Society.Sanitation facility access.improved: urban.text'
+  display_name: 'Improved: Urban'
+  category: People and Society
+- json_path: People and Society.Languages.Languages.text
+  display_name: Languages
+  category: People and Society
+- json_path: People and Society.Languages.text
+  display_name: Languages
+  category: People and Society
+- json_path: People and Society.Major urban areas - population.text
+  display_name: Major Urban Areas - Population
+  category: People and Society
+- json_path: People and Society.Languages.major-language sample(s).text
+  display_name: Major-language Sample(s)
+  category: People and Society
+- json_path: People and Society.Population.male.text
+  display_name: Male
+  category: People and Society
+- json_path: People and Society.Life expectancy at birth.male.text
+  display_name: Male
+  category: People and Society
+- json_path: People and Society.Median age.male.text
+  display_name: Male
+  category: People and Society
+- json_path: People and Society.Infant mortality rate.male.text
+  display_name: Male
+  category: People and Society
+- json_path: People and Society.Tobacco use.male.text
+  display_name: Male
+  category: People and Society
+- json_path: People and Society.School life expectancy (primary to tertiary education).male.text
+  display_name: Male
+  category: People and Society
+- json_path: People and Society.Literacy.male.text
+  display_name: Male
+  category: People and Society
+- json_path: People and Society.Maternal mortality ratio.text
+  display_name: Maternal Mortality Ratio
+  category: People and Society
+- json_path: People and Society.Child marriage.men married by age 18.text
+  display_name: Men Married By Age 18
+  category: People and Society
+- json_path: People and Society.Mother's mean age at first birth.text
+  display_name: Mother's Mean Age At First Birth
+  category: People and Society
+- json_path: People and Society.Net migration rate.text
+  display_name: Net Migration Rate
+  category: People and Society
+- json_path: People and Society.Nationality.noun.text
+  display_name: No U N
+  category: People and Society
+- json_path: People and Society.Ethnic groups.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Languages.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Mother's mean age at first birth.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Religions.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Population.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Urbanization.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Nationality.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Dependency ratios.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Child marriage.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Major urban areas - population.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Maternal mortality ratio.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Drinking water source.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Health expenditure.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Sanitation facility access.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Children under the age of 5 years underweight.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Currently married women (ages 15-49).note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Education expenditure.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Literacy.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.School life expectancy (primary to tertiary education).note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Population distribution.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Hospital bed density.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Obesity - adult prevalence rate.note
+  display_name: Note
+  category: People and Society
+- json_path: People and Society.Obesity - adult prevalence rate.text
+  display_name: Obesity - Adult Prevalence Rate
+  category: People and Society
+- json_path: People and Society.Alcohol consumption per capita.other alcohols.text
+  display_name: Other Alcohols
+  category: People and Society
+- json_path: People and Society.People - note.text
+  display_name: People - Note
+  category: People and Society
+- json_path: People and Society.Physician density.text
+  display_name: Physician Density
+  category: People and Society
+- json_path: People and Society.Population.text
+  display_name: Population
+  category: People and Society
+- json_path: People and Society.Population distribution.text
+  display_name: Population Distribution
+  category: People and Society
+- json_path: People and Society.Population growth rate.text
+  display_name: Population Growth Rate
+  category: People and Society
+- json_path: People and Society.Dependency ratios.potential support ratio.text
+  display_name: Potential Support Ratio
+  category: People and Society
+- json_path: People and Society.Urbanization.rate of urbanization.text
+  display_name: Rate Of Urbanization
+  category: People and Society
+- json_path: People and Society.Religions.text
+  display_name: Religions
+  category: People and Society
+- json_path: People and Society.Alcohol consumption per capita.spirits.text
+  display_name: Spirits
+  category: People and Society
+- json_path: People and Society.Population.total.text
+  display_name: Total
+  category: People and Society
+- json_path: People and Society.Median age.total.text
+  display_name: Total
+  category: People and Society
+- json_path: People and Society.Infant mortality rate.total.text
+  display_name: Total
+  category: People and Society
+- json_path: People and Society.Alcohol consumption per capita.total.text
+  display_name: Total
+  category: People and Society
+- json_path: People and Society.Tobacco use.total.text
+  display_name: Total
+  category: People and Society
+- json_path: People and Society.School life expectancy (primary to tertiary education).total.text
+  display_name: Total
+  category: People and Society
+- json_path: People and Society.Dependency ratios.total dependency ratio.text
+  display_name: Total Dependency Ratio
+  category: People and Society
+- json_path: People and Society.Total fertility rate.text
+  display_name: Total Fertility Rate
+  category: People and Society
+- json_path: People and Society.Sex ratio.total population.text
+  display_name: Total Population
+  category: People and Society
+- json_path: People and Society.Life expectancy at birth.total population.text
+  display_name: Total Population
+  category: People and Society
+- json_path: People and Society.Literacy.total population.text
+  display_name: Total Population
+  category: People and Society
+- json_path: 'People and Society.Drinking water source.unimproved: rural.text'
+  display_name: 'U Nimproved: Rural'
+  category: People and Society
+- json_path: 'People and Society.Sanitation facility access.unimproved: rural.text'
+  display_name: 'U Nimproved: Rural'
+  category: People and Society
+- json_path: 'People and Society.Drinking water source.unimproved: total.text'
+  display_name: 'U Nimproved: Total'
+  category: People and Society
+- json_path: 'People and Society.Sanitation facility access.unimproved: total.text'
+  display_name: 'U Nimproved: Total'
+  category: People and Society
+- json_path: 'People and Society.Drinking water source.unimproved: urban.text'
+  display_name: 'U Nimproved: Urban'
+  category: People and Society
+- json_path: 'People and Society.Sanitation facility access.unimproved: urban.text'
+  display_name: 'U Nimproved: Urban'
+  category: People and Society
+- json_path: People and Society.Urbanization.urban population.text
+  display_name: Urban Population
+  category: People and Society
+- json_path: People and Society.Alcohol consumption per capita.wine.text
+  display_name: Wine
+  category: People and Society
+- json_path: People and Society.Child marriage.women married by age 15.text
+  display_name: Women Married By Age 15
+  category: People and Society
+- json_path: People and Society.Child marriage.women married by age 18.text
+  display_name: Women Married By Age 18
+  category: People and Society
+- json_path: People and Society.Dependency ratios.youth dependency ratio.text
+  display_name: Youth Dependency Ratio
+  category: People and Society
+- json_path: Space.Space program overview.note
+  display_name: Note
+  category: Space
+- json_path: Space.Space agency/agencies.note
+  display_name: Note
+  category: Space
+- json_path: Space.Space launch site(s).note
+  display_name: Note
+  category: Space
+- json_path: Space.Space agency/agencies.text
+  display_name: Space Agency/agencies
+  category: Space
+- json_path: Space.Space launch site(s).text
+  display_name: Space La U Nch Site(s)
+  category: Space
+- json_path: Space.Space program overview.text
+  display_name: Space Program Overview
+  category: Space
+- json_path: Terrorism.Terrorist group(s).note
+  display_name: Note
+  category: Terrorism
+- json_path: Terrorism.Terrorist group(s).text
+  display_name: Terrorist Group(s)
+  category: Terrorism
+- json_path: Transnational Issues.Disputes - international.text
+  display_name: Disputes - International
+  category: Transnational Issues
+- json_path: Transnational Issues.Refugees and internally displaced persons.IDPs.text
+  display_name: I D Ps
+  category: Transnational Issues
+- json_path: Transnational Issues.Illicit drugs.text
+  display_name: Illicit Drugs
+  category: Transnational Issues
+- json_path: Transnational Issues.Refugees and internally displaced persons.refugees.text
+  display_name: Refugees
+  category: Transnational Issues
+- json_path: Transnational Issues.Refugees and internally displaced persons.stateless
+    persons.text
+  display_name: Stateless Persons
+  category: Transnational Issues
+- json_path: Transnational Issues.Trafficking in persons.tier rating.text
+  display_name: Tier Rating
+  category: Transnational Issues
+- json_path: Transnational Issues.Illicit drugs.USG identification.text
+  display_name: U S G Identification
+  category: Transnational Issues
+- json_path: Transportation.Airports - with unpaved runways.1,524 to 2,437 m.text
+  display_name: 1,524 To 2,437 M
+  category: Transportation
+- json_path: Transportation.Airports - with paved runways.2,438 to 3,047 m.text
+  display_name: 2,438 To 3,047 M
+  category: Transportation
+- json_path: Transportation.Airports - with unpaved runways.914 to 1,523 m.text
+  display_name: 914 To 1,523 M
+  category: Transportation
+- json_path: Transportation.Airports.text
+  display_name: Airports
+  category: Transportation
+- json_path: Transportation.Railways.broad gauge.text
+  display_name: Broad Gauge
+  category: Transportation
+- json_path: Transportation.Merchant marine.by type.text
+  display_name: By Type
+  category: Transportation
+- json_path: Transportation.Civil aircraft registration country code prefix.text
+  display_name: Civil Aircraft Registration Co U Ntry Code Prefix
+  category: Transportation
+- json_path: Transportation.Railways.dual gauge.text
+  display_name: Dual Gauge
+  category: Transportation
+- json_path: Transportation.Heliports.text
+  display_name: Heliports
+  category: Transportation
+- json_path: Transportation.Ports.key ports.text
+  display_name: Key Ports
+  category: Transportation
+- json_path: Transportation.Ports.large.text
+  display_name: Large
+  category: Transportation
+- json_path: Transportation.Ports and terminals.major seaport(s).text
+  display_name: Major Seaport(s)
+  category: Transportation
+- json_path: Transportation.Ports.medium.text
+  display_name: Medium
+  category: Transportation
+- json_path: Transportation.Railways.narrow gauge.text
+  display_name: Narrow Gauge
+  category: Transportation
+- json_path: Transportation.Railways.note
+  display_name: Note
+  category: Transportation
+- json_path: Transportation.Merchant marine.note
+  display_name: Note
+  category: Transportation
+- json_path: Transportation.Airports.note
+  display_name: Note
+  category: Transportation
+- json_path: Transportation.Heliports.note
+  display_name: Note
+  category: Transportation
+- json_path: Transportation.Ports.ports with oil terminals.text
+  display_name: Ports With Oil Terminals
+  category: Transportation
+- json_path: Transportation.Railways.text
+  display_name: Railways
+  category: Transportation
+- json_path: Transportation.Ports.size unknown.text
+  display_name: Size U Nknown
+  category: Transportation
+- json_path: Transportation.Ports.small.text
+  display_name: Small
+  category: Transportation
+- json_path: Transportation.Railways.standard gauge.text
+  display_name: Standard Gauge
+  category: Transportation
+- json_path: Transportation.Merchant marine.total.text
+  display_name: Total
+  category: Transportation
+- json_path: Transportation.Railways.total.text
+  display_name: Total
+  category: Transportation
+- json_path: Transportation.Airports - with paved runways.total.text
+  display_name: Total
+  category: Transportation
+- json_path: Transportation.Airports - with unpaved runways.total.text
+  display_name: Total
+  category: Transportation
+- json_path: Transportation.Ports.total ports.text
+  display_name: Total Ports
+  category: Transportation
+- json_path: Transportation.Transportation - note.text
+  display_name: Transportation - Note
+  category: Transportation
+- json_path: Transportation.Airports - with unpaved runways.under 914 m.text
+  display_name: U Nder 914 M
+  category: Transportation
+- json_path: Transportation.Ports.very small.text
+  display_name: Very Small
+  category: Transportation
