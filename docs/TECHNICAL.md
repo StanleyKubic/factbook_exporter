@@ -8,14 +8,14 @@ The application follows a modular architecture with clear separation of concerns
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   User Interface│    │  Business Logic   │    │   Data Layer    │
+│   User Interface│    │  Business Logic  │    │   Data Layer    │
 │                 │    │                  │    │                 │
-│ • CLI Options   │◄──►│ • Main Orchestr.  │◄──►│ • Data Fetcher  │
-│ • Interactive   │    │ • Config Loader   │    │ • Data Parser   │
-│ • Validation    │    │ • Field Profiles  │    │ • Excel Exporter│
+│ • CLI Options   │◄──►│ • Main Orchestr. │◄──►│ • Data Fetcher  │
+│ • Interactive   │    │ • Config Loader  │    │ • Data Parser   │
+│ • Validation    │    │ • Field Profiles │    │ • Excel Exporter│
 └─────────────────┘    └──────────────────┘    └─────────────────┘
-                              │
-                              ▼
+                                │
+                                ▼
                        ┌──────────────────┐
                        │  Utilities       │
                        │                  │
