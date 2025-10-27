@@ -1,5 +1,5 @@
 from typing import List, Tuple
-from config_loader import load_countries
+from src.config.config_loader import load_countries
 
 def validate_country_codes(codes: List[str]) -> Tuple[List[str], List[str]]:
     """

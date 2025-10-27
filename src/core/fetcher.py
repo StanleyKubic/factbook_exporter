@@ -11,7 +11,7 @@ from typing import Dict, Optional, Tuple
 
 import requests
 
-from config_loader import (
+from src.config.config_loader import (
     URL_TEMPLATE, 
     REQUEST_TIMEOUT, 
     REQUEST_RETRY_DELAY,

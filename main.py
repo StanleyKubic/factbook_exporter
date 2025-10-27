@@ -10,18 +10,18 @@ import sys
 from typing import List
 
 import click
-from config_loader import (
+from src.config.config_loader import (
     get_all_countries, 
     get_all_regions, 
     get_profile_fields, 
     get_default_profile,
     list_available_profiles
 )
-from validator import validate_country_codes, get_country_name
-from fetcher import DataFetcher
-from parser import DataParser
-from exporter import ExcelExporter
-from ui_helpers import (
+from src.utils.validator import validate_country_codes, get_country_name
+from src.core.fetcher import DataFetcher
+from src.core.parser import DataParser
+from src.core.exporter import ExcelExporter
+from src.utils.ui_helpers import (
     console, 
     print_success, 
     print_error, 

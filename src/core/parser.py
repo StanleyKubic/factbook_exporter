@@ -7,8 +7,8 @@ Handles extraction of specific fields from nested JSON structure.
 import logging
 from typing import Any, Dict, Optional
 
-from config_loader import get_all_field_mappings, get_country_name
-from cleaner import clean_value
+from src.config.config_loader import get_all_field_mappings, get_country_name
+from src.utils.cleaner import clean_value
 
 # Configure logging
 logger = logging.getLogger(__name__)

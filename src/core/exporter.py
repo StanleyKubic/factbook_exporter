@@ -14,7 +14,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font, Alignment, PatternFill
 from openpyxl.utils import get_column_letter
 
-from config_loader import OUTPUT_DIR, OUTPUT_FILENAME, SHEET_NAME
+from src.config.config_loader import OUTPUT_DIR, OUTPUT_FILENAME, SHEET_NAME
 
 # Configure logging
 logger = logging.getLogger(__name__)
