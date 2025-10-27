@@ -58,8 +58,8 @@ The application follows a modular architecture with clear separation of concerns
 #### Excel Exporter (`exporter.py`)
 - **Purpose**: Generate formatted Excel files
 - **Features**:
+  - Auto-named columns from field
   - Auto-sized columns
-  - Professional formatting
   - Multiple sheet support capability
   - File size optimization
 
@@ -223,19 +223,16 @@ factbook.json/
   "Government": {
     "Capital": {
       "name": {
-        "text": "Paris",
-        "html": "<strong>Paris</strong>"
+        "text": "Paris"
       }
     },
     "Government type": {
-      "text": "semi-presidential republic",
-      "html": "semi-presidential <strong>republic</strong>"
+      "text": "semi-presidential republic"
     }
   },
   "Geography": {
     "Location": {
-      "text": "Metropolitan France...",
-      "html": "Metropolitan <strong>France</strong>..."
+      "text": "Metropolitan France..."
     }
   }
 }
@@ -246,7 +243,6 @@ factbook.json/
 - **Example**: `Geography.Location.text`
 - **Properties**:
   - `text`: Clean text content
-  - `html`: Original HTML content
 
 ## Performance Characteristics
 
@@ -261,11 +257,6 @@ factbook.json/
 - **Processing**: In-memory parsing, no disk I/O during processing
 - **Excel Generation**: Streaming writes to minimize memory footprint
 
-### Typical Performance Metrics
-- **Single Country**: 2-5 seconds (including network latency)
-- **10 Countries**: 30-60 seconds
-- **50 Countries**: 3-5 minutes
-- **250 Countries**: 15-25 minutes
 
 ## Error Handling Strategy
 
@@ -299,7 +290,6 @@ YYYY-MM-DD HH:MM:SS - module_name - LEVEL - message
 
 ### Log Destinations
 - **Console**: User-facing progress and error messages
-- **File**: Detailed application logs (optional)
 
 ## Security Considerations
 
@@ -340,23 +330,3 @@ The parser supports custom field transformations:
 2. Unit standardization
 3. Currency conversion
 4. Date format normalization
-
-## Code Quality Standards
-
-### Style Guidelines
-- **Formatter**: Black for consistent formatting
-- **Linter**: Flake8 for code quality
-- **Type Hints**: Full type annotation coverage
-- **Documentation**: Docstrings for all public functions
-
-### Testing Strategy
-- **Unit Tests**: Individual component testing
-- **Integration Tests**: End-to-end workflow testing
-- **Mock Services**: Network request mocking
-- **Data Validation**: Output format verification
-
-### Performance Monitoring
-- **Timing Metrics**: Request duration tracking
-- **Memory Usage**: Memory consumption monitoring
-- **Success Rates**: Data fetch success tracking
-- **Error Analysis**: Error pattern identification
