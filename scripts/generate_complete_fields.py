@@ -47,21 +47,8 @@ def improve_display_name(field_name, json_path):
     if not parent_field:
         return field_name
     
-    # Create improved display name
-    if field_name == 'Total':
-        # Special cases for different types of "Total"
-        if 'population' in parent_field.lower():
-            return f"{parent_field} Total"
-        elif 'dependency' in parent_field.lower():
-            return field_name  # Keep "Total Dependency Ratio" as is
-        elif 'fertility' in parent_field.lower():
-            return field_name  # Keep "Total Fertility Rate" as is
-        else:
-            return f"{parent_field} Total"
-    elif field_name == 'Note':
-        return f"{parent_field} Note"
-    
-    return field_name
+    # Add parent name if the field is generic
+    return f"{parent_field} {field_name}"
 
 def generate_complete_fields():
     """Generate complete fields referential from coverage report."""
