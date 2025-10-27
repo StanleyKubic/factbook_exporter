@@ -171,13 +171,14 @@ def main(countries, output, interactive, verbose, profile, list_profiles):
     # Update country_list to use only valid codes
     country_list = valid_codes
     
-    # Initialize components
+    # Initialize components with optimized parser
     fetcher = DataFetcher()
-    parser = DataParser()
-    exporter = ExcelExporter()
     
-    # Override parser's field mappings with profile fields
-    parser.section_definitions = {field['json_path']: field['column_name'] for field in fields_config}
+    # Create field mappings for the profile
+    field_mappings = {field['json_path']: field['column_name'] for field in fields_config}
+    parser = DataParser(field_mappings=field_mappings)
+    
+    exporter = ExcelExporter()
     
     try:
         # Step 1: Fetch data from GitHub

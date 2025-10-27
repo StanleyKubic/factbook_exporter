@@ -1,5 +1,5 @@
 from typing import List, Tuple
-from src.config.config_loader import load_countries
+from src.config.config_loader import load_countries, get_country_name as get_country_name_from_config
 
 def validate_country_codes(codes: List[str]) -> Tuple[List[str], List[str]]:
     """
@@ -36,8 +36,6 @@ def get_country_name(code: str) -> str:
     Returns:
         Country name or empty string if not found
     """
-    countries = load_countries()
-    for country in countries:
-        if country['code'].lower() == code.lower():
-            return country['name']
-    return ""
+    # Use the efficient config_loader implementation
+    name = get_country_name_from_config(code)
+    return name if name is not None else ""
