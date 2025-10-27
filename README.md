@@ -7,9 +7,16 @@ Extract country data from CIA World Factbook to Excel.
 ```bash
 git clone <repository>
 cd factbook_exporter
-pip install -r requirements.txt
-python main.py --countries fr,us,uk
+source ./activate.sh
 ```
+
+The setup script will automatically:
+- Create a Python virtual environment
+- Install all required dependencies  
+- Activate the virtual environment
+- Guide you through running the application
+
+**Note**: Use `source ./activate.sh` (or `./activate.sh` for temporary activation) to keep the virtual environment active after setup.
 
 ## Usage
 
