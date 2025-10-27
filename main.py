@@ -146,14 +146,22 @@ def main(countries, output, interactive, verbose, profile, list_profiles):
         print_info("Run with --list-profiles to see available profiles")
         return
     
-    # Convert field paths to field configs for parser
+    # Convert field paths to field configs for parser using display names
+    from src.config.config_loader import get_field_display_name
+    
     fields_config = []
     for path in field_paths:
-        # Extract column name from path (last segment before .text)
-        if path.endswith('.text'):
-            column_name = path.split('.')[-2]
+        # Get display name from config, fallback to auto-generated name
+        display_name = get_field_display_name(path)
+        if display_name:
+            column_name = display_name
         else:
-            column_name = path.split('.')[-1]
+            # Fallback: extract column name from path (last segment before .text)
+            if path.endswith('.text'):
+                column_name = path.split('.')[-2]
+            else:
+                column_name = path.split('.')[-1]
+        
         fields_config.append({
             'json_path': path,
             'column_name': column_name,

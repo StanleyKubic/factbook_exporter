@@ -92,7 +92,7 @@ class ConfigLoader:
     
     def _load_fields_config(self) -> None:
         """Load fields configuration from YAML file."""
-        fields_file = self.config_dir / "fields.yaml"
+        fields_file = self.config_dir / "fields_complete.yaml"
         
         if not fields_file.exists():
             # Fields configuration is optional, skip if not found
