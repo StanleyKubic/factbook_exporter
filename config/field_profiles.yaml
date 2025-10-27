@@ -50,7 +50,7 @@ profiles:
     fields:
       - Introduction.Background.text
       - Geography.Location.text
-      - People and Society.Population.text
+      - People and Society.Population.total.text
       - Economy.GDP (purchasing power parity) - real.text
       - Economy.Real GDP growth rate.Real GDP growth rate 2023.text
       - Economy.GDP - per capita (PPP).text
