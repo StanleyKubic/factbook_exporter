@@ -11,12 +11,14 @@ from typing import Dict, Optional, Tuple
 
 import requests
 
-from config import (
+from config_loader import (
     URL_TEMPLATE, 
     REQUEST_TIMEOUT, 
-    REQUEST_RETRY_DELAY
+    REQUEST_RETRY_DELAY,
+    get_country_region, 
+    get_country_name, 
+    validate_country_code as validate_country_config
 )
-from config_loader import get_country_region, get_country_name, validate_country_code as validate_country_config
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

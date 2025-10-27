@@ -15,6 +15,22 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Application-wide configuration constants
+BASE_URL = "https://github.com/factbook/factbook.json/raw/master"
+URL_TEMPLATE = f"{BASE_URL}/{{region}}/{{code}}.json"
+
+# Output settings
+OUTPUT_DIR = "output"
+OUTPUT_FILENAME = "countries_data.xlsx"
+SHEET_NAME = "Countries Data"
+
+# Request settings
+REQUEST_TIMEOUT = 30  # seconds
+REQUEST_RETRY_DELAY = 1  # seconds
+
+# Logging settings
+LOG_LEVEL = "INFO"
+
 
 class ConfigLoader:
     """Handles loading and accessing configuration data from YAML files."""
