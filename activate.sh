@@ -229,7 +229,11 @@ main() {
         if source venv/bin/activate 2>/dev/null && python -c "import requests" 2>/dev/null; then
             print_success "Existing virtual environment is properly set up"
             print_info "Activating virtual environment..."
-            # The venv is already activated, just show completion and return
+            # Re-activate the virtual environment for the user's session
+            # The temporary activation above was only for verification
+            source venv/bin/activate
+            print_success "Virtual environment activated"
+            # Show completion and return
             show_completion_message
             return
         else
