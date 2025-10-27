@@ -22,8 +22,8 @@ from tqdm import tqdm
 # Add project root to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
-from fetcher import DataFetcher
-from config_loader import load_countries, get_country_name, get_country_region
+from src.core.fetcher import DataFetcher
+from src.config.config_loader import load_countries, get_country_name, get_country_region
 
 # Configure logging
 logging.basicConfig(

@@ -22,8 +22,8 @@ from tqdm import tqdm
 # Add project root to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
-from fetcher import DataFetcher
-from config_loader import load_countries
+from src.core.fetcher import DataFetcher
+from src.config.config_loader import load_countries
 
 # Configure logging
 logging.basicConfig(
@@ -154,10 +154,6 @@ class SimpleCoverageAnalyzer:
             'aids': 'AIDS',
             'co2': 'CO2',
             'pm25': 'PM2.5',
-            'us': 'US',
-            'uk': 'UK',
-            'eu': 'EU',
-            'un': 'UN',
             'nato': 'NATO',
             'wto': 'WTO',
             'imf': 'IMF',

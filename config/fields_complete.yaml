@@ -3,7 +3,7 @@ fields:
   display_name: Broadcast Media
   category: Communications
 - json_path: Communications.Communications - note.text
-  display_name: Comm U Nications - Note
+  display_name: Communications - Note
   category: Communications
 - json_path: Communications.Telecommunication systems.general assessment.text
   display_name: General Assessment
@@ -12,7 +12,7 @@ fields:
   display_name: International
   category: Communications
 - json_path: Communications.Internet country code.text
-  display_name: Internet Co U Ntry Code
+  display_name: Internet Country Code
   category: Communications
 - json_path: Communications.Internet country code.note
   display_name: Note
@@ -70,46 +70,46 @@ fields:
   display_name: Budget
   category: Economy
 - json_path: Economy.Budget surplus (+) or deficit (-).text
-  display_name: Budget Surpl U S (+) Or Deficit (-)
+  display_name: Budget Surplus (+) Or Deficit (-)
   category: Economy
 - json_path: Economy.Exchange rates.Currency.text
   display_name: Currency
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2013.text
-  display_name: Current Acco U Nt Balance 2013
+  display_name: Current Account Balance 2013
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2014.text
-  display_name: Current Acco U Nt Balance 2014
+  display_name: Current Account Balance 2014
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2015.text
-  display_name: Current Acco U Nt Balance 2015
+  display_name: Current Account Balance 2015
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2016.text
-  display_name: Current Acco U Nt Balance 2016
+  display_name: Current Account Balance 2016
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2017.text
-  display_name: Current Acco U Nt Balance 2017
+  display_name: Current Account Balance 2017
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2018.text
-  display_name: Current Acco U Nt Balance 2018
+  display_name: Current Account Balance 2018
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2019.text
-  display_name: Current Acco U Nt Balance 2019
+  display_name: Current Account Balance 2019
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2020.text
-  display_name: Current Acco U Nt Balance 2020
+  display_name: Current Account Balance 2020
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2021.text
-  display_name: Current Acco U Nt Balance 2021
+  display_name: Current Account Balance 2021
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2022.text
-  display_name: Current Acco U Nt Balance 2022
+  display_name: Current Account Balance 2022
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2023.text
-  display_name: Current Acco U Nt Balance 2023
+  display_name: Current Account Balance 2023
   category: Economy
 - json_path: Economy.Current account balance.Current account balance 2024.text
-  display_name: Current Acco U Nt Balance 2024
+  display_name: Current Account Balance 2024
   category: Economy
 - json_path: Economy.Debt - external.Debt - external 2022.text
   display_name: Debt - External 2022
@@ -269,7 +269,7 @@ fields:
   display_name: Highest 10%
   category: Economy
 - json_path: Economy.GDP - composition, by end use.household consumption.text
-  display_name: Ho U Sehold Consumption
+  display_name: Household Consumption
   category: Economy
 - json_path: Economy.Imports - commodities.text
   display_name: Imports - Commodities
@@ -317,19 +317,19 @@ fields:
   display_name: Imports Of Goods And Services
   category: Economy
 - json_path: Economy.Industrial production growth rate.text
-  display_name: Ind U Strial Production Growth Rate
+  display_name: Industrial Production Growth Rate
   category: Economy
 - json_path: Economy.Industries.text
-  display_name: Ind U Stries
+  display_name: Industries
   category: Economy
 - json_path: Economy.GDP - composition, by sector of origin.industry.text
-  display_name: Ind U Stry
+  display_name: Industry
   category: Economy
 - json_path: Economy.Labor force - by occupation.industry.text
-  display_name: Ind U Stry
+  display_name: Industry
   category: Economy
 - json_path: Economy.Labor force - by occupation.industry and services.text
-  display_name: Ind U Stry And Services
+  display_name: Industry And Services
   category: Economy
 - json_path: Economy.Inflation rate (consumer prices).Inflation rate (consumer prices)
     2015.text
@@ -854,7 +854,7 @@ fields:
   display_name: Number Of Nuclear Reactors Permanently Shut Down
   category: Energy
 - json_path: Energy.Nuclear energy.Number of nuclear reactors under construction.text
-  display_name: Number Of Nuclear Reactors U Nder Construction
+  display_name: Number Of Nuclear Reactors Under Construction
   category: Energy
 - json_path: Energy.Nuclear energy.Number of operational nuclear reactors.text
   display_name: Number Of Operational Nuclear Reactors
@@ -875,19 +875,19 @@ fields:
   display_name: Proven Reserves
   category: Energy
 - json_path: Energy.Petroleum.refined petroleum consumption.text
-  display_name: Refined Petrol E Um Consumption
+  display_name: Refined Petroleum Consumption
   category: Energy
 - json_path: Energy.Refined petroleum products - consumption.text
-  display_name: Refined Petrol E Um Products - Consumption
+  display_name: Refined Petroleum Products - Consumption
   category: Energy
 - json_path: Energy.Refined petroleum products - exports.text
-  display_name: Refined Petrol E Um Products - Exports
+  display_name: Refined Petroleum Products - Exports
   category: Energy
 - json_path: Energy.Refined petroleum products - imports.text
-  display_name: Refined Petrol E Um Products - Imports
+  display_name: Refined Petroleum Products - Imports
   category: Energy
 - json_path: Energy.Refined petroleum products - production.text
-  display_name: Refined Petrol E Um Products - Production
+  display_name: Refined Petroleum Products - Production
   category: Energy
 - json_path: Energy.Electricity generation sources.solar.text
   display_name: Solar
@@ -904,7 +904,7 @@ fields:
   display_name: Total Energy Consumption Per Capita 2023
   category: Energy
 - json_path: Energy.Petroleum.total petroleum production.text
-  display_name: Total Petrol E Um Production
+  display_name: Total Petroleum Production
   category: Energy
 - json_path: Energy.Electricity.transmission/distribution losses.text
   display_name: Transmission/distribution Losses
@@ -955,22 +955,22 @@ fields:
   display_name: From Consumed Natural Gas
   category: Environment
 - json_path: Environment.Carbon dioxide emissions.from petroleum and other liquids.text
-  display_name: From Petrol E Um And Other Liquids
+  display_name: From Petroleum And Other Liquids
   category: Environment
 - json_path: Environment.Geoparks.global geoparks and regional networks.text
   display_name: Global Geoparks And Regional Networks
   category: Environment
 - json_path: Environment.Total water withdrawal.industrial.text
-  display_name: Ind U Strial
-  category: Environment
-- json_path: Environment.Total water withdrawal.municipal.text
-  display_name: M U Nicipal
-  category: Environment
-- json_path: Environment.Waste and recycling.municipal solid waste generated annually.text
-  display_name: M U Nicipal Solid Waste Generated Annually
+  display_name: Industrial
   category: Environment
 - json_path: Environment.Marine fisheries.text
   display_name: Marine Fisheries
+  category: Environment
+- json_path: Environment.Total water withdrawal.municipal.text
+  display_name: Municipal
+  category: Environment
+- json_path: Environment.Waste and recycling.municipal solid waste generated annually.text
+  display_name: Municipal Solid Waste Generated Annually
   category: Environment
 - json_path: Environment.Urbanization.note
   display_name: Note
@@ -1009,7 +1009,7 @@ fields:
   display_name: Party To
   category: Environment
 - json_path: Environment.Waste and recycling.percent of municipal solid waste recycled.text
-  display_name: Percent Of M U Nicipal Solid Waste Recycled
+  display_name: Percent Of Municipal Solid Waste Recycled
   category: Environment
 - json_path: Environment.Urbanization.rate of urbanization.text
   display_name: Rate Of Urbanization
@@ -1066,7 +1066,7 @@ fields:
   display_name: Atolls
   category: Geography
 - json_path: Geography.Land boundaries.border countries.text
-  display_name: Border Co U Ntries
+  display_name: Border Countries
   category: Geography
 - json_path: Geography.Land boundaries.border sovereign base areas.text
   display_name: Border Sovereign Base Areas
@@ -1078,7 +1078,7 @@ fields:
   display_name: Coastline
   category: Geography
 - json_path: Geography.Maritime claims.contiguous zone.text
-  display_name: Contiguo U S Zone
+  display_name: Contiguous Zone
   category: Geography
 - json_path: Geography.Maritime claims.continental shelf.text
   display_name: Continental Shelf
@@ -1096,10 +1096,10 @@ fields:
   display_name: Environment - Current Issues
   category: Geography
 - json_path: Geography.Maritime claims.exclusive economic zone.text
-  display_name: Excl U Sive Economic Zone
+  display_name: Exclusive Economic Zone
   category: Geography
 - json_path: Geography.Maritime claims.exclusive fishing zone.text
-  display_name: Excl U Sive Fishing Zone
+  display_name: Exclusive Fishing Zone
   category: Geography
 - json_path: Geography.Land use.forest.text
   display_name: Forest
@@ -1132,7 +1132,7 @@ fields:
   display_name: Land
   category: Geography
 - json_path: Geography.Land boundaries.text
-  display_name: Land Bo U Ndaries
+  display_name: Land Boundaries
   category: Geography
 - json_path: Geography.Location.text
   display_name: Location
@@ -1252,7 +1252,7 @@ fields:
   display_name: Total
   category: Geography
 - json_path: Geography.Bathymetry.undersea terrain features.text
-  display_name: U Ndersea Terrain Features
+  display_name: Undersea Terrain Features
   category: Geography
 - json_path: Geography.Area.water.text
   display_name: Water
@@ -1333,7 +1333,7 @@ fields:
   display_name: Daylight Saving Time
   category: Government
 - json_path: Government.Dependency status.text
-  display_name: Dependency Stat U S
+  display_name: Dependency Status
   category: Government
 - json_path: Government.Dependent areas.text
   display_name: Dependent Areas
@@ -1468,7 +1468,7 @@ fields:
   display_name: Local Short Form
   category: Government
 - json_path: Government.National anthem(s).lyrics/music.text
-  display_name: Lyrics/m U Sic
+  display_name: Lyrics/music
   category: Government
 - json_path: Government.Diplomatic representation from the US.mailing address.text
   display_name: Mailing Address
@@ -1643,7 +1643,7 @@ fields:
   display_name: Selected World Heritage Site Locales
   category: Government
 - json_path: Government.Executive branch.state counsellor.text
-  display_name: State Co U Nsellor
+  display_name: State Counsellor
   category: Government
 - json_path: Government.Judicial branch.subordinate courts.text
   display_name: Subordinate Courts
@@ -1812,7 +1812,7 @@ fields:
   display_name: Birth Rate
   category: People and Society
 - json_path: People and Society.Children under the age of 5 years underweight.text
-  display_name: Children U Nder The Age Of 5 Years Underweight
+  display_name: Children Under The Age Of 5 Years Underweight
   category: People and Society
 - json_path: People and Society.Contraceptive prevalence rate.text
   display_name: Contraceptive Prevalence Rate
@@ -1957,9 +1957,6 @@ fields:
 - json_path: People and Society.Net migration rate.text
   display_name: Net Migration Rate
   category: People and Society
-- json_path: People and Society.Nationality.noun.text
-  display_name: No U N
-  category: People and Society
 - json_path: People and Society.Ethnic groups.note
   display_name: Note
   category: People and Society
@@ -2025,6 +2022,9 @@ fields:
   category: People and Society
 - json_path: People and Society.Obesity - adult prevalence rate.note
   display_name: Note
+  category: People and Society
+- json_path: People and Society.Nationality.noun.text
+  display_name: Noun
   category: People and Society
 - json_path: People and Society.Obesity - adult prevalence rate.text
   display_name: Obesity - Adult Prevalence Rate
@@ -2093,22 +2093,22 @@ fields:
   display_name: Total Population
   category: People and Society
 - json_path: 'People and Society.Drinking water source.unimproved: rural.text'
-  display_name: 'U Nimproved: Rural'
+  display_name: 'Unimproved: Rural'
   category: People and Society
 - json_path: 'People and Society.Sanitation facility access.unimproved: rural.text'
-  display_name: 'U Nimproved: Rural'
+  display_name: 'Unimproved: Rural'
   category: People and Society
 - json_path: 'People and Society.Drinking water source.unimproved: total.text'
-  display_name: 'U Nimproved: Total'
+  display_name: 'Unimproved: Total'
   category: People and Society
 - json_path: 'People and Society.Sanitation facility access.unimproved: total.text'
-  display_name: 'U Nimproved: Total'
+  display_name: 'Unimproved: Total'
   category: People and Society
 - json_path: 'People and Society.Drinking water source.unimproved: urban.text'
-  display_name: 'U Nimproved: Urban'
+  display_name: 'Unimproved: Urban'
   category: People and Society
 - json_path: 'People and Society.Sanitation facility access.unimproved: urban.text'
-  display_name: 'U Nimproved: Urban'
+  display_name: 'Unimproved: Urban'
   category: People and Society
 - json_path: People and Society.Urbanization.urban population.text
   display_name: Urban Population
@@ -2138,7 +2138,7 @@ fields:
   display_name: Space Agency/agencies
   category: Space
 - json_path: Space.Space launch site(s).text
-  display_name: Space La U Nch Site(s)
+  display_name: Space Launch Site(s)
   category: Space
 - json_path: Space.Space program overview.text
   display_name: Space Program Overview
@@ -2190,7 +2190,7 @@ fields:
   display_name: By Type
   category: Transportation
 - json_path: Transportation.Civil aircraft registration country code prefix.text
-  display_name: Civil Aircraft Registration Co U Ntry Code Prefix
+  display_name: Civil Aircraft Registration Country Code Prefix
   category: Transportation
 - json_path: Transportation.Railways.dual gauge.text
   display_name: Dual Gauge
@@ -2232,7 +2232,7 @@ fields:
   display_name: Railways
   category: Transportation
 - json_path: Transportation.Ports.size unknown.text
-  display_name: Size U Nknown
+  display_name: Size Unknown
   category: Transportation
 - json_path: Transportation.Ports.small.text
   display_name: Small
@@ -2259,7 +2259,7 @@ fields:
   display_name: Transportation - Note
   category: Transportation
 - json_path: Transportation.Airports - with unpaved runways.under 914 m.text
-  display_name: U Nder 914 M
+  display_name: Under 914 M
   category: Transportation
 - json_path: Transportation.Ports.very small.text
   display_name: Very Small
